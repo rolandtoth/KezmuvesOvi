@@ -8,7 +8,7 @@
     "imgResize": "node scripts/imgResize",
     "imgMin": "node scripts/imgMin",
     "imgProcess": "node scripts/imgResize && node scripts/imgMin && echo imgProcess complete",
-    "buildSite": "eleventy"
+    "buildSite": "npm run buildSite"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.5.4",
