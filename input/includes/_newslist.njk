@@ -1,0 +1,25 @@
+<section class="news-list">
+  <h2 class="hidden">Híreink</h2>
+  <div>
+    {% set isHomePage = (page.url === "/") %}
+    {% set cls = cycler(1,2,3,4,5,6) %}
+    {% set newsList = collections.news %}
+    {% if isHomePage %}
+      {% set newsList = collections.news.slice(0, cfg.newsDisplayLimit) %}
+    {% endif %}
+    {% for news in newsList %}
+        <article>
+            <h3 class="colorize-{{ cls.next() }}"><a href="{{ news.url | url }}">{{ cfg.newstypes[news.data.type] }}</a></h3>
+            <p>
+              <a href="{{ news.url | url }}">{{ news.data.excerpt or news.data.title }}</a>
+            </p>
+            <small class="date">{{ news.data.date | dateDisplay }}</small>
+        </article>
+    {% endfor %}
+  </div>
+  {% if isHomePage %}
+  <p class="all-news-link">
+    <a href="{{ "/hirek" | url }}" class="button">Korábbi hírek...</a>
+  </p>
+  {% endif %}
+</section>

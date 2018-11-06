@@ -1,0 +1,11 @@
+---
+title: Az oldal nem található
+permalink: 404.html
+sitemapIgnore: true
+---
+{% extends 'layouts/@default.njk' %}
+
+{% block main %}
+  <p>A keresett oldal nem található.</p>
+  <p><a href="{{ "/" | url }}" class="button">Főoldal</a></p>
+{% endblock %}

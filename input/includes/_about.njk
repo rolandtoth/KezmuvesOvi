@@ -1,0 +1,21 @@
+{% set img = '<img src="' + ((cfg.urls.images + "/torokvesz-uti-kezmuves-ovoda.jpg") | url | buildTimestamp) + '" alt="' + cfg.siteName + '">' %}
+<h3 class="hidden">Óvodánkról</h3>
+
+<p class="about-img">
+    {% if page.url.indexOf("ovodankrol") === -1 %}
+        <a href="{{ "/ovodankrol/" | url }}">{{ img | safe }}</a>
+    {% else %}
+        {{ img | safe }}
+    {% endif %}
+</p>
+<p>
+    <strong>Óvodánk 1978-ban nyitott a Rózsadomb közepén a szomszédos bölcsődével egyidőben.</strong>
+    <br>
+    Kezdetben négy csoporttal, majd az emelet ráépítés után hét csoportra bővült, 200 férőhellyel. Az épület kedvező környezete és fekvése miatt a gyerekek zöld környezetben, jó levegőn nevelkedhettek, az egészséges életmód feltételei adottak voltak mindig.
+</p>
+{% if page.url.indexOf("ovodankrol") === -1 %}
+<p>
+    <a href="{{ "/ovodankrol/" | url }}" class="button">Óvodánkról</a>
+    <a href="{{ "/miert-hozzank/" | url }}" class="button">Miért hozzánk?</a>
+</p>
+{% endif %}

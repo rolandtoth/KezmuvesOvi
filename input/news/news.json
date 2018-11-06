@@ -1,0 +1,6 @@
+{
+  "layout": "../includes/layouts/@default.njk",
+  "tags": "news",
+  "templateEngineOverride": "njk,md",
+  "breadcrumb": "Hírek"
+}

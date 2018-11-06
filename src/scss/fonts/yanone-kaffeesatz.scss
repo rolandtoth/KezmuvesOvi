@@ -1,0 +1,9 @@
+$base: "" !default;
+
+@font-face {
+    font-family: 'Yanone Kaffeesatz';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('#{$base}/assets/fonts/yanone-kaffeesatz/yanone-kaffeesatz-400.woff') format('woff');
+}

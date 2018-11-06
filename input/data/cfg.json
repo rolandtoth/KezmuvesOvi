@@ -1,0 +1,46 @@
+{
+    "siteName": "Törökvész Úti Kézműves Óvoda",
+    "domain": "https://kezmuvesovi.hu",
+    "pathPrefix": "/ovi/",
+    "developerUrl": "https://rolandtoth.hu/",
+    "urls": {
+        "styles": "/assets/styles",
+        "scripts": "/assets/scripts",
+        "images": "/assets/images",
+        "documents": "/assets/documents"
+    },
+    "logo": "/assets/images/logo-kezmuvesovi.svg",
+    "favicon": "/assets/images/favicon.ico",
+    "transparentPlaceholder": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==",
+    "mapUrl": "https://www.google.com/maps/place/Budapest,+T%C3%B6r%C3%B6kv%C3%A9sz+%C3%BAt+18,+1022+Magyarorsz%C3%A1g/@47.522295,19.019652,14z/data=!4m5!3m4!1s0x4741deb2532a6631:0x6aa9611cebab0d5f!8m2!3d47.521959!4d19.019062?hl=hu",
+    "gallery": {
+        "large": {
+            "width": 960,
+            "height": null,
+            "suffix": ""
+        },
+        "thumb": {
+            "width": 250,
+            "height": 200,
+            "suffix": "thumb"
+        }
+    },
+    "newstypes": {
+        "day-without-education": "Nevelés nélküli napok",
+        "day-without-education-change": "Nevelés nélküli nap változás",
+        "enrollment-info": "Felvételi tájékoztató",
+        "registration-dates": "Beiratkozási időpontok",
+        "summer-closure": "Nyári zárás",
+        "open-day": "Nyílt nap",
+        "gallery": "Galéria"
+    },
+    "sharingbuttons": {
+        "facebook": true,
+        "twitter": true,
+        "googleplus": false,
+        "tumblr": true,
+        "email": true,
+        "pinterest": false
+    },
+    "newsDisplayLimit": 6
+}

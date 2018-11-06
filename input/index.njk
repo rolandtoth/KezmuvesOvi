@@ -1,0 +1,38 @@
+---
+menuIitle: Főoldal
+seo_description: Hagyományőrzés és kézművesség
+date: Last Modified
+tags: menu
+menuOrder: 100
+---
+
+{% extends 'layouts/@default.njk' %}
+
+{% block title %}
+<div>
+  <div class="text">
+    <h1>{{ cfg.siteName }}</h1>
+    <ul>
+      <li>Színvonalas nevelőmunka</li>
+      <li>Fejlesztő tevékenységek</li>
+      <li>Kézműves foglalkozások</li>
+      <li>Hagyományőrző ünnepek</li>
+      <li>Szülőkkel közös programok</li>
+      <li>Gyermekbarát környezet</li>
+    </ul>
+  </div>
+  <div class="circles">
+    <img src="{{ (cfg.urls.images + "/home/home-01.jpg") | url | buildTimestamp }}" alt="" />
+    <img src="{{ (cfg.urls.images + "/home/home-02.jpg") | url | buildTimestamp }}" alt="" />
+    <img src="{{ (cfg.urls.images + "/home/home-03.jpg") | url | buildTimestamp }}" alt="" />
+  </div>
+</div>
+{% endblock %}
+
+{% block main %}
+  {% include "_newslist.njk" %}
+
+  <section class="about">
+    {% include "_about.njk" %}
+  </section>
+{% endblock %}

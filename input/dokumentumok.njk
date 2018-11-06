@@ -1,0 +1,28 @@
+---
+title: Dokumentumok
+permalink: dokumentumok/
+date: Last Modified
+tags: menu
+menuOrder: 500
+documents:
+- Házirend: hazirend-2013.pdf
+- Intézményi tanfelügyeleti értékelés: intezmenyi-tanfelugyeleti-ertekeles-2017.pdf
+- Különös közzétételi lista: kulonos-kozzeteteli-lista-2018.pdf
+- Pedagógiai program: pedagogiai-program-2018.pdf
+- Szervezeti működési szabályzat: szervezeti-mukodesi-szabalyzat-2013.pdf
+---
+{% extends 'layouts/@default.njk' %}
+
+{% block main %}
+<ul class="documents no-bullets colorized-buttons">
+{% set cls = cycler(1,2,3,4,5,6) %}
+{% for doc in documents %}
+    {# {% set colorClass = "colorize-" + (loop.index | modulus(6)) %} #}
+    {% for name, file in doc %}
+        <li>
+            <a href="{{ (cfg.urls.documents + "/" + file) | url | buildTimestamp }}" class="button colorize-{{ cls.next() }}">{{ name }}</a>
+        </li>
+    {% endfor %}
+{% endfor %}
+</ul>
+{% endblock %}

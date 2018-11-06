@@ -1,0 +1,39 @@
+---
+title: Galéria
+pagination:
+    data: collections.galleries
+    size: 6
+    alias: g
+permalink: /galeria/{% if pagination.pageNumber !== 0 %}{{ pagination.pageNumber + 1 }}/{% endif %}
+date: Last Modified
+tags: menu
+menuOrder: 400
+---
+{% extends 'layouts/@default.njk' %}
+
+{% block main %}
+<section class="gallery-list">
+ {% for p in g %}
+    {# {% set date = p.date | dateDisplay("year") %} #}
+    <div>
+        <a href="{{ p.url | url }}" class="thumb">
+            <img src="{{ (cfg.urls.images + "/gallery/" + p.fileSlug + "/" + p.fileSlug + "-001-thumb.jpg") | url | buildTimestamp }}" alt=""/>
+        </a>
+        <div class="details">
+            <h2>
+                <a href="{{ p.url | url }}">{{ p.data.title }}</a>
+            </h2>
+            <small class="date">{{ p.date | dateDisplay }}</small>
+            {% if p.data.excerpt %}
+                <p>{{ p.data.excerpt }}</p>
+            {% endif %}
+        </div>
+    </div>
+  {% endfor %}
+</section>
+
+{% if pagination.pageLinks.length > 1 %}
+  {% include "_pagination.njk" %}
+{% endif %}
+
+{% endblock %}

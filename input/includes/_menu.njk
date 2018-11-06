@@ -1,0 +1,9 @@
+<nav>
+    <ul>
+        {% for p in collections.menu %}
+        <li{% if page.url === p.url or (p.fileSlug and page.url.indexOf(p.fileSlug) !== -1) %} class="active"{% endif %}>
+            <a href="{{ p.url | url }}">{{ p.data.menuIitle or p.data.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

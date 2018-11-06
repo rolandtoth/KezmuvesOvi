@@ -1,0 +1,18 @@
+---
+permalink: /sitemap.xml
+sitemapIgnore: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="{{ (cfg.urls.styles + "/sitemap.xsl") | url | buildTimestamp }}"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for item in collections.all %}
+{%- if item.data.sitemapIgnore !== true %}
+  <url>
+    <loc>{{ item.url | url | httpUrl }}</loc>
+    <lastmod>{{ (item.data.premier.date or item.date) | dateDisplay("toISOString") }}</lastmod>
+    <changefreq>{{ item.data.changefreq or "monthly" }}</changefreq>
+    <priority>{{ item.data.priority or "0.5" }}</priority>
+  </url>
+{%- endif %}
+{%- endfor %}
+</urlset>

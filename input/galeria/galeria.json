@@ -1,0 +1,6 @@
+{
+  "layout": "../includes/layouts/@default.njk",
+  "tags": "gallery",
+  "templateEngineOverride": "njk,md",
+  "breadcrumb": "Galéria"
+}
