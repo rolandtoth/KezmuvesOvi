@@ -1,7 +1,7 @@
 {
     "siteName": "Törökvész Úti Kézműves Óvoda",
     "domain": "https://kezmuvesovi.hu",
-    "pathPrefix": "/ovi/",
+    "pathPrefix": "/",
     "developerUrl": "https://rolandtoth.hu/",
     "urls": {
         "styles": "/assets/styles",
