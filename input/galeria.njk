@@ -15,7 +15,7 @@ menuOrder: 400
 <section class="gallery-list">
  {% for p in g %}
     {% if p.data.images and p.data.images.length %}
-        {% set thumb = (p.data.images[0] | trim) + "=w" + cfg.gallery.thumb.width + "-h" + cfg.gallery.thumb.height %}
+        {% set thumb = (p.data.images[0] | trim) + "=w" + cfg.gallery.thumb.width + "-h" + cfg.gallery.thumb.height + "-c" %}
         <div>
             <a href="{{ p.url | url }}" class="thumb"  style="background-image:url('{{ thumb }}')"></a>
             <div class="details">

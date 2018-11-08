@@ -4,7 +4,7 @@ module.exports = function (imageList) {
 
     var markup = "",
         imgPrefix = "kep",
-        thumbSuffix = `=w${cfg.gallery.thumb.width}-h${cfg.gallery.thumb.height}`,
+        thumbSuffix = `=w${cfg.gallery.thumb.width}-h${cfg.gallery.thumb.height}-c`,
         largeSuffix = `=w${cfg.gallery.large.width}-h${cfg.gallery.large.height}`,
         texts = {
             close: "Bezárás",
