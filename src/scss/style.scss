@@ -178,18 +178,12 @@ header {
     ul {
         display: none;
         padding: 1rem;
-        margin: 0 auto;
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        background: rgba($darkcolor, 0.94);
-        border-bottom-right-radius: 0.75rem;
-        border-bottom-left-radius: 0.75rem;
+        margin: 0 -1.5rem;
+        background: $darkcolor;
 
         @media($desktop) {
             display: block;
-            position: static;
+            margin: 0;
             padding: 0;
             z-index: auto;
             background: transparent;
@@ -590,9 +584,9 @@ section.news-list {
 }
 
 body.hirek .main-content,
-.bottom.fullwidth {
+.bottom-fullwidth {
     .container {
-        max-width: 64rem !important;
+        max-width: 72rem !important;
     }
 }
 

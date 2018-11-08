@@ -3,15 +3,14 @@
     {% if (tags !== "gallery" and page.url.indexOf("galeria") === -1) %}
         <h3><a href="{{ "/galeria/" | url }}">Galériák</a></h3>
         <div class="grid">
-        {% for gallery in collections.galleries.slice(0, 5) %}
+        {% for p in collections.galleries.slice(0, 5) %}
+            {% set thumb = (p.data.images[0] | trim) + "=w" + cfg.gallery.thumb.width + "-h" + cfg.gallery.thumb.height + "-c" %}
             <div>
-                <a href="{{ gallery.url | url }}" class="thumb">
-                    <img src="{{ (cfg.urls.images + "/gallery/" + gallery.fileSlug + "/" + gallery.fileSlug + "-001-thumb.jpg") | url | buildTimestamp }}" alt=""/>
-                </a>
+                <a href="{{ p.url | url }}" class="thumb" style="background-image:url('{{ thumb }}')"></a>
                 <p>
-                    <a href="{{ gallery.url | url }}">{{ gallery.data.title }}</a>
+                    <a href="{{ p.url | url }}">{{ p.data.title }}</a>
                 </p>
-                <small class="date">{{ gallery.date | dateDisplay }}</small>
+                <small class="date">{{ p.date | dateDisplay }}</small>
             </div>
         {% endfor %}
         </div>
