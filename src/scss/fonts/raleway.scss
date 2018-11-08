@@ -1,11 +1,11 @@
-$base: "" !default;
+$assets: "" !default;
 
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('#{$base}/assets/fonts/raleway/raleway-400.woff') format('woff');
+  src: url('#{$assets}/fonts/raleway/raleway-400.woff') format('woff');
 }
 
 @font-face {
@@ -13,5 +13,5 @@ $base: "" !default;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('#{$base}/assets/fonts/raleway/raleway-600.woff') format('woff');
+  src: url('#{$assets}/fonts/raleway/raleway-600.woff') format('woff');
 }

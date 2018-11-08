@@ -1,34 +1,23 @@
 {
   "name": "kezmuvesovi",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "Törökvész Úti Kézműves Óvoda static website",
-  "author": "Roland Toth",
+  "author": "Roland Toth Pal",
   "license": "MIT",
   "scripts": {
     "imgResize": "node scripts/imgResize",
     "imgMin": "node scripts/imgMin",
-    "imgProcess": "node scripts/imgResize && node scripts/imgMin && echo imgProcess complete",
+    "imgProcess": "node scripts/imgResize && node scripts/imgMin",
     "buildSite": "npx eleventy"
   },
-  "dependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^0.5.4",
-    "clean-css": "^4.2.1",
-    "del": "^3.0.0",
-    "get-video-id": "^3.1.0",
     "glob": "^7.1.3",
     "html-minifier": "^3.5.20",
-    "image-downloader": "^3.4.1",
-    "image-size": "^0.6.3",
-    "imagemin": "^6.0.0",
-    "imagemin-jpegtran": "^5.0.2",
-    "imagemin-mozjpeg": "^7.0.0",
-    "imagemin-pngquant": "^6.0.0",
-    "mkdirp": "^0.5.1",
-    "npm": "^6.4.1",
-    "path": "^0.12.7",
-    "perfundo": "^4.0.4",
-    "sharp": "^0.20.7",
-    "uglify-js": "^3.4.9",
-    "video-thumbnail-url": "^1.0.1"
+    "npm": "^6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kezmuvesovi/www.git"
   }
 }

@@ -1,8 +1,8 @@
 // out: ../../input/includes/style.min.css, compress: true, sourceMap: false, autoprefixer: last 3 versions, groupmedia: true
 // out: ../../assets/styles/style.min.css, compress: true, sourceMap: false, autoprefixer: last 3 versions, groupmedia: true
 // variables
-$base: "";
-$images: "#{$base}/assets/images";
+$base: "PATHPREFIX";
+$assets: "#{$base}assets";
 $version: "?v=20181024";
 $bgcolor: #F3F6FA;
 $basecolor: #0b294e;
@@ -36,6 +36,7 @@ $perfundo-control-use-icons: true;
 $perfundo-background-color: rgba(darken($darkcolor, 12%), 0.96);
 $perfundo-max-image-width: 960px;
 $perfundo-image-padding: 1rem;
+
 // imports
 @import "_normalize";
 @import "_mixins";
@@ -45,6 +46,7 @@ $perfundo-image-padding: 1rem;
 @import "fg_grid/_fg_grid";
 @import "_svg-icons";
 @import "_perfundo";
+
 // override defaults
 * {
     outline: none;
@@ -82,6 +84,7 @@ img {
     max-width: 100%;
     border-radius: 0.25rem;
     transition: opacity 0.16s;
+
     a & {
         &:hover {
             opacity: 0.84;
@@ -92,9 +95,11 @@ img {
 a {
     color: $linkcolor;
     text-decoration: underline;
+
     &:hover {
         color: lighten($linkcolor, 16%);
     }
+
     &.underline {
         text-decoration: underline !important;
     }
@@ -106,12 +111,15 @@ html {
     background: $bgcolor;
     height: 100%;
     font-size: 15px;
+
     @media ($tablet) {
         font-size: 16px;
     }
+
     @media ($desktop) {
         font-size: 17px;
     }
+
     @media ($hd) {
         font-size: 18px;
     }
@@ -130,6 +138,7 @@ body {
     @include clearfix;
     margin: 0 auto;
     padding: 0 1.12rem;
+
     @media ($desktop) {
         max-width: 60rem;
         padding: 0 3rem;
@@ -139,12 +148,13 @@ body {
 .title {
     @include clearfix;
     padding: 2.25rem 0 1.5rem;
-    background-image: url("#{$images}/bluedyeing.png"),
+    background-image: url("#{$assets}/images/bluedyeing.png"),
     radial-gradient(#175BAB,
     #10478B);
     background-position: center top; // background-attachment: fixed;
     text-align: center;
     margin-bottom: 1rem;
+
     @media ($desktop) {
         padding: 3.25rem 0 3rem;
         box-shadow: inset 0 0 60px 8px #10478B;
@@ -159,10 +169,12 @@ body {
 header {
     flex: 0 0 auto;
     position: relative;
+
     nav {
         text-align: center;
         user-select: none;
     }
+
     ul {
         display: none;
         padding: 1rem;
@@ -174,6 +186,7 @@ header {
         background: rgba($darkcolor, 0.94);
         border-bottom-right-radius: 0.75rem;
         border-bottom-left-radius: 0.75rem;
+
         @media($desktop) {
             display: block;
             position: static;
@@ -183,11 +196,14 @@ header {
             border-radius: 0 !important;
         }
     }
+
     li {
         display: block;
+
         @media($desktop) {
             display: inline-block;
         }
+
         &.active {
             a {
                 color: $linkcolor;
@@ -195,6 +211,7 @@ header {
             }
         }
     }
+
     a {
         display: block;
         padding: 1rem 0.75rem;
@@ -202,11 +219,13 @@ header {
         color: white;
         text-decoration: none;
         line-height: 1;
+
         @media($desktop) {
             color: $basecolor;
             padding: 1.25rem 0.75rem;
             font-size: 0.98rem;
         }
+
         &:hover {
             color: $linkcolor;
         }
@@ -215,27 +234,34 @@ header {
 
 .main-content {
     flex: 1 0 auto;
+
     table {
         margin: 1.25rem auto;
         font-size: 0.98rem;
+
         @media($desktop) {
             min-width: 25rem;
         }
+
         th,
         td {
             padding: 0.33rem 1.25rem;
             vertical-align: top;
             border-bottom: 1px solid rgba($basecolor, 0.16);
         }
+
         th {
             font-size: 0.84rem;
             text-transform: uppercase;
             vertical-align: bottom;
             border-bottom-color: $basecolor;
         }
+
         tbody tr:nth-child(2n+1) td {
             background: rgba($basecolor, 0.033);
-        } // tbody {
+        }
+
+        // tbody {
         //     background: white;
         // }
     }
@@ -245,20 +271,25 @@ header {
     body:not(.home) & {
         max-width: 49.875rem !important;
     }
+
     margin: 0 auto;
     text-align: center;
+
     ul,
     ol {
         padding: 0;
+
         li {
             list-style: none;
             position: relative;
             margin-left: -0.75rem;
+
             &:not(:last-child) {
                 margin-bottom: 0.5rem;
             }
         }
     }
+
     ul,
     ol {
         &:not(.no-bullets) li::before {
@@ -276,21 +307,25 @@ body.home {
         max-width: 70vw;
         margin-right: auto;
         margin-left: auto;
+
         @media($desktop) {
             margin-left: 0;
             margin-right: 0;
         }
     }
+
     .title {
         color: white;
         font-size: 1rem;
         margin-bottom: 1.5rem;
         padding-bottom: 2rem;
+
         @media($desktop) {
             font-size: 1.125rem;
             margin-bottom: 3rem;
             padding-bottom: 3rem;
         }
+
         >.container>div {
             @media($desktop) {
                 @include _fg(2,
@@ -299,38 +334,47 @@ body.home {
                 align-items: center;
             }
         }
+
         ul {
             list-style: none;
             padding-left: 0;
+
             @media($desktop) {
                 list-style: disc;
                 margin-bottom: 0;
                 padding-left: 1.5rem;
             }
         }
+
         li {
             margin-bottom: 0.2rem;
+
             @media($desktop) {
                 margin-bottom: 0.5rem;
             }
         }
     }
+
     .text {
         @media($desktop) {
             text-align: left;
+
             >* {
                 max-width: 66%;
             }
         }
     }
+
     .circles {
         position: relative;
         word-spacing: 1.25rem;
         margin-bottom: -1rem;
+
         @media($desktop) {
             word-spacing: auto;
             margin-bottom: 0;
         }
+
         img {
             border-radius: 100%;
             position: relative;
@@ -338,25 +382,31 @@ body.home {
             border: 7px double rgba(113, 160, 199, 0.68);
             max-width: 14rem;
             height: auto;
+
             &:not(:nth-child(2)) {
                 display: none;
             }
+
             @media($tablet) {
                 display: inline-block !important;
                 max-width: 22vw;
             }
+
             @media($desktop) {
                 float: right;
                 margin-bottom: 0;
                 max-width: 26vw;
+
                 &:nth-child(1) {
                     transform: scale(.95) translateX(10%) translateY(8%);
                     margin-top: -6rem;
                 }
+
                 &:nth-child(2) {
                     position: absolute;
                     transform: scale(1.04) translateX(-60%) translateY(-2%);
                 }
+
                 &:nth-child(3) {
                     transform: scale(.84) translateX(-24%);
                     margin-bottom: -5.75rem;
@@ -370,6 +420,7 @@ body.home {
     li {
         display: inline-block;
         color: white;
+
         a {
             display: block;
             padding: 0.25rem;
@@ -385,9 +436,11 @@ section.news-list {
         position: relative;
         background: $colorize1;
         font-size: 1.2rem;
+
         @media($desktop) {
             font-size: 1.4rem;
         }
+
         &::after {
             $size: 0.8rem;
             content: '';
@@ -398,6 +451,7 @@ section.news-list {
             left: 50%;
             margin-left: -$size/2;
         }
+
         a {
             display: block;
             padding: .52rem .84rem .36rem;
@@ -405,35 +459,44 @@ section.news-list {
             line-height: 1.33;
             text-decoration: none;
             min-width: 10rem;
+
             &:hover {
                 opacity: 0.75;
             }
         }
     }
+
     article {
         padding: 0 0.5rem 1rem;
+
         p {
             a {
                 text-decoration: none;
                 color: $basecolor;
             }
         }
+
         .colorize-2::after {
             border-top-color: $colorize2;
         }
+
         .colorize-3::after {
             border-top-color: $colorize3;
         }
+
         .colorize-4::after {
             border-top-color: $colorize4;
         }
+
         .colorize-5::after {
             border-top-color: $colorize5;
         }
+
         .colorize-6::after {
             border-top-color: $colorize6;
         }
     }
+
     >div {
         @media ($tablet) {
             @include _fg(2,
@@ -441,12 +504,14 @@ section.news-list {
             0);
             justify-content: center;
         }
+
         @media ($desktop) {
             @include _fg(3,
             0,
             0);
         }
     }
+
     .all-news-link {
         margin: 1rem 0 2.5rem;
     }
@@ -457,6 +522,7 @@ section.news-list {
     margin-top: -0.75rem;
     display: block;
     user-select: none;
+
     .title & {
         color: rgba(white, 0.7);
         margin-top: 0.25rem;
@@ -467,8 +533,10 @@ section.news-list {
     list-style: none;
     margin: -0.75rem 0 0.5rem;
     padding: 0;
+
     a {
         color: white;
+
         &:not(:hover) {
             text-decoration: none;
         }
@@ -481,11 +549,13 @@ section.news-list {
     font-size: 1rem;
     margin: 0 auto 1.5rem;
     padding-bottom: 1rem;
+
     @media($desktop) {
         padding-bottom: 1.125rem;
         margin: 0 auto 2.25rem;
         font-style: italic;
     }
+
     &::before {
         $size: 16rem;
         content: '';
@@ -499,6 +569,7 @@ section.news-list {
         margin-left: -$size/2;
         background: $babyblue;
     }
+
     &::after {
         $size: 0.6rem;
         content: '';
@@ -528,30 +599,37 @@ body.hirek .main-content,
 .bottom-fullwidth {
     @include clearfix;
     margin: 1rem 0 0.5rem;
-    background: $buttoncolor url("#{$images}/bluedyeing-light.png");
+    background: $buttoncolor url("#{$assets}/images/bluedyeing-light.png");
     background-position: center top; // background-attachment: fixed;
     text-align: center;
+
     @media ($desktop) {
         margin: 1.5rem 0 1rem;
     }
+
     .about-img {
         display: none;
     }
+
     .button,
     .button:hover {
         background: white;
     }
+
     >.container {
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
+
         @media ($desktop) {
             padding-top: 2rem;
             padding-bottom: 2rem;
         }
+
         &:empty {
             display: none;
         }
     }
+
     .grid {
         justify-content: center;
         @include _fg(2,
@@ -559,36 +637,39 @@ body.hirek .main-content,
         0.5rem);
         margin-top: -0.5rem !important;
         margin-bottom: -0.5rem !important;
+
         @media ($tablet) {
             @include _fg(4,
             0,
             0.5rem);
         }
+
         @media ($desktop) {
             @include _fg(5,
             0,
             0.5rem);
         }
-        .thumb {
-            display: block;
-            margin: 0;
-        }
+
         a {
             @extend h4;
             text-decoration: none;
             color: $basecolor;
         }
     }
+
     h3 {
         @extend h2;
         margin-top: 0 !important;
+
         a {
             color: $basecolor;
+
             &:not(:hover) {
                 text-decoration: none;
             }
         }
     }
+
     p:last-child {
         margin-bottom: 0;
     }
@@ -598,6 +679,7 @@ footer {
     text-align: center;
     font-size: 0.84rem;
     padding: 0.5rem 0;
+
     @media ($desktop) {
         font-size: 0.9rem;
     }
@@ -620,22 +702,25 @@ h1 {
     font-size: 2.25rem;
     margin-left: 0;
     font-weight: 400;
+
     @media ($desktop) {
         font-size: 2.7rem;
     }
 }
 
 h2 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
+
     @media ($desktop) {
         font-size: 2rem;
     }
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.44rem;
     line-height: 1.25;
     letter-spacing: 0;
+
     @media ($desktop) {
         font-size: 1.7rem;
     }
@@ -663,11 +748,13 @@ h4 {
     letter-spacing: 0.5px;
     color: $basecolor;
     min-width: 4rem;
+
     @media ($desktop) {
         font-size: 1.32rem;
         padding: 0.6rem 1.25rem 0.36rem;
         min-width: 6rem;
     }
+
     &:hover {
         color: $basecolor;
         background-color: darken($buttoncolor, 3%);
@@ -700,6 +787,7 @@ h4 {
 
 [class*="colorize-"] {
     color: white;
+
     &:hover {
         opacity: 0.8;
         color: white;
@@ -708,9 +796,11 @@ h4 {
 
 ul.documents {
     margin-bottom: 3rem;
+
     li {
         margin-bottom: 1rem !important;
     }
+
     .button {
         &::before {
             $size: 1.36rem;
@@ -733,11 +823,14 @@ ul.documents {
     ::-webkit-scrollbar {
         width: 0.5rem;
         height: 0.5rem;
+
         &-track {
             background: transparent;
         }
+
         &-thumb {
             background: $darkcolor; // border-radius: 0.25rem;
+
             &:hover {
                 background: $linkcolor;
             }
@@ -747,6 +840,7 @@ ul.documents {
 
 section {
     margin: 1rem auto;
+
     @media ($desktop) {
         margin: 1.5rem auto;
     }
@@ -754,11 +848,13 @@ section {
 
 .about {
     max-width: 48rem;
+
     .about-img {
         a {
             display: inline-block;
         }
     }
+
     img {
         display: block;
         margin: 0 auto;
@@ -767,44 +863,51 @@ section {
 
 .gallery-list {
     text-align: left;
+
     a {
         text-decoration: none;
     }
+
     >div {
         display: table;
+
         @media ($tablet) {
             margin-left: 6rem;
         }
     }
+
     .date {
         position: relative;
         top: -0.5rem;
     }
-    .thumb,
+
     .details {
         display: table-cell;
         vertical-align: middle;
         padding: 0 1rem 1rem 0;
+
         @media ($desktop) {
             padding: 0 1.5rem 1rem 0;
         }
     }
+
     h2 {
         @extend h3;
         margin-top: 0;
     }
+
     .thumb {
-        display: block;
         width: 6rem;
+        margin: 0 1rem 1rem 0;
+
         @media ($tablet) {
-            width: 8rem;
+            width: 9rem;
         }
+
         @media ($desktop) {
             width: 12rem;
+            margin: 0 1.5rem 1.5rem 0;
         }
-    }
-    img {
-        display: block;
     }
 }
 
@@ -814,36 +917,44 @@ section {
     0,
     0.5rem);
     justify-content: center;
+
     @media ($tablet) {
         @include _fg(3,
         0,
         0.5rem);
     }
+
     margin-top: -0.5rem;
-    a {
-        display: block;
-    }
-    img {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
+}
+
+.thumb {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    height: 0;
+    padding-top: 84%;
+    border-radius: 0.25rem;
 }
 
 #menu-toggle {
     @include hamburger($width: 21px, $thickness: 2px, $gap: 5px, $color: white, $padding: 1.25rem, $anim: 0);
+
     +label {
         position: absolute;
         top: 0;
         right: 0;
         cursor: pointer;
         z-index: 12;
+
         @media($desktop) {
             display: none;
         }
     }
+
     &:checked {
         @include hamburger_tint(white);
+
         ~header {
             ul {
                 display: block;
@@ -866,35 +977,44 @@ section {
     user-select: none;
     position: relative;
     margin-bottom: 2rem;
+
     @media($desktop) {
         text-align: center;
     }
+
     ul {
         display: inline-block;
         margin: 0;
         padding: 0;
         list-style: none;
     }
+
     li {
         display: inline-block;
         margin: 0 0.1rem !important;
+
         &::before {
             display: none !important;
         }
+
         &:not(.current) a {
             background: url("#{$svg_angle_right}") center center no-repeat;
             background-size: $size $size;
             text-indent: -9999px;
         }
+
         &.prev a {
             background-image: url("#{$svg_angle_left}");
         }
+
         &.first a {
             background-image: url("#{$svg_angle_double_left}");
         }
+
         &.last a {
             background-image: url("#{$svg_angle_double_right}");
         }
+
         &.disabled a {
             color: $basecolor;
             text-decoration: none;
@@ -902,17 +1022,19 @@ section {
             cursor: default;
             opacity: 0.4;
         }
+
         &.current {
             a {
                 opacity: 1 !important;
                 padding-left: 1rem;
                 padding-right: 1rem;
-                background: $buttoncolor;
+
                 span {
                     font-size: 0.84rem;
                 }
             }
         }
+
         a {
             $blockSize: $size * 2;
             min-width: $blockSize;
@@ -924,6 +1046,7 @@ section {
             white-space: nowrap;
             word-spacing: 0.16rem;
             border-radius: 0.25rem;
+
             &:hover {
                 background-color: $buttoncolor;
             }
@@ -943,12 +1066,15 @@ body.kapcsolat {
         column-count: 2;
         column-gap: 2rem;
     }
+
     @media($desktop) {
         column-count: 3;
     }
+
     >div {
         break-inside: avoid;
     }
+
     h4 {
         margin: 0.5rem 0 0.25rem;
     }
@@ -958,6 +1084,7 @@ body.ovodankrol {
     .staff {
         li {
             margin-bottom: 0.2rem;
+
             &::before {
                 display: none;
             }
@@ -966,18 +1093,22 @@ body.ovodankrol {
 }
 
 .perfundo {
+
     &:first-child() &__prev,
     &:last-child() &__next {
         display: none !important;
     }
+
     &__prev,
     &__next {
         top: auto;
         bottom: 1.5rem;
+
         @media($desktop) {
             bottom: 48%
         }
     }
+
     &__figure {
         border-radius: 0.25rem;
     }

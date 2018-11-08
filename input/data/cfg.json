@@ -15,14 +15,12 @@
     "mapUrl": "https://www.google.com/maps/place/Budapest,+T%C3%B6r%C3%B6kv%C3%A9sz+%C3%BAt+18,+1022+Magyarorsz%C3%A1g/@47.522295,19.019652,14z/data=!4m5!3m4!1s0x4741deb2532a6631:0x6aa9611cebab0d5f!8m2!3d47.521959!4d19.019062?hl=hu",
     "gallery": {
         "large": {
-            "width": 960,
-            "height": null,
-            "suffix": ""
+            "width": 1280,
+            "height": 720
         },
         "thumb": {
             "width": 250,
-            "height": 200,
-            "suffix": "thumb"
+            "height": 250
         }
     },
     "newstypes": {

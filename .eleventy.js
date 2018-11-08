@@ -10,6 +10,8 @@ const path = require('path');
 
 module.exports = function (eleventyConfig) {
 
+  let out = {};
+
   glob.sync("./filters/*.js").forEach(filePath => {
     let pathInfo = path.parse(filePath);
     eleventyConfig.addFilter(pathInfo.base.replace(pathInfo.ext, ""), require(filePath));
@@ -54,18 +56,23 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  return {
+  out = {
     dir: {
       input: "input",
       data: "data",
       output: "dist",
       includes: "includes"
     },
-    pathPrefix: cfg.pathPrefix,
     templateFormats: ["njk", "md"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",
     dataTemplateEngine: false,
     passthroughFileCopy: true
-  };
+  }
+
+  if (cfg.pathPrefix) {
+    out.pathPrefix = cfg.pathPrefix;
+  }
+
+  return out;
 };

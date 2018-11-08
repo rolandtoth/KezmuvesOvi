@@ -15,7 +15,7 @@
         <meta property="fb:app_id" content="966242223397117">
         <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon.png" | url | buildTimestamp }}">
         {% set css %}{% include "style.min.css" %}{% endset %}
-        <style>{{ css | safe }}</style>
+        <style>{{ css | replace("PATHPREFIX", cfg.pathPrefix) | safe }}</style>
         {# <style>{{ css | cssMin | safe }}</style> #}
         {# <link rel="stylesheet" href="{{ (cfg.urls.styles + "/style.min.css") | url | buildTimestamp }}"/> #}
     </head>
@@ -49,7 +49,12 @@
                 {% if excerpt %}
                     <div class="excerpt">{{ excerpt | safe }}</div>
                 {% endif %}
-                {% block main %}{{ content | safe }}{% endblock %}
+                {% block main %}
+                    {{ content | safe }}
+                    {% if tags === "gallery" %}
+                        {% include "_gallery.njk" %}
+                    {% endif %}
+                {% endblock %}
             </div>
         </div>
         {% include "_bottom-fullwidth.njk" %}
