@@ -1,7 +1,8 @@
-// out: ../../input/includes/style.min.css, compress: true, sourceMap: false, autoprefixer: last 3 versions, groupmedia: true
 // out: ../../assets/styles/style.min.css, compress: true, sourceMap: false, autoprefixer: last 3 versions, groupmedia: true
+// out: ../../input/includes/style.min.css, compress: true, sourceMap: false, autoprefixer: last 3 versions, groupmedia: true
 // variables
-$base: "PATHPREFIX";
+// $base: "PATHPREFIX";
+$base: "/";
 $assets: "#{$base}assets";
 $version: "?v=20181024";
 $bgcolor: #F3F6FA;
@@ -36,7 +37,6 @@ $perfundo-control-use-icons: true;
 $perfundo-background-color: rgba(darken($darkcolor, 12%), 0.96);
 $perfundo-max-image-width: 960px;
 $perfundo-image-padding: 1rem;
-
 // imports
 @import "_normalize";
 @import "_mixins";
@@ -113,10 +113,6 @@ html {
     font-size: 15px;
 
     @media ($tablet) {
-        font-size: 16px;
-    }
-
-    @media ($desktop) {
         font-size: 17px;
     }
 
@@ -231,7 +227,7 @@ header {
 
     table {
         margin: 1.25rem auto;
-        font-size: 0.98rem;
+        font-size: 0.96rem;
 
         @media($desktop) {
             min-width: 25rem;
@@ -448,7 +444,7 @@ section.news-list {
 
         a {
             display: block;
-            padding: .52rem .84rem .36rem;
+            padding: .52rem .84rem .3rem;
             color: white;
             line-height: 1.33;
             text-decoration: none;
@@ -745,7 +741,7 @@ h4 {
 
     @media ($desktop) {
         font-size: 1.32rem;
-        padding: 0.6rem 1.25rem 0.36rem;
+        padding: 0.62rem 1.4rem 0.32rem;
         min-width: 6rem;
     }
 
@@ -789,7 +785,7 @@ h4 {
 }
 
 ul.documents {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 
     li {
         margin-bottom: 1rem !important;
@@ -1056,34 +1052,7 @@ body.kapcsolat {
 }
 
 .staff {
-    @media($tablet) {
-        column-count: 2;
-        column-gap: 2rem;
-    }
-
-    @media($desktop) {
-        column-count: 3;
-    }
-
-    >div {
-        break-inside: avoid;
-    }
-
-    h4 {
-        margin: 0.5rem 0 0.25rem;
-    }
-}
-
-body.ovodankrol {
-    .staff {
-        li {
-            margin-bottom: 0.2rem;
-
-            &::before {
-                display: none;
-            }
-        }
-    }
+    text-align: left;
 }
 
 .perfundo {

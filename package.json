@@ -1,13 +1,10 @@
 {
   "name": "kezmuvesovi",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Törökvész Úti Kézműves Óvoda static website",
   "author": "Roland Toth Pal",
   "license": "MIT",
   "scripts": {
-    "imgResize": "node scripts/imgResize",
-    "imgMin": "node scripts/imgMin",
-    "imgProcess": "node scripts/imgResize && node scripts/imgMin",
     "buildSite": "npx eleventy"
   },
   "devDependencies": {

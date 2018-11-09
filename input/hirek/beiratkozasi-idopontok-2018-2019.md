@@ -2,7 +2,6 @@
 title: Óvodai beiratkozási időpontok 2018-2019
 type: registration-dates
 excerpt: A 2018/2019-es évi beiratkozás időpontjai
-permalink: /hirek/{{ title | slug }}/
 date: "2018-04-20"
 ---
 

@@ -2,7 +2,6 @@
 title: Nyári zárás 2018
 type: summer-closure
 excerpt: Óvodánk idei évi nyári zárva tartásának dátumai
-permalink: /hirek/{{ title | slug }}/
 date: "2018-02-10"
 ---
 

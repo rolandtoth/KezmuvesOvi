@@ -2,7 +2,6 @@
 title: Óvodai felvételi tájékoztató 2018/2019
 excerpt: Az idei évi felvételi tájékoztató
 type: enrollment-info
-permalink: /hirek/{{ title | slug }}/
 date: "2018-04-10"
 ---
 

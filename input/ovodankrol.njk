@@ -8,31 +8,24 @@ staff:
     - Katica nagycsoport:
         - Jónás-Szép Edina
         - Takács Viola
-        - Horváth Frei Erika
     - Süni középső csoport:
         - Ádámszki Mercédesz
         - Menyhártné Bolla Csilla
-        - Lődy Klaudia
     - Pillangó kis csoport:
         - Dr. Bartosné Polyák Beatrix
         - Gajda Orsolya
-        - Gál Lenke
     - Nyuszi középső csoport:
         - Cséfalvay Márta
         - Tamás Judit
-        - Pickné Benkő Erika
     - Halacska nagycsoport:
         - Lampert Lászlóné
         - Nagy Dénesné
-        - Grünwald Gyuláné
     - Cica nagycsoport:
         - Ajtai Lászlóné
-        - Pasztercsákné Demcsik Zsuzsanna
+        - Bodnarik Julianna
     - Mókus kiscsoport:
         - Farkas Mariann
         - Pióker Ildikó
-        - Kató Tímea
-        
 ---
 {% extends 'layouts/@default.njk' %}
 
@@ -73,19 +66,21 @@ Mi jellemzi intézményünket?
 
 <h3>Csoportbeosztás</h3>
 
-<div class="staff">
+<table class="staff">
 {% for data in staff %}
     {% for group, names in data %}
-        <div>
-        <h4>{{ group }}</h4>
-        <ul>
+        <tr>
+            <td>
+                <strong>{{ group }}</strong>
+            </td>
             {% for name in names %}
-            <li>{{ name }}</li>
+                <td>
+                    {{ name }}
+                <td>
             {% endfor %}
-        </ul>
-        </div>
+        </tr>
     {% endfor %}
 {% endfor %}
-</div>
+</table>
 
 {% endblock %}

@@ -2,7 +2,6 @@
 title: Nyílt nap februárban
 type: open-day
 excerpt: Nyílt napot tartunk február 22-én.
-permalink: /hirek/{{ title | slug }}/
 date: "2018-01-25"
 ---
 

@@ -9,15 +9,12 @@
         <meta name="theme-color" content="#10488D">
         <meta name="msapplication-tap-highlight" content="no">
         <meta property="og:type" content="website">
-        <meta property="og:title" content="{{ title or menuIitle }}">
+        <meta property="og:title" content="{{ title or menuTitle }}">
         <meta property="og:description" content="{{ description }}">
         <meta property="og:url" content="{{ page.url | httpUrl }}">
         <meta property="fb:app_id" content="966242223397117">
         <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon.png" | url | buildTimestamp }}">
-        {% set css %}{% include "style.min.css" %}{% endset %}
-        <style>{{ css | replace("PATHPREFIX", cfg.pathPrefix) | safe }}</style>
-        {# <style>{{ css | cssMin | safe }}</style> #}
-        {# <link rel="stylesheet" href="{{ (cfg.urls.styles + "/style.min.css") | url | buildTimestamp }}"/> #}
+        <link rel="stylesheet" href="{{ (cfg.urls.styles + "/style.min.css") | url | buildTimestamp }}"/>
     </head>
     <body class="{% if page.fileSlug !== '' %}{{ page.fileSlug }}{% else %}home{% endif %}"{% if tags %} data-tags="{{ tags }}"{% endif %} data-root="{{ "/" | url }}">
         <input type="checkbox" id="menu-toggle" />
