@@ -66,21 +66,23 @@ Mi jellemzi intézményünket?
 
 <h3>Csoportbeosztás</h3>
 
-<table class="staff">
-{% for data in staff %}
-    {% for group, names in data %}
-        <tr>
-            <td>
-                <strong>{{ group }}</strong>
-            </td>
-            {% for name in names %}
+<div class="table-responsive">
+    <table class="staff">
+    {% for data in staff %}
+        {% for group, names in data %}
+            <tr>
                 <td>
-                    {{ name }}
-                <td>
-            {% endfor %}
-        </tr>
+                    <strong>{{ group }}</strong>
+                </td>
+                {% for name in names %}
+                    <td>
+                        {{ name }}
+                    <td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
     {% endfor %}
-{% endfor %}
-</table>
+    </table>
+</div>
 
 {% endblock %}

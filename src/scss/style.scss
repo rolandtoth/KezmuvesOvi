@@ -192,6 +192,32 @@ header {
 
         @media($desktop) {
             display: inline-block;
+
+            &:first-child {
+                a {
+                    text-indent: -9999px;
+                    padding-right: 1.5rem;
+                    padding-left: 0.4rem;
+
+                    &::before {
+                        $size: 1.225rem;
+                        content: "";
+                        width: $size;
+                        height: $size;
+                        position: absolute;
+                        margin-top: -3px;
+                        display: block;
+                        background-image: url(colorizeSvg("#{$svg_home}", #10478B));
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                }
+
+                &.active a::before,
+                a:hover::before {
+                    background-image: url(colorizeSvg("#{$svg_home}", $linkcolor));
+                }
+            }
         }
 
         &.active {
@@ -226,16 +252,16 @@ header {
     flex: 1 0 auto;
 
     table {
-        margin: 1.25rem auto;
+        margin: 0 auto 1.25rem;
         font-size: 0.96rem;
 
         @media($desktop) {
-            min-width: 25rem;
+            min-width: 24rem;
         }
 
         th,
         td {
-            padding: 0.33rem 1.25rem;
+            padding: 0.33rem 1rem;
             vertical-align: top;
             border-bottom: 1px solid rgba($basecolor, 0.16);
         }
@@ -254,6 +280,14 @@ header {
         // tbody {
         //     background: white;
         // }
+    }
+
+    .table-responsive {
+        margin-bottom: 1.25rem;
+
+        table {
+            margin: 0 auto;
+        }
     }
 }
 
@@ -819,7 +853,7 @@ ul.documents {
         }
 
         &-thumb {
-            background: $darkcolor; // border-radius: 0.25rem;
+            background: #10478B;
 
             &:hover {
                 background: $linkcolor;
@@ -1075,4 +1109,8 @@ body.kapcsolat {
     &__figure {
         border-radius: 0.25rem;
     }
+}
+
+.table-responsive {
+    overflow-x: auto;
 }
