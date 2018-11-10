@@ -8,6 +8,7 @@ date: "2018-04-20"
 Tájékoztatjuk Önöket, hogy a Törökvész Úti Kézműves Óvodába a beiratkozás 2018.05.07-11-ig tart.
 
 <div class="table-responsive">
+
 ||Délelőtt|Délután|
 |--- |--- |--- |
 |Hétfő|8-12|13-16|
@@ -15,6 +16,7 @@ Tájékoztatjuk Önöket, hogy a Törökvész Úti Kézműves Óvodába a beirat
 |Szerda||14-17|
 |Csütörtök||13-16|
 |Péntek|8-12||
+
 </div>
 
 *Üdvözlettel:*<br>

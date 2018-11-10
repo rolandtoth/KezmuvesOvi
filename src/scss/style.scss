@@ -200,12 +200,13 @@ header {
                     padding-left: 0.4rem;
 
                     &::before {
-                        $size: 1.225rem;
+                        $size: 1.16rem;
                         content: "";
                         width: $size;
                         height: $size;
                         position: absolute;
-                        margin-top: -3px;
+                        top: 50%;
+                        transform: translateY(-52%);
                         display: block;
                         background-image: url(colorizeSvg("#{$svg_home}", #10478B));
                         background-repeat: no-repeat;
@@ -223,7 +224,7 @@ header {
         &.active {
             a {
                 color: $linkcolor;
-                font-weight: 600;
+                //         font-weight: 600;
             }
         }
     }
