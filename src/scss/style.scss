@@ -5,18 +5,18 @@
 $base: "/";
 $assets: "#{$base}assets";
 $version: "?v=20181024";
-$bgcolor: #F3F6FA;
+$bgcolor: #f3f6fa;
 $basecolor: #0b294e;
 $linkcolor: #2076df;
 $babyblue: rgb(192, 197, 202);
 $darkcolor: #0f396b;
-$buttoncolor: #DEE6F0;
+$buttoncolor: #dee6f0;
 $bordercolor: #dadada;
-$colorize1: #A8C078;
-$colorize2: #E7CB30;
-$colorize3: #F09030;
+$colorize1: #a8c078;
+$colorize2: #e7cb30;
+$colorize3: #f09030;
 $colorize4: #dd4b7c;
-$colorize5: #9060A8;
+$colorize5: #9060a8;
 $colorize6: #1f9cd6;
 // breakpoints
 $_mobile: 480;
@@ -46,6 +46,7 @@ $perfundo-image-padding: 1rem;
 @import "fg_grid/_fg_grid";
 @import "_svg-icons";
 @import "_perfundo";
+@import "_spinner";
 
 // override defaults
 * {
@@ -145,15 +146,15 @@ body {
     @include clearfix;
     padding: 2.25rem 0 1.5rem;
     background-image: url("#{$assets}/images/bluedyeing.png"),
-    radial-gradient(#175BAB,
-    #10478B);
+    radial-gradient(#175bab,
+    #10478b);
     background-position: center top; // background-attachment: fixed;
     text-align: center;
     margin-bottom: 1rem;
 
     @media ($desktop) {
         padding: 3.25rem 0 3rem;
-        box-shadow: inset 0 0 60px 8px #10478B;
+        box-shadow: inset 0 0 60px 8px #10478b;
         margin-bottom: 1.25rem;
     }
 }
@@ -177,7 +178,7 @@ header {
         margin: 0 -1.5rem;
         background: $darkcolor;
 
-        @media($desktop) {
+        @media ($desktop) {
             display: block;
             margin: 0;
             padding: 0;
@@ -190,7 +191,7 @@ header {
     li {
         display: block;
 
-        @media($desktop) {
+        @media ($desktop) {
             display: inline-block;
 
             &:first-child {
@@ -208,7 +209,9 @@ header {
                         top: 50%;
                         transform: translateY(-52%);
                         display: block;
-                        background-image: url(colorizeSvg("#{$svg_home}", #10478B));
+                        background-image: url(colorizeSvg(
+ "#{$svg_home}",
+                        #10478b));
                         background-repeat: no-repeat;
                         background-size: cover;
                     }
@@ -216,15 +219,16 @@ header {
 
                 &.active a::before,
                 a:hover::before {
-                    background-image: url(colorizeSvg("#{$svg_home}", $linkcolor));
+                    background-image: url(colorizeSvg(
+ "#{$svg_home}",
+                    $linkcolor));
                 }
             }
         }
 
         &.active {
             a {
-                color: $linkcolor;
-                //         font-weight: 600;
+                color: $linkcolor; //         font-weight: 600;
             }
         }
     }
@@ -237,7 +241,7 @@ header {
         text-decoration: none;
         line-height: 1;
 
-        @media($desktop) {
+        @media ($desktop) {
             color: $basecolor;
             padding: 1.25rem 0.75rem;
             font-size: 0.98rem;
@@ -256,7 +260,7 @@ header {
         margin: 0 auto 1.25rem;
         font-size: 0.96rem;
 
-        @media($desktop) {
+        @media ($desktop) {
             min-width: 24rem;
         }
 
@@ -333,7 +337,7 @@ body.home {
         margin-right: auto;
         margin-left: auto;
 
-        @media($desktop) {
+        @media ($desktop) {
             margin-left: 0;
             margin-right: 0;
         }
@@ -345,14 +349,14 @@ body.home {
         margin-bottom: 1.5rem;
         padding-bottom: 2rem;
 
-        @media($desktop) {
+        @media ($desktop) {
             font-size: 1.125rem;
             margin-bottom: 3rem;
             padding-bottom: 3rem;
         }
 
         >.container>div {
-            @media($desktop) {
+            @media ($desktop) {
                 @include _fg(2,
                 0,
                 0);
@@ -364,7 +368,7 @@ body.home {
             list-style: none;
             padding-left: 0;
 
-            @media($desktop) {
+            @media ($desktop) {
                 list-style: disc;
                 margin-bottom: 0;
                 padding-left: 1.5rem;
@@ -374,14 +378,14 @@ body.home {
         li {
             margin-bottom: 0.2rem;
 
-            @media($desktop) {
+            @media ($desktop) {
                 margin-bottom: 0.5rem;
             }
         }
     }
 
     .text {
-        @media($desktop) {
+        @media ($desktop) {
             text-align: left;
 
             >* {
@@ -395,7 +399,7 @@ body.home {
         word-spacing: 1.25rem;
         margin-bottom: -1rem;
 
-        @media($desktop) {
+        @media ($desktop) {
             word-spacing: auto;
             margin-bottom: 0;
         }
@@ -412,18 +416,18 @@ body.home {
                 display: none;
             }
 
-            @media($tablet) {
+            @media ($tablet) {
                 display: inline-block !important;
                 max-width: 22vw;
             }
 
-            @media($desktop) {
+            @media ($desktop) {
                 float: right;
                 margin-bottom: 0;
                 max-width: 26vw;
 
                 &:nth-child(1) {
-                    transform: scale(.95) translateX(10%) translateY(8%);
+                    transform: scale(0.95) translateX(10%) translateY(8%);
                     margin-top: -6rem;
                 }
 
@@ -433,7 +437,7 @@ body.home {
                 }
 
                 &:nth-child(3) {
-                    transform: scale(.84) translateX(-24%);
+                    transform: scale(0.84) translateX(-24%);
                     margin-bottom: -5.75rem;
                 }
             }
@@ -462,13 +466,13 @@ section.news-list {
         background: $colorize1;
         font-size: 1.2rem;
 
-        @media($desktop) {
+        @media ($desktop) {
             font-size: 1.4rem;
         }
 
         &::after {
             $size: 0.8rem;
-            content: '';
+            content: "";
             border: $size/2 solid transparent;
             border-top-color: $colorize1;
             position: absolute;
@@ -479,7 +483,7 @@ section.news-list {
 
         a {
             display: block;
-            padding: .52rem .84rem .3rem;
+            padding: 0.52rem 0.84rem 0.3rem;
             color: white;
             line-height: 1.33;
             text-decoration: none;
@@ -575,7 +579,7 @@ section.news-list {
     margin: 0 auto 1.5rem;
     padding-bottom: 1rem;
 
-    @media($desktop) {
+    @media ($desktop) {
         padding-bottom: 1.125rem;
         margin: 0 auto 2.25rem;
         font-style: italic;
@@ -583,7 +587,7 @@ section.news-list {
 
     &::before {
         $size: 16rem;
-        content: '';
+        content: "";
         display: block;
         width: $size;
         max-width: $size;
@@ -597,7 +601,7 @@ section.news-list {
 
     &::after {
         $size: 0.6rem;
-        content: '';
+        content: "";
         display: block;
         width: $size;
         height: $size;
@@ -840,6 +844,7 @@ ul.documents {
             background-image: url(colorizeSvg("#{$svg_document}", #fff));
             background-repeat: no-repeat;
             background-size: cover;
+            z-index: 2;
         }
     }
 }
@@ -854,7 +859,7 @@ ul.documents {
         }
 
         &-thumb {
-            background: #10478B;
+            background: #10478b;
 
             &:hover {
                 background: $linkcolor;
@@ -972,7 +977,7 @@ section {
         cursor: pointer;
         z-index: 12;
 
-        @media($desktop) {
+        @media ($desktop) {
             display: none;
         }
     }
@@ -1003,7 +1008,7 @@ section {
     position: relative;
     margin-bottom: 2rem;
 
-    @media($desktop) {
+    @media ($desktop) {
         text-align: center;
     }
 
@@ -1090,6 +1095,10 @@ body.kapcsolat {
     text-align: left;
 }
 
+img.lazyload {
+    height: 0;
+}
+
 .perfundo {
 
     &:first-child() &__prev,
@@ -1097,13 +1106,30 @@ body.kapcsolat {
         display: none !important;
     }
 
+    &__overlay {
+        @extend .spinner;
+    }
+
+    &__link {
+        display: block;
+
+        img {
+            width: 100%;
+            display: block;
+
+            &.lazyloaded {
+                height: auto;
+            }
+        }
+    }
+
     &__prev,
     &__next {
         top: auto;
         bottom: 1.5rem;
 
-        @media($desktop) {
-            bottom: 48%
+        @media ($desktop) {
+            bottom: 48%;
         }
     }
 

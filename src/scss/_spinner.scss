@@ -1,0 +1,32 @@
+$color: rgba(white, 0.5);
+$size: 2rem;
+$width: 0.2rem;
+$animDuration: 1.5s;
+
+.spinner {
+  &::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - #{$size/2});
+    left: calc(50% - #{$size/2});
+    width: $size;
+    height: $size;
+    border: $width solid $color;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: spin $animDuration linear infinite;
+    user-select: none;
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+.spinner--hidden {
+  display: none;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
