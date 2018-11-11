@@ -166,7 +166,8 @@
 }
 
 @function colorizeSvg($svg, $color) {
-    @return str-replace($svg, "[COLOR]", $color);
+    $markup: str-replace($svg, "[COLOR]", $color);
+    @return str-replace($markup, "#", "%23");
 }
 
 /// Replace `$search` with `$replace` in `$string`
