@@ -1,6 +1,6 @@
 ---
 title: Óvodai felvételi tájékoztató 2018/2019
-excerpt: Az idei évi felvételi tájékoztató
+excerpt: Felvételi tájékoztató a 2018/2019-es évre
 type: enrollment-info
 date: "2018-04-10"
 ---
