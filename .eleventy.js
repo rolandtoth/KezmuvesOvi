@@ -18,6 +18,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("assets/");
+  eleventyConfig.addPassthroughCopy("_headers");
   eleventyConfig.addPassthroughCopy("favicon.png");
 
   eleventyConfig.addCollection("menu", function (collection) {
