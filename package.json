@@ -1,17 +1,33 @@
 {
   "name": "kezmuvesovi",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Törökvész Úti Kézműves Óvoda static website",
   "author": "Roland Toth Pal",
   "license": "MIT",
   "scripts": {
-    "buildSite": "npx eleventy"
+    "buildSite": "npx eleventy",
+    "build:css": "node-sass --include-path src/scss/includes src/scss/style.scss | postcss --use autoprefixer -b \"last 2 versions\" --use cssnano --no-map > assets/styles/style.css",
+    "build": "npm run build:css",
+    "watch:css": "onchange \"src/scss/*.scss\" -- npm run build:css",
+    "watch": "parallelshell \"npm run watch:css\""
   },
-  "devDependencies": {
-    "@11ty/eleventy": "^0.5.4",
+  "dependencies": {
+    "@11ty/eleventy": "^0.7.1",
+    "autoprefixer": "^9.5.0",
+    "cssnano": "^4.1.10",
+    "del": "^3.0.0",
     "glob": "^7.1.3",
-    "html-minifier": "^3.5.20",
-    "npm": "^6.4.1"
+    "html-minifier": "^3.5.21",
+    "jshint": "^2.10.2",
+    "mkdirp": "^0.5.1",
+    "node-sass": "^4.11.0",
+    "npm": "^6.9.0",
+    "onchange": "^5.2.0",
+    "parallelshell": "^3.0.2",
+    "path": "^0.12.7",
+    "postcss": "^7.0.14",
+    "postcss-cli": "^6.1.2",
+    "uglify-js": "^3.5.2"
   },
   "repository": {
     "type": "git",

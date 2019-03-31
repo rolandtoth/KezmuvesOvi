@@ -1,10 +1,7 @@
-// out: ../../assets/styles/style.min.css, compress: true, sourceMap: false, autoprefixer: last 3 versions, groupmedia: true
-// out: ../../input/includes/style.min.css, compress: true, sourceMap: false, autoprefixer: last 3 versions, groupmedia: true
 // variables
-// $base: "PATHPREFIX";
 $base: "/";
 $assets: "#{$base}assets";
-$version: "?v=20181024";
+$version: "?v=20190331";
 $bgcolor: #f3f6fa;
 $basecolor: #0b294e;
 $linkcolor: #2076df;
@@ -18,6 +15,7 @@ $colorize3: #f09030;
 $colorize4: #dd4b7c;
 $colorize5: #9060a8;
 $colorize6: #1f9cd6;
+
 // breakpoints
 $_mobile: 480;
 $_tablet: 640;
@@ -37,16 +35,16 @@ $perfundo-control-use-icons: true;
 $perfundo-background-color: rgba(darken($darkcolor, 12%), 0.96);
 $perfundo-max-image-width: 960px;
 $perfundo-image-padding: 1rem;
+
 // imports
-@import "_normalize";
-@import "_mixins";
-// @import "_sharingbuttons";
+@import "normalize";
+@import "mixins";
 @import "fonts/raleway";
 @import "fonts/yanone-kaffeesatz";
-@import "fg_grid/_fg_grid";
-@import "_svg-icons";
-@import "_perfundo";
-@import "_spinner";
+@import "fg_grid/fg_grid";
+@import "svg-icons";
+@import "perfundo";
+@import "spinner";
 
 // override defaults
 * {
