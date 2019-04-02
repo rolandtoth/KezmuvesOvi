@@ -9,7 +9,7 @@ Kedves Szülők!
 
 Tájékoztatjuk Önöket, hogy az április 8-ra tervezett nevelés nélküli munkanap időpontja megváltozott.
 
-**Új időpont: május 3. (péntek)**.
+**Új időpont: május 3. (péntek)**
 
 *Üdvözlettel:*<br>
 *Janecskó Mária*
