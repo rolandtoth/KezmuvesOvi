@@ -3,29 +3,42 @@ A date formatter filter for Nunjucks
 */
 module.exports = function (date, part) {
 
-  var d = (date === "now") ? new Date() : new Date(date);
+  const d = (date === "now") ? new Date() : new Date(date)
+
+  const months = [
+    "január",
+    "február",
+    "március",
+    "április",
+    "május",
+    "június",
+    "július",
+    "augusztus",
+    "szeptember",
+    "október",
+    "november",
+    "december"
+  ]
+
+  const days = [
+    "vasárnap",
+    "hétfő",
+    "kedd",
+    "szerda",
+    "csütörtök",
+    "péntek",
+    "szombat"
+  ]
 
   if (part === 'year') {
-    return d.getUTCFullYear();
+    return d.getUTCFullYear()
   } else if (part === 'timestamp') {
-    return Date.parse(date);
+    return Date.parse(date)
   } else if (part === 'toISOString') {
-    return new Date(date).toISOString();
+    return new Date(date).toISOString()
+  } else if (part === 'dateAndDay') {
+    return `${d.getUTCFullYear()}. ${months[d.getMonth()]} ${d.getDate()}. (${days[d.getDay()]})`
   } else {
-    var month = [
-      "január",
-      "február",
-      "március",
-      "április",
-      "május",
-      "június",
-      "július",
-      "augusztus",
-      "szeptember",
-      "október",
-      "november",
-      "december"
-    ];
-    return `${d.getUTCFullYear()}. ${month[d.getMonth()]} ${d.getDate()}.`;
+    return `${d.getUTCFullYear()}. ${months[d.getMonth()]} ${d.getDate()}.`
   }
-};
+}
