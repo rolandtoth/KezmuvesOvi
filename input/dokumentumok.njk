@@ -7,7 +7,7 @@ menuOrder: 500
 documents:
 - Házirend: 2013-hazirend.pdf
 - Intézményi tanfelügyeleti értékelés: 2017-intezmenyi-tanfelugyeleti-ertekeles.pdf
-- Különös közzétételi lista: 2018-kulonos-kozzeteteli-lista.pdf
+- Különös közzétételi lista: 2019-kulonos-kozzeteteli-lista.pdf
 - Pedagógiai program: 2018-pedagogiai-program.pdf
 - Szervezeti működési szabályzat: 2013-szervezeti-mukodesi-szabalyzat.pdf
 ---
@@ -17,10 +17,9 @@ documents:
 <ul class="documents no-bullets colorized-buttons">
 {% set cls = cycler(1,2,3,4,5,6) %}
 {% for doc in documents %}
-    {# {% set colorClass = "colorize-" + (loop.index | modulus(6)) %} #}
     {% for name, file in doc %}
         <li>
-            <a href="{{ (cfg.urls.documents + "/" + file) | url | buildTimestamp }}" class="button colorize-{{ cls.next() }}">{{ name }}</a>
+            <a href="{{ (cfg.urls.documents + "/" + file) | url | buildTimestamp }}" class="button colorize-{{ cls.next() }}" target="_blank">{{ name }}</a>
         </li>
     {% endfor %}
 {% endfor %}
