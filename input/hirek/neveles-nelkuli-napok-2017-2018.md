@@ -5,7 +5,7 @@ excerpt: Nevelés nélküli napok a 2017/2018-as tanévben
 date: "2017-10-05"
 ---
 
-## Kedves Szülők!
+### Kedves Szülők!
 
 A 2017/2018 tanévben a nevelés nélküli napok az alábbiak szerint lesznek:
 

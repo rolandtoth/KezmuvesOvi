@@ -5,7 +5,7 @@ excerpt: Óvodánk idei évi nyári zárva tartásának dátumai
 date: "2018-02-10"
 ---
 
-Kedves Szülők!
+### Kedves Szülők!
 
 Óvodánk nyári zárása **2018.07.09**-től **2018.08.10**-ig tart.
 

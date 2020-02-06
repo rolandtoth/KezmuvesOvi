@@ -145,7 +145,7 @@ body {
     padding: 2.25rem 0 1.5rem;
     background-image: url("#{$assets}/images/bluedyeing.png"),
     radial-gradient(#175bab,
-    #10478b);
+        #10478b);
     background-position: center top; // background-attachment: fixed;
     text-align: center;
     margin-bottom: 1rem;
@@ -356,8 +356,8 @@ body.home {
         >.container>div {
             @media ($desktop) {
                 @include _fg(2,
-                0,
-                0);
+                    0,
+                    0);
                 align-items: center;
             }
         }
@@ -527,15 +527,15 @@ section.news-list {
     >div {
         @media ($tablet) {
             @include _fg(2,
-            0,
-            0);
+                0,
+                0);
             justify-content: center;
         }
 
         @media ($desktop) {
             @include _fg(3,
-            0,
-            0);
+                0,
+                0);
         }
     }
 
@@ -623,6 +623,17 @@ body.hirek .main-content,
     }
 }
 
+.news-separator {
+    flex-basis: 100%;
+    user-select: none;
+    padding: 1rem 0 2rem;
+    font-size: 1.12rem;
+
+    @media($tablet) {
+        @include centeredTitle();
+    }
+}
+
 .bottom-fullwidth {
     @include clearfix;
     margin: 1rem 0 0.5rem;
@@ -660,21 +671,21 @@ body.hirek .main-content,
     .grid {
         justify-content: center;
         @include _fg(2,
-        0,
-        0.5rem);
+            0,
+            0.5rem);
         margin-top: -0.5rem !important;
         margin-bottom: -0.5rem !important;
 
         @media ($tablet) {
             @include _fg(4,
-            0,
-            0.5rem);
+                0,
+                0.5rem);
         }
 
         @media ($desktop) {
             @include _fg(5,
-            0,
-            0.5rem);
+                0,
+                0.5rem);
         }
 
         a {
@@ -942,14 +953,14 @@ section {
 .gallery {
     @include clearfix;
     @include _fg(2,
-    0,
-    0.5rem);
+        0,
+        0.5rem);
     justify-content: center;
 
     @media ($tablet) {
         @include _fg(3,
-        0,
-        0.5rem);
+            0,
+            0.5rem);
     }
 
     margin-top: -0.5rem;

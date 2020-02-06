@@ -5,7 +5,7 @@ excerpt: Óvodánk idei nyári zárva tartásának dátuma
 date: "2019-02-07"
 ---
 
-Kedves Szülők!
+### Kedves Szülők!
 
 Tájékoztatjuk Önöket, hogy az óvodánk nyári zárása 
 <br>

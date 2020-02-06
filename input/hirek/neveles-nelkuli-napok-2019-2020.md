@@ -5,7 +5,7 @@ excerpt: Nevelés nélküli napok a 2019/2020-as tanévben
 date: "2019-09-27"
 ---
 
-## Kedves Szülők!
+### Kedves Szülők!
 
 Tájékoztatjuk Önöket a 2019/2020 tanév nevelés nélküli napjairól, melyek az alábbiak:
 

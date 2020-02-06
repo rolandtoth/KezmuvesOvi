@@ -1,6 +1,8 @@
 <section class="news-list">
   <h2 class="hidden">Híreink</h2>
   <div>
+    {% set isNewsSeparatorAdded = false %}
+    {% set currentYear = ('now' | dateDisplay('year')) %}
     {% set isHomePage = (page.url === "/") %}
     {% set cls = cycler(1,2,3,4,5,6) %}
     {% set newsList = collections.news %}
@@ -8,6 +10,14 @@
       {% set newsList = collections.news.slice(0, cfg.newsDisplayLimit) %}
     {% endif %}
     {% for news in newsList %}
+
+      {% if not isNewsSeparatorAdded and (news.date | dateDisplay('year')) < currentYear %}
+        {% set isNewsSeparatorAdded = true %}
+        <p class="news-separator">
+          <strong>Korábbi hírek</strong>
+        </p>
+      {% endif %}
+
         <article>
             <h3 class="colorize-{{ cls.next() }}"><a href="{{ news.url | url }}">{{ cfg.newstypes[news.data.type] }}</a></h3>
             <p>

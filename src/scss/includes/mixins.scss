@@ -1,14 +1,32 @@
-@mixin highlightLines($size, $color) {
-    display: inline;
-    background: $color;
-    box-shadow: $size 0 0 $color, -$size 0 0 $color;
-}
-
 @mixin clearfix {
     &:after {
         content: "";
         display: table;
         clear: both;
+    }
+}
+
+@mixin centeredTitle($spacing: 1em, $lineWidth: 6em, $lineStyle: '1px solid #ccc') {
+    text-align: center;
+
+    &:before,
+    &:after {
+        content: "";
+        display: inline-block;
+        transform-origin: right;
+        font-family: Arial, sans-serif;
+        font-weight: normal;
+        font-size: 21px;
+        vertical-align: middle;
+        margin-right: $spacing;
+        width: $lineWidth;
+        border-bottom: unquote($lineStyle);
+    }
+
+    &:after {
+        transform-origin: left;
+        margin-left: $spacing;
+        margin-right: 0;
     }
 }
 

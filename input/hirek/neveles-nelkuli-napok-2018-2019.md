@@ -5,7 +5,7 @@ excerpt: Nevelés nélküli napok a 2018/2019-es tanévben
 date: "2018-10-09"
 ---
 
-## Kedves Szülők!
+### Kedves Szülők!
 
 A 2018/2019 tanévben a nevelés nélküli napok az alábbiak szerint lesznek:
 
