@@ -1,6 +1,6 @@
 ---
 title: Beiratkozás 2020/2021 (felhívás)
-type: notice
+type: enrollment-info
 excerpt: Felhívás a 2020/2021-es nevelési évre történő beiratkozásra
 date: "2020-04-02"
 ---
