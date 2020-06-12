@@ -146,7 +146,8 @@ body {
     background-image: url("#{$assets}/images/bluedyeing.png"),
     radial-gradient(#175bab,
         #10478b);
-    background-position: center top; // background-attachment: fixed;
+    background-position: center top;
+    background-attachment: fixed;
     text-align: center;
     margin-bottom: 1rem;
 
@@ -638,7 +639,8 @@ body.hirek .main-content,
     @include clearfix;
     margin: 1rem 0 0.5rem;
     background: $buttoncolor url("#{$assets}/images/bluedyeing-light.png");
-    background-position: center top; // background-attachment: fixed;
+    background-position: center top;
+    background-attachment: fixed;
     text-align: center;
 
     @media ($desktop) {
