@@ -456,6 +456,29 @@ body.home {
     }
 }
 
+.global-notification {
+    padding: 1rem 4rem;
+    text-align: center;
+    color: rgba(white, 0.84);
+    background: darken($darkcolor, 2%);
+
+    @media($desktop) {
+        background: rgba(darken($darkcolor, 3%), 0.33);
+        position: absolute;
+        left: 0;
+        right: 0;
+
+        +.title {
+            padding-top: 5.5rem;
+        }
+    }
+
+    p {
+        margin-bottom: 0;
+        font-size: 0.84rem;
+    }
+}
+
 section.news-list {
     h3 {
         display: inline-block;
