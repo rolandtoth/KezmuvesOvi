@@ -66,10 +66,11 @@ Mi jellemzi intézményünket?
 <div class="table-responsive">
     <table class="staff">
     {% for data in staff %}
+        {% set index = loop.index %}
         {% for group, names in data %}
             <tr>
                 <td>
-                    <strong>{{ loop.index }}</strong>
+                    <strong>{{ index }}</strong>
                 </td>
                 <td>
                     <strong>{{ group }}</strong>
