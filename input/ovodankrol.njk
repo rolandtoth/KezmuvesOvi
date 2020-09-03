@@ -69,6 +69,9 @@ Mi jellemzi intézményünket?
         {% for group, names in data %}
             <tr>
                 <td>
+                    <strong>{{ loop.index }}</strong>
+                </td>
+                <td>
                     <strong>{{ group }}</strong>
                 </td>
                 {% for name in names %}
