@@ -44,7 +44,7 @@ module.exports = function (eleventyConfig) {
     return collection
       .filter(function (item) {
         return (
-          item.fileSlug.substr(0,1) !== '.';
+          item.fileSlug.substr(0,1) !== '.'
         );
       })
       .getFilteredByTag("gallery")
