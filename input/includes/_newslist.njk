@@ -23,7 +23,7 @@
             <p>
               <a href="{{ news.url | url }}">{{ news.data.excerpt or news.data.title }}</a>
             </p>
-            <small class="date">{{ news.data.date | dateDisplay }}</small>
+            <small class="date">Közzétéve: {{ news.data.date | dateDisplay }}</small>
         </article>
     {% endfor %}
   </div>
