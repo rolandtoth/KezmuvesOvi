@@ -42,12 +42,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("galleries", function (collection) {
     return collection
+      .getFilteredByTag("gallery")
       .filter(function (item) {
         return (
           item.fileSlug.substr(0,1) !== '.'
         );
       })
-      .getFilteredByTag("gallery")
       .reverse();
   });
 
