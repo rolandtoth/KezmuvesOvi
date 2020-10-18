@@ -5,12 +5,16 @@ date: Last Modified
 tags: menu
 menuOrder: 500
 documents:
-- Házirend: 2018-hazirend.pdf
-- Házirendet kiegészítő működési és egészségügyi eljárások (Függelék): 2020-hazirendet-kiegeszito-mukodesi-es-egeszsegugyi-eljarasok-fuggelek.pdf
-- Intézményi tanfelügyeleti értékelés: 2017-intezmenyi-tanfelugyeleti-ertekeles.pdf
-- Különös közzétételi lista: 2019-kulonos-kozzeteteli-lista.pdf
-- Pedagógiai program: 2018-pedagogiai-program.pdf
-- Szervezeti működési szabályzat: 2020-szervezeti-mukodesi-szabalyzat.pdf
+- Házirend: https://drive.google.com/file/d/1GOqx-WnCDZERN6yHwxaqFSVlvMYIoOpC/view?usp=sharing
+- Házirendet kiegészítő működési és egészségügyi eljárások (Függelék): https://drive.google.com/file/d/17iVfAGBSPJuY3v0aMFhwSdBcVRyGKgqY/view?usp=sharing
+- Intézményi tanfelügyeleti értékelés: https://drive.google.com/file/d/1wJjKkaYs6LA40tCNCftkSQZqfo-vdZ5h/view?usp=sharing
+- Különös közzétételi lista: https://drive.google.com/file/d/1igSSw_9eQTMU6bd0NbU2hKgLw-LxITXA/view?usp=sharing
+- Pedagógiai program: https://drive.google.com/file/d/1J07vsmuYGD0JAGPxoRInih8TSaA4d4gL/view?usp=sharing
+- Szervezeti működési szabályzat: https://drive.google.com/file/d/1gOeOgQ0_YpL5BsGlmY6tnJhpe6EGiuqt/view?usp=sharing
+- Törökvész úti Kézműves Óvoda felvételi körzete: https://docs.google.com/document/d/1XqTvUTgEwp8Sns7_dAScFkc7L8rUpjnIjR2CjWFiLVs/edit?usp=sharing
+- Étkezés kedvezmény: https://docs.google.com/document/d/1z88SPMaF2HPqe2LJ1jnxUG-o7HySGThVaTGTfujnuvw/edit?usp=sharing
+- Az integráltan nevelhető sajátos nevelési igényű gyermekek óvodai felvételéről: https://docs.google.com/document/d/1RRhe76RO-3YA5eK3wbc6M8FpTdgOiRLDAJgHAjeohzs/edit?usp=sharing
+- Szándéknyilatkozat: https://docs.google.com/document/d/1iJF_tssUDL3vfFoFcvQ_w0OGWqUgTeBBRu2iUwtoGso/edit?usp=sharing
 ---
 {% extends 'layouts/@default.njk' %}
 
@@ -18,9 +22,9 @@ documents:
 <ul class="documents no-bullets colorized-buttons">
 {% set cls = cycler(1,2,3,4,5,6) %}
 {% for doc in documents %}
-    {% for name, file in doc %}
+    {% for name, url in doc %}
         <li>
-            <a href="{{ (cfg.urls.documents + "/" + file) | url | buildTimestamp }}" class="button colorize-{{ cls.next() }}" target="_blank">{{ name }}</a>
+            <a href="{{ url }}" class="button colorize-{{ cls.next() }}" target="_blank">{{ name }}</a>
         </li>
     {% endfor %}
 {% endfor %}
