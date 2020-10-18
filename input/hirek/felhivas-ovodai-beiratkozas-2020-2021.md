@@ -13,15 +13,13 @@ A nemzeti köznevelésről szóló 2011. CXC. törvény 8. § (2) bekezdése ala
 
 A II. kerületi önkormányzati óvodák elérhetősége (e-mail cím, vezető mobil száma), a körzete, az integráltan nevelhető sajátos nevelési igényű gyermekek nevelésére az alapító okiratuk szerint jogosult óvodák címe és a SZÁNDÉKNYILATKOZAT az alábbi linkeken érhetőek el.
 
-[A II. kerületi önkormányzati óvodák körzete (PDF)]({{ '/assets/documents/beiratkozas-2020/ovodai-korzetek.pdf' | url }})
+[A II. kerületi önkormányzati óvodák körzete](https://drive.google.com/file/d/1a7BbrGSTX3q-eh3sUCwT-0kA89w1jQAL/view?usp=sharing)
 
-[A II. kerületi önkormányzati óvodák elérhetősége (PDF)]({{ '/assets/documents/beiratkozas-2020/ovodak-elerhetosege.pdf' | url }})
+[A II. kerületi önkormányzati óvodák elérhetősége](https://drive.google.com/file/d/1tAq5kEM55PPTsc9Wvk353pVTf8OyWLzj/view?usp=sharing)
 
-[Az integráltan nevelhető sajátos nevelési igényű gyermekek nevelésére az alapító okiratuk szerint jogosult óvodák címe (PDF)]({{ '/assets/documents/beiratkozas-2020/az-integraltan-nevelheto-sajatos-nevelesi-igenyu-gyermekek-ovodai-felvetelerol.pdf' | url }})
+[Az integráltan nevelhető sajátos nevelési igényű gyermekek nevelésére az alapító okiratuk szerint jogosult óvodák címe](https://docs.google.com/document/d/1RRhe76RO-3YA5eK3wbc6M8FpTdgOiRLDAJgHAjeohzs/edit?usp=sharing)
 
-[SZÁNDÉKNYILATKOZAT (PDF)]({{ '/assets/documents/beiratkozas-2020/szandeknyilatkozat.pdf' | url }})
-
-[SZÁNDÉKNYILATKOZAT (Word)]({{ '/assets/documents/beiratkozas-2020/szandeknyilatkozat.docx' | url }})
+[Szándéknyilatkozat](https://docs.google.com/document/d/1iJF_tssUDL3vfFoFcvQ_w0OGWqUgTeBBRu2iUwtoGso/edit?usp=sharing)
 
 A Polgármesteri Hivatal Humánszolgáltatási Igazgatóság Intézményirányítási Osztályon az óvodai felvételekkel foglalkozó munkatársa: Rácz Edit 06 30 545 2132, e-mail cím: [racz.edit@masodikkerulet.hu](mailto:racz.edit@masodikkerulet.hu).
 
