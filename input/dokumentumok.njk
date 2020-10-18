@@ -19,12 +19,12 @@ documents:
 {% extends 'layouts/@default.njk' %}
 
 {% block main %}
-<ul class="documents no-bullets colorized-buttons">
+<ul class="documents no-bullets">
 {% set cls = cycler(1,2,3,4,5,6) %}
 {% for doc in documents %}
     {% for name, url in doc %}
         <li>
-            <a href="{{ url }}" class="button colorize-{{ cls.next() }}" target="_blank">{{ name }}</a>
+            <a href="{{ url }}" target="_blank">{{ name }}</a>
         </li>
     {% endfor %}
 {% endfor %}
