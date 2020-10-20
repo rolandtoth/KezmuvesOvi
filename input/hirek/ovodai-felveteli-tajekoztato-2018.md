@@ -7,4 +7,4 @@ date: "2018-04-10"
 
 Csatolva olvasható az óvodai felvételekről szóló tájékoztató.
 
-<a href="{{ (cfg.urls.documents + "/2018-tajekoztato-az-ovodai-felvetelekrol.pdf") | url | buildTimestamp }}" class="button">Tájékoztató megtekintése</a>
+[Tájékoztató megtekintése](https://drive.google.com/file/d/1io9OCa0s20iA6BFyn4YOElQNZiInJ-Gq/view?usp=sharing)
