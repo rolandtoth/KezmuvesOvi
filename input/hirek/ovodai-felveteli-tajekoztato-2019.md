@@ -7,6 +7,6 @@ date: "2019-04-08"
 
 Csatolva olvasható az óvodai felvételekről szóló tájékoztató és hirdetmény.
 
-<a href="{{ (cfg.urls.documents + "/2019-tajekoztato-az-ovodai-felvetelekrol.pdf") | url | buildTimestamp }}" class="button">Tájékoztató az óvodai felvételekről</a>
+[Tájékoztató az óvodai felvételekről](https://drive.google.com/file/d/19KsEJvIWmdCodqYIWEPx0chqd-6euAni/view?usp=sharing)
 
-<a href="{{ (cfg.urls.documents + "/2019-hirdetmeny-az-ovodai-felvetelekrol.pdf") | url | buildTimestamp }}" class="button">Hirdetmény az óvodai felvételekről</a>
+[Hirdetmény az óvodai felvételekről](https://drive.google.com/file/d/1IsqLZ3r7nzyTEBUmmlHbnz00Ee_F28tj/view?usp=sharing)
