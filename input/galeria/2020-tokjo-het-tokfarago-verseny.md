@@ -1,5 +1,5 @@
 ---
-title: \"Tökjó\" hét - tökfaragó verseny
+title: '"Tökjó" hét - tökfaragó verseny'
 date: "2020-11-10"
 src: https://photos.app.goo.gl/rcm2kkr1kVgPi7b48
 images:
