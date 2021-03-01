@@ -903,9 +903,8 @@ ul.documents {
 
         &-thumb {
             background: $linkcolor;
-            border: 6px solid transparent;
+            border: 8px solid transparent;
             background-clip: padding-box;
-            border-radius: 10px;
 
             &:hover {
                 // background: $linkcolor;
