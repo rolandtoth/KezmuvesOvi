@@ -893,8 +893,8 @@ ul.documents {
 
 @media ($tablet) {
     ::-webkit-scrollbar {
-        width: 0.5rem;
-        height: 0.5rem;
+        width: 20px;
+        height: 20px;
 
         &-track {
             background: transparent;
@@ -902,9 +902,26 @@ ul.documents {
 
         &-thumb {
             background: #10478b;
+            border: 8px solid transparent;
+            background-clip: padding-box;
 
             &:hover {
                 background: $linkcolor;
+                background-clip: padding-box;
+            }
+            
+            &:vertical {
+              &:hover {
+                border-left-width: 7px;
+                border-right-width: 7px;
+              }
+            }
+
+              &:horizontal {
+                &:hover {
+                  border-top-width: 7px;
+                  border-bottom-width: 7px;
+                }
             }
         }
     }
