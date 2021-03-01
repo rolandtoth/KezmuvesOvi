@@ -898,12 +898,12 @@ ul.documents {
         }
 
         &-thumb {
-            background: $linkcolor;
+            background: rgba(85, 120, 170, 0.5);
             border: 8px solid transparent;
             background-clip: padding-box;
 
             &:hover {
-                // background: $linkcolor;
+                background: rgba(85, 120, 170, 1);
                 background-clip: padding-box;
             }
             
