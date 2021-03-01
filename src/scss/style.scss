@@ -107,6 +107,7 @@ a {
 // styles
 html {
     overflow-x: hidden;
+    overflow-y: overlay;
     background: $bgcolor;
     height: 100%;
     font-size: 15px;
@@ -893,8 +894,8 @@ ul.documents {
 
 @media ($tablet) {
     ::-webkit-scrollbar {
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
 
         &-track {
             background: transparent;
@@ -904,6 +905,7 @@ ul.documents {
             background: #10478b;
             border: 8px solid transparent;
             background-clip: padding-box;
+            border-radius: 10px;
 
             &:hover {
                 background: $linkcolor;
