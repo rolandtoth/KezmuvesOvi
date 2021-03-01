@@ -902,13 +902,13 @@ ul.documents {
         }
 
         &-thumb {
-            background: lighten($basecolor, 30%);
-            border: 7px solid transparent;
+            background: $linkcolor;
+            border: 6px solid transparent;
             background-clip: padding-box;
             border-radius: 10px;
 
             &:hover {
-                background: $linkcolor;
+                // background: $linkcolor;
                 background-clip: padding-box;
             }
             
@@ -916,15 +916,15 @@ ul.documents {
               border-top-width: 4.25rem;
 
               &:hover {
-                border-left-width: 6px;
-                border-right-width: 6px;
+                //border-left-width: 6px;
+                //border-right-width: 6px;
               }
             }
 
               &:horizontal {
                 &:hover {
-                  border-top-width: 6px;
-                  border-bottom-width: 6px;
+                  //border-top-width: 6px;
+                  //border-bottom-width: 6px;
                 }
             }
         }
