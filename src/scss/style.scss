@@ -165,13 +165,12 @@ body {
 header {
     flex: 0 0 auto;
     position: relative;
-    position: sticky;
-    top: 0;
-    z-index: 33;
-    backface-visibility: hidden;
     
     @media ($desktop) {
+        position: sticky;
+        top: 0;
         background: white;
+        z-index: 33;
     }
 
     nav {
