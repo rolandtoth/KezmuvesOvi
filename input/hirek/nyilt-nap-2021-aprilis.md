@@ -1,5 +1,5 @@
 ---
-title: Nyílt nap márciusban
+title: Nyílt nap áprilisban
 type: open-day
 excerpt: Nyílt napot tartunk április 14-én.
 date: "2021-03-07"
