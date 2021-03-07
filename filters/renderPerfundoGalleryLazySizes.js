@@ -21,7 +21,7 @@ module.exports = function (imageList) {
 
             markup += `<div class="perfundo">
         <a class="perfundo__link" href="#${imgPrefix}${index+1}">
-            <img src="${thumb}" loading="lazy" width="`${cfg.gallery.thumb.width}`" height="`${cfg.gallery.thumb.height}`" alt=""/>
+            <img src="${thumb}" loading="lazy" width="${cfg.gallery.thumb.width}" height="${cfg.gallery.thumb.height}" alt=""/>
         </a>
         <div id="${imgPrefix}${index+1}" class="perfundo__overlay">
             <figure class="perfundo__content perfundo__figure">
