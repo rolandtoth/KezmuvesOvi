@@ -1,6 +1,6 @@
 ---
 title: Iskolai beíratás 2021/2022
-type: news
+type: notice
 excerpt: Felhívás a 2021/2022-es nevelési évre történő iskolai beíratásra
 date: "2021-03-17"
 ---
