@@ -1,7 +1,7 @@
 /*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
-  Content-Security-Policy: style-src 'unsafe-inline' 'self';img-src 'self' https://*.googleusercontent.com data:;frame-src 'self' https://*.youtube.com;base-uri 'none';object-src 'none';require-trusted-types-for 'script';trusted-types default;script-src;default-src 'self' blob:
+  Content-Security-Policy: style-src 'unsafe-inline' 'self';img-src 'self' https://*.googleusercontent.com https://*.ytimg.com data:;frame-src 'self' https://*.youtube.com;base-uri 'none';object-src 'none';require-trusted-types-for 'script';trusted-types default;script-src;default-src 'self' blob:
   X-Content-Type-Options: nosniff
   Permissions-Policy: accelerometer=(self), camera=(self), geolocation=(self), gyroscope=(self), magnetometer=(self), microphone=(self), payment=(self), usb=(self)
   Referrer-Policy: strict-origin-when-cross-origin
