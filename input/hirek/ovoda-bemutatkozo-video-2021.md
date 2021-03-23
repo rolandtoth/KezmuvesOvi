@@ -1,7 +1,6 @@
 ---
 title: Bemutatkozó videónk megtekinthető
 type: news
-excerpt: Bemutatkozó kisvideónk megtekinthető
 date: "2021-03-23"
 ---
 
