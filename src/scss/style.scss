@@ -899,18 +899,18 @@ ul.documents {
             &:vertical {
                 border-top-width: 70px;
 
-                &:hover {
-                    //border-left-width: 6px;
-                    //border-right-width: 6px;
-                }
+                // &:hover {
+                //border-left-width: 6px;
+                //border-right-width: 6px;
+                // }
             }
 
-            &:horizontal {
-                &:hover {
-                    //border-top-width: 6px;
-                    //border-bottom-width: 6px;
-                }
-            }
+            // &:horizontal {
+            // &:hover {
+            //border-top-width: 6px;
+            //border-bottom-width: 6px;
+            // }
+            // }
         }
     }
 }
