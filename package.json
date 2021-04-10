@@ -8,6 +8,7 @@
     "buildSite": "npx eleventy",
     "build:css": "node-sass --include-path src/scss/includes src/scss/style.scss | postcss --use autoprefixer -b \"last 2 versions\" --use cssnano --no-map > assets/styles/style.css",
     "build": "npm run build:css",
+    "dev": "npx eleventy --watch --serve",
     "watch:css": "onchange \"src/scss/*.scss\" -- npm run build:css",
     "watch": "parallelshell \"npm run watch:css\""
   },

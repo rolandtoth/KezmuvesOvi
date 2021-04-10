@@ -1,7 +1,7 @@
 // variables
-$base: "/";
-$assets: "#{$base}assets";
-$version: "?v=20190331";
+$base: '/';
+$assets: '#{$base}assets';
+$version: '?v=20190331';
 $bgcolor: #f3f6fa;
 $basecolor: #0b294e;
 $linkcolor: #2076df;
@@ -22,29 +22,29 @@ $_tablet: 640;
 $_desktop: 1020;
 $_hd: 1240;
 $_xhd: 1600;
-$mobile: "min-width: #{$_mobile}px";
-$tablet: "min-width: #{$_tablet}px";
-$desktop: "min-width: #{$_desktop}px";
-$hd: "min-width: #{$_hd}px";
-$xhd: "min-width: #{$_xhd}px";
-$max-mobile: "max-width: #{$_tablet - 1}px";
-$max-tablet: "max-width: #{$_desktop - 1}px";
-$max-desktop: "max-width: #{$_hd - 1}px";
-$max-hd: "max-width: #{$_xhd - 1}px";
+$mobile: 'min-width: #{$_mobile}px';
+$tablet: 'min-width: #{$_tablet}px';
+$desktop: 'min-width: #{$_desktop}px';
+$hd: 'min-width: #{$_hd}px';
+$xhd: 'min-width: #{$_xhd}px';
+$max-mobile: 'max-width: #{$_tablet - 1}px';
+$max-tablet: 'max-width: #{$_desktop - 1}px';
+$max-desktop: 'max-width: #{$_hd - 1}px';
+$max-hd: 'max-width: #{$_xhd - 1}px';
 $perfundo-control-use-icons: true;
 $perfundo-background-color: rgba(darken($darkcolor, 12%), 0.96);
 $perfundo-max-image-width: 960px;
 $perfundo-image-padding: 1rem;
 
 // imports
-@import "normalize";
-@import "mixins";
-@import "fonts/raleway";
-@import "fonts/yanone-kaffeesatz";
-@import "fg_grid/fg_grid";
-@import "svg-icons";
-@import "perfundo";
-@import "spinner";
+@import 'normalize';
+@import 'mixins';
+@import 'fonts/raleway';
+@import 'fonts/yanone-kaffeesatz';
+@import 'fg_grid/fg_grid';
+@import 'svg-icons';
+@import 'perfundo';
+@import 'spinner';
 
 // override defaults
 * {
@@ -122,7 +122,7 @@ html {
 }
 
 body {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.66;
     color: $basecolor;
     display: flex;
@@ -144,9 +144,8 @@ body {
 .title {
     @include clearfix;
     padding: 2.25rem 0 1.5rem;
-    background-image: url("#{$assets}/images/bluedyeing.png"),
-    radial-gradient(#175bab,
-        #10478b);
+    background-image: url('#{$assets}/images/bluedyeing.png'),
+        radial-gradient(#175bab, #10478b);
     background-position: center top;
     background-attachment: fixed;
     text-align: center;
@@ -166,7 +165,7 @@ body {
 header {
     flex: 0 0 auto;
     position: relative;
-    
+
     @media ($desktop) {
         position: sticky;
         top: 0;
@@ -210,7 +209,7 @@ header {
 
                     &::before {
                         $size: 1.16rem;
-                        content: "";
+                        content: '';
                         width: $size;
                         height: $size;
                         position: absolute;
@@ -218,8 +217,9 @@ header {
                         transform: translateY(-52%);
                         display: block;
                         background-image: url(colorizeSvg(
- "#{$svg_home}",
-                        #10478b));
+                            '#{$svg_home}',
+                            #10478b
+                        ));
                         background-repeat: no-repeat;
                         background-size: cover;
                     }
@@ -228,8 +228,9 @@ header {
                 &.active a::before,
                 a:hover::before {
                     background-image: url(colorizeSvg(
- "#{$svg_home}",
-                    $linkcolor));
+                        '#{$svg_home}',
+                        $linkcolor
+                    ));
                 }
             }
         }
@@ -286,7 +287,7 @@ header {
             border-bottom-color: $basecolor;
         }
 
-        tbody tr:nth-child(2n+1) td {
+        tbody tr:nth-child(2n + 1) td {
             background: rgba($basecolor, 0.033);
         }
 
@@ -304,7 +305,7 @@ header {
     }
 }
 
-[role="main"] {
+[role='main'] {
     body:not(.home) & {
         max-width: 49.875rem !important;
     }
@@ -330,7 +331,7 @@ header {
     ul,
     ol {
         &:not(.no-bullets) li::before {
-            content: "\2022";
+            content: '\2022';
             margin-right: 0.25rem;
         }
     }
@@ -363,11 +364,9 @@ body.home {
             padding-bottom: 3rem;
         }
 
-        >.container>div {
+        > .container > div {
             @media ($desktop) {
-                @include _fg(2,
-                    0,
-                    0);
+                @include _fg(2, 0, 0);
                 align-items: center;
             }
         }
@@ -396,7 +395,7 @@ body.home {
         @media ($desktop) {
             text-align: left;
 
-            >* {
+            > * {
                 max-width: 66%;
             }
         }
@@ -471,13 +470,13 @@ body.home {
     color: rgba(white, 0.84);
     background: darken($darkcolor, 2%);
 
-    @media($desktop) {
+    @media ($desktop) {
         background: rgba(darken($darkcolor, 3%), 0.33);
         position: absolute;
         left: 0;
         right: 0;
 
-        +.title {
+        + .title {
             padding-top: 5.5rem;
         }
     }
@@ -503,7 +502,7 @@ section.news-list {
 
         &::after {
             $size: 0.8rem;
-            content: "";
+            content: '';
             border: $size/2 solid transparent;
             border-top-color: $colorize1;
             position: absolute;
@@ -557,18 +556,14 @@ section.news-list {
         }
     }
 
-    >div {
+    > div {
         @media ($tablet) {
-            @include _fg(2,
-                0,
-                0);
+            @include _fg(2, 0, 0);
             justify-content: center;
         }
 
         @media ($desktop) {
-            @include _fg(3,
-                0,
-                0);
+            @include _fg(3, 0, 0);
         }
     }
 
@@ -618,7 +613,7 @@ section.news-list {
 
     &::before {
         $size: 16rem;
-        content: "";
+        content: '';
         display: block;
         width: $size;
         max-width: $size;
@@ -632,7 +627,7 @@ section.news-list {
 
     &::after {
         $size: 0.6rem;
-        content: "";
+        content: '';
         display: block;
         width: $size;
         height: $size;
@@ -662,7 +657,7 @@ body.hirek .main-content,
     padding: 1rem 0 2rem;
     font-size: 1.12rem;
 
-    @media($tablet) {
+    @media ($tablet) {
         @include centeredTitle();
     }
 }
@@ -670,7 +665,7 @@ body.hirek .main-content,
 .bottom-fullwidth {
     @include clearfix;
     margin: 1rem 0 0.5rem;
-    background: $buttoncolor url("#{$assets}/images/bluedyeing-light.png");
+    background: $buttoncolor url('#{$assets}/images/bluedyeing-light.png');
     background-position: center top;
     background-attachment: fixed;
     text-align: center;
@@ -688,7 +683,7 @@ body.hirek .main-content,
         background: white;
     }
 
-    >.container {
+    > .container {
         padding-top: 1.25rem;
         padding-bottom: 1.25rem;
 
@@ -704,22 +699,16 @@ body.hirek .main-content,
 
     .grid {
         justify-content: center;
-        @include _fg(2,
-            0,
-            0.5rem);
+        @include _fg(2, 0, 0.5rem);
         margin-top: -0.5rem !important;
         margin-bottom: -0.5rem !important;
 
         @media ($tablet) {
-            @include _fg(4,
-                0,
-                0.5rem);
+            @include _fg(4, 0, 0.5rem);
         }
 
         @media ($desktop) {
-            @include _fg(5,
-                0,
-                0.5rem);
+            @include _fg(5, 0, 0.5rem);
         }
 
         a {
@@ -756,7 +745,7 @@ footer {
 h1,
 h2,
 h3 {
-    font-family: "Yanone Kaffeesatz", sans-serif; // text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', sans-serif; // text-transform: uppercase;
     line-height: 1.25;
     font-weight: 400;
     margin: 1.75rem 0 1.25rem;
@@ -805,7 +794,7 @@ h4 {
     display: inline-block;
     border: none;
     background-color: $buttoncolor;
-    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     text-transform: uppercase;
     line-height: 1.25 !important;
     text-decoration: none;
@@ -853,7 +842,7 @@ h4 {
     background: $colorize6 !important;
 }
 
-[class*="colorize-"] {
+[class*='colorize-'] {
     color: white;
 
     &:hover {
@@ -872,7 +861,7 @@ ul.documents {
     .button {
         &::before {
             $size: 1.36rem;
-            content: "";
+            content: '';
             width: $size;
             height: $size;
             display: inline-block;
@@ -880,7 +869,7 @@ ul.documents {
             position: relative;
             top: -1px;
             left: -0.16rem;
-            background-image: url(colorizeSvg("#{$svg_document}", #fff));
+            background-image: url(colorizeSvg('#{$svg_document}', #fff));
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 2;
@@ -906,20 +895,20 @@ ul.documents {
                 background: rgba(85, 120, 170, 1);
                 background-clip: padding-box;
             }
-            
-            &:vertical {
-              border-top-width: 70px;
 
-              &:hover {
-                //border-left-width: 6px;
-                //border-right-width: 6px;
-              }
+            &:vertical {
+                border-top-width: 70px;
+
+                &:hover {
+                    //border-left-width: 6px;
+                    //border-right-width: 6px;
+                }
             }
 
-              &:horizontal {
+            &:horizontal {
                 &:hover {
-                  //border-top-width: 6px;
-                  //border-bottom-width: 6px;
+                    //border-top-width: 6px;
+                    //border-bottom-width: 6px;
                 }
             }
         }
@@ -956,7 +945,7 @@ section {
         text-decoration: none;
     }
 
-    >div {
+    > div {
         display: table;
 
         @media ($tablet) {
@@ -1001,15 +990,11 @@ section {
 
 .gallery {
     @include clearfix;
-    @include _fg(2,
-        0,
-        0.5rem);
+    @include _fg(2, 0, 0.5rem);
     justify-content: center;
 
     @media ($tablet) {
-        @include _fg(3,
-            0,
-            0.5rem);
+        @include _fg(3, 0, 0.5rem);
     }
 
     margin-top: -0.5rem;
@@ -1026,9 +1011,16 @@ section {
 }
 
 #menu-toggle {
-    @include hamburger($width: 21px, $thickness: 2px, $gap: 5px, $color: white, $padding: 1.25rem, $anim: 0);
+    @include hamburger(
+        $width: 21px,
+        $thickness: 2px,
+        $gap: 5px,
+        $color: white,
+        $padding: 1.25rem,
+        $anim: 0
+    );
 
-    +label {
+    + label {
         position: absolute;
         top: 0;
         right: 0;
@@ -1043,7 +1035,7 @@ section {
     &:checked {
         @include hamburger_tint(white);
 
-        ~header {
+        ~ header {
             ul {
                 display: block;
                 z-index: 8;
@@ -1086,21 +1078,21 @@ section {
         }
 
         &:not(.current) a {
-            background: url("#{$svg_angle_right}") center center no-repeat;
+            background: url('#{$svg_angle_right}') center center no-repeat;
             background-size: $size $size;
             text-indent: -9999px;
         }
 
         &.prev a {
-            background-image: url("#{$svg_angle_left}");
+            background-image: url('#{$svg_angle_left}');
         }
 
         &.first a {
-            background-image: url("#{$svg_angle_double_left}");
+            background-image: url('#{$svg_angle_double_left}');
         }
 
         &.last a {
-            background-image: url("#{$svg_angle_double_right}");
+            background-image: url('#{$svg_angle_double_right}');
         }
 
         &.disabled a {
@@ -1143,7 +1135,7 @@ section {
 }
 
 body.kapcsolat {
-    h2+p {
+    h2 + p {
         position: relative;
         top: -1rem;
     }
@@ -1158,7 +1150,6 @@ img.lazyload {
 }
 
 .perfundo {
-
     &:first-child() &__prev,
     &:last-child() &__next {
         display: none !important;
