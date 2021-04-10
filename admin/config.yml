@@ -1,0 +1,51 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+# Uncomment below to enable drafts
+# publish_mode: editorial_workflow
+
+local_backend: true
+
+media_folder: "static/img" # Media files will be stored in the repo under images/uploads
+
+collections:
+  - name: "hirek"
+    label: "Hír"
+    folder: "hirek"
+    slug: "{{slug}}"
+    create: true
+    widget: "list"
+    max: 20
+    sortable_fields: ["title", "date", "type"]
+    summary: "{{date}} - {{title}} - {{ type }}"
+    fields:
+      - { label: "Cím", name: title, widget: string }
+      - { label: "Bevezető", name: excerpt, widget: string, default: "" }
+      - { label: "Tartalom", name: "body", widget: "markdown" }
+      - label: "Típus"
+        name: "type"
+        widget: "select"
+        default: "news"
+        options:
+          - { label: "Hírek", value: "news" }
+          - { label: "Felhívás", value: "notice" }
+          - { label: "Galéria", value: "gallery" }
+          - { label: "Nyílt nap", value: "open-day" }
+          - { label: "Nyári zárás", value: "summer-closure" }
+          - { label: "Beiratkozási időpontok", value: "registration-dates" }
+          - { label: "Felvételi tájékoztató", value: "enrollment-info" }
+          - {
+              label: "Nevelés nélküli nap változás",
+              value: "day-without-education-change",
+            }
+          - { label: "Nevelés nélküli napok", value: "day-without-education" }
+      - {
+          label: "Dátum",
+          name: date,
+          widget: datetime,
+          date_format: "YYYY-MM-DD",
+          time_format: "HH:mm",
+          format: "LLL",
+          picker_utc: false,
+        }
