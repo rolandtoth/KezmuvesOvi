@@ -36,11 +36,11 @@ module.exports = function (eleventyConfig) {
             .getFilteredByTag('news')
             .filter(function (item) {
                 return (
-                    item.data.date.substr(0, 4) >= new Date().getFullYear() - 1
+                    item.data.date.getFullYear() >= new Date().getFullYear() - 1
                 );
             })
             .sort(function (a, b) {
-                return new Date(b.data.date) - new Date(a.data.date);
+                return(b.data.date - a.data.date);
             });
     });
 

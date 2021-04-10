@@ -3,7 +3,9 @@ A date formatter filter for Nunjucks
 */
 module.exports = function (date, part) {
 
-  const d = (date === "now") ? new Date() : new Date(date)
+  if (!(date instanceof Date)) {
+    date = (date === "now") ? new Date() : new Date(date)
+  }
 
   const months = [
     "január",
@@ -31,14 +33,14 @@ module.exports = function (date, part) {
   ]
 
   if (part === 'year') {
-    return d.getUTCFullYear()
+    return date.getUTCFullYear()
   } else if (part === 'timestamp') {
     return Date.parse(date)
   } else if (part === 'toISOString') {
     return new Date(date).toISOString()
   } else if (part === 'dateAndDay') {
-    return `${d.getUTCFullYear()}. ${months[d.getMonth()]} ${d.getDate()}. (${days[d.getDay()]})`
+    return `${date.getUTCFullYear()}. ${months[date.getMonth()]} ${date.getDate()}. (${days[date.getDay()]})`
   } else {
-    return `${d.getUTCFullYear()}. ${months[d.getMonth()]} ${d.getDate()}.`
+    return `${date.getUTCFullYear()}. ${months[date.getMonth()]} ${date.getDate()}.`
   }
 }

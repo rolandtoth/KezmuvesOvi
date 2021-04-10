@@ -2,7 +2,7 @@
 title: Nyílt nap áprilisban
 type: open-day
 excerpt: Nyílt napot tartunk április 14-én.
-date: "2021-03-07"
+date: 2021-03-07
 ---
 
 ### Kedves Szülők!

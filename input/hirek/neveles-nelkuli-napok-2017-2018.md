@@ -2,7 +2,7 @@
 title: Nevelés nélküli napok 2017-2018
 type: day-without-education
 excerpt: Nevelés nélküli napok a 2017/2018-as tanévben
-date: "2017-10-05"
+date: 2017-10-05
 ---
 
 ### Kedves Szülők!

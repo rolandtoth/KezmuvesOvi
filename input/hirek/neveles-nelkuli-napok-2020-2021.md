@@ -2,7 +2,7 @@
 title: Nevelés nélküli napok 2020/2021
 type: day-without-education
 excerpt: Nevelés nélküli napok a 2020/2021-es tanévben
-date: "2020-09-12"
+date: 2020-09-12
 ---
 
 ### Kedves Szülők!

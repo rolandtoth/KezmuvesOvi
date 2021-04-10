@@ -2,7 +2,7 @@
 title: Óvodai felvételi tájékoztató 2019/2020
 excerpt: Felvételi tájékoztató és hirdetmény a 2019/2020-as nevelési évre
 type: enrollment-info
-date: "2019-04-08"
+date: 2019-04-08
 ---
 
 Csatolva olvasható az óvodai felvételekről szóló tájékoztató és hirdetmény.

@@ -2,7 +2,7 @@
 title: Nevelés nélküli napok 2019-2020
 type: day-without-education
 excerpt: Nevelés nélküli napok a 2019/2020-as tanévben
-date: "2019-09-27"
+date: 2019-09-27
 ---
 
 ### Kedves Szülők!

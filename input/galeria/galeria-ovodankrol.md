@@ -1,6 +1,6 @@
 ---
 title: Óvodánkról
-date: "2020-10-17"
+date: 2020-10-17
 src: https://photos.app.goo.gl/v7FXGofk14Rod6qm9
 images:
 - https://lh3.googleusercontent.com/DrGS8tl6fGN1ez81ETw0526bqof8_LmSmE2BYrcbplMNiLOZBUkfaBMAX-P-WenAu_535HCimRF4VygRInchuZQ6E5wZmaJdFDltvJLjvRFColnM4G4IGfnICp6eab7Vt31SxI_rsw

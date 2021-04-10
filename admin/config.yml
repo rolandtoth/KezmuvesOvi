@@ -5,23 +5,29 @@ backend:
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
 
-local_backend: true
+# local_backend: true
 
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 
 collections:
   - name: "hirek"
     label: "Hír"
-    folder: "hirek"
+    folder: "input/hirek"
     slug: "{{slug}}"
     create: true
     widget: "list"
     max: 20
     sortable_fields: ["title", "date", "type"]
-    summary: "{{date}} - {{title}} - {{ type }}"
+    summary: "{{date}} - {{title}} - {{ type[0] }}"
     fields:
       - { label: "Cím", name: title, widget: string }
-      - { label: "Bevezető", name: excerpt, widget: string, default: "" }
+      - {
+          label: "Bevezető",
+          name: excerpt,
+          widget: string,
+          required: false,
+          hint: "(opcionális)",
+        }
       - { label: "Tartalom", name: "body", widget: "markdown" }
       - label: "Típus"
         name: "type"
@@ -45,7 +51,7 @@ collections:
           name: date,
           widget: datetime,
           date_format: "YYYY-MM-DD",
-          time_format: "HH:mm",
-          format: "LLL",
+          time_format: "",
+          format: "YYYY-MM-DD",
           picker_utc: false,
         }

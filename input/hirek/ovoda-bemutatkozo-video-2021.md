@@ -1,7 +1,7 @@
 ---
 title: Bemutatkozó videónk megtekinthető
 type: news
-date: "2021-03-23"
+date: 2021-03-23
 ---
 
 Elkészült az óvodánkat bemutató kisvideónk:

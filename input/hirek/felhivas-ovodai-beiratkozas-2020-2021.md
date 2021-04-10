@@ -2,7 +2,7 @@
 title: Beiratkozás 2020/2021 (felhívás)
 type: enrollment-info
 excerpt: Felhívás a 2020/2021-es nevelési évre történő beiratkozásra
-date: "2020-04-02"
+date: 2020-04-02
 ---
 
 A nemzeti köznevelésről szóló 2011. CXC. törvény 8. § (2) bekezdése alapján **minden gyermek abban az évben, amelynek augusztus 31. napjáig betölti a 3. életévét, a nevelési év kezdő napjától (2020. szeptember 1-jétől) legalább napi négyórás óvodai nevelésre kötelezett**. A rendelkezés célja, hogy gyermekeink érdekében a megfelelő életkorban kezdődhessen el közösségbe integrálásuk és felkészítésük a majdani iskolakezdésre.

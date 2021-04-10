@@ -1,6 +1,6 @@
 ---
 title: '"Tökjó" hét - tökfaragó verseny'
-date: "2020-11-10"
+date: 2020-11-10
 src: https://photos.app.goo.gl/rcm2kkr1kVgPi7b48
 images:
 - https://lh3.googleusercontent.com/M65QdFIFsrYjo69nUMwvE4MzMFEiSg7UOm0ZC4PvNnc0QdTsIIzHxEgeVUhUrKX5jbLdNV3bSQH13kkBzf1mQrJ7ugR4eNM90KUfp5WMjSYP0_fJrevkfm8mZgP2nJANcJSZGGP2CQ

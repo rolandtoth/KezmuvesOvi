@@ -2,7 +2,7 @@
 title: Nyílt nap februárban
 type: open-day
 excerpt: Nyílt napot tartunk február 22-én.
-date: "2018-01-25"
+date: 2018-01-25
 ---
 
 ### Kedves Szülők!

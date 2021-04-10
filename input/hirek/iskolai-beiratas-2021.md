@@ -2,7 +2,7 @@
 title: Iskolai beíratás 2021/2022
 type: notice
 excerpt: Felhívás a 2021/2022-es nevelési évre történő iskolai beíratásra
-date: "2021-03-17"
+date: 2021-03-17
 ---
 
 Az alábbi PDF fájlban olvasható a tankötelessé váló gyermekek iskolai beíratására szóló felhívás.

@@ -2,7 +2,7 @@
 title: Nyílt nap márciusban
 type: open-day
 excerpt: Nyílt napot tartunk március 4-én.
-date: "2020-02-06"
+date: 2020-02-06
 ---
 
 ### Kedves Szülők!

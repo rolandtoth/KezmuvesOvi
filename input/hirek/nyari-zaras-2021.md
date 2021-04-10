@@ -2,7 +2,7 @@
 title: Nyári zárás 2021
 type: summer-closure
 excerpt: Óvodánk idei nyári zárása
-date: "2021-02-25"
+date: 2021-02-25
 ---
 
 ### Kedves Szülők!

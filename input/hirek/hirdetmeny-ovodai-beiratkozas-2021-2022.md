@@ -2,7 +2,7 @@
 title: Beiratkozás 2021/2022 (hirdetmény)
 type: enrollment-info
 excerpt: Hirdetmény a 2021/2022-es óvodai beiratkozásra
-date: "2021-03-25"
+date: 2021-03-25
 ---
 
 Az alábbi dokumentumokban olvashatók a a 2021/2022-es nevelési évre vonatkozó óvodai beiratkozással kapcsolatos információk.
