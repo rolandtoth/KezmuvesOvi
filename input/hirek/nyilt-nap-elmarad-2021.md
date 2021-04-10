@@ -1,5 +1,5 @@
 ---
-title: Április 14-i nyílt nap elmarad
+title: Április 14-ei nyílt nap elmarad
 type: news
 date: 2021-04-09
 ---
