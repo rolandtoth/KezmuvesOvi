@@ -52,12 +52,14 @@
                 {% if excerpt %}
                     <div class="excerpt">{{ excerpt | safe }}</div>
                 {% endif %}
+                {% block topContent %}{% endblock %}
                 {% block main %}
                     {{ content | safe }}
                     {% if tags === "gallery" %}
                         {% include "_gallery.njk" %}
                     {% endif %}
                 {% endblock %}
+                {% block bottomContent %}{% endblock %}
             </div>
         </div>
         {% include "_bottom-fullwidth.njk" %}

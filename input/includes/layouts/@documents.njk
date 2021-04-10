@@ -1,0 +1,11 @@
+{% extends "./layouts/@default.njk" %}
+
+{% block bottomContent %}
+    <ul class="documents no-bullets">
+    {% for item in documents %}
+        <li>
+            <a href="{{ item.url }}">{{ item.documentName }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}

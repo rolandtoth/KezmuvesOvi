@@ -48,7 +48,7 @@ module.exports = function (eleventyConfig) {
         return collection
             .getFilteredByTag('gallery')
             .filter(function (item) {
-                return item.fileSlug.substr(0, 1) !== '.';
+                return item.data.active;
             })
             .reverse();
     });

@@ -1,0 +1,27 @@
+{% extends "./layouts/@default.njk" %}
+
+{% block topContent %}
+    {% include "_about.njk" %}
+{% endblock %}
+
+{% block bottomContent %}
+    <table class="staff">
+    {% for item in staff %}
+        {% set index = loop.index %}
+        <tr>
+            <td>
+                <strong>{{ index }}</strong>
+            </td>
+            <td>
+                <strong>{{ item.groupName }}</strong>
+            </td>
+            <td>
+                {{ item.staff_1 }}
+            <td>
+            <td>
+                {{ item.staff_2 }}
+            <td>
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock %}
