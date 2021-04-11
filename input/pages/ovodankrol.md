@@ -25,7 +25,6 @@ permalink: ovodankrol/
 date: Last Modified
 menuOrder: 200
 ---
-
 Az óvoda munkatársai bensőséges, családias légkörű óvoda megteremtésén fáradoznak, ami kedveltté teszi a szülők és gyerekek körében. Lehetőségeink figyelembevételével vállaljuk mozgásban akadályozott és látássérült gyermekek fogadását.
 
 <div style="text-align: center;">
@@ -40,13 +39,13 @@ Sajátos arculatunkat az óvoda külsőségekben is követi; csoportszobáink es
 
 ### Mi jellemzi intézményünket?
 
-- A gyermekek mindenek felett álló érdekeinek figyelembevétele
-- Szaktudás → humánum, emberséges légkör → jó közösség → csapatmunka
-- Gyermekszeretet → boldog óvodáskor biztosítása minden gyermeknek
-- A kor követelményeinek, a szülők magas szintű igényeinek megfelelő minőségi nevelés és oktatás
-- Megbízható, továbbépíthető tudás átadása (készségek, képességek megalapozása)
-- Programunk színvonalas megvalósítása
-- Nyitott óvoda, fogékony, nyitott pedagógusok
-- Sikeres pedagógiai munka → sikeres pedagógusok → sikeres óvoda
+* A gyermekek mindenek felett álló érdekeinek figyelembevétele
+* Szaktudás → humánum, emberséges légkör → jó közösség → csapatmunka
+* Gyermekszeretet → boldog óvodáskor biztosítása minden gyermeknek
+* A kor követelményeinek, a szülők magas szintű igényeinek megfelelő minőségi nevelés és oktatás
+* Megbízható, továbbépíthető tudás átadása (készségek, képességek megalapozása)
+* Programunk színvonalas megvalósítása
+* Nyitott óvoda, fogékony és nyitott pedagógusok
+* Sikeres pedagógiai munka → sikeres pedagógusok → sikeres óvoda
 
 ### Csoportbeosztás
