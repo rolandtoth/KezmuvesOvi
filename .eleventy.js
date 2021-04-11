@@ -19,6 +19,19 @@ module.exports = function (eleventyConfig) {
         );
     });
 
+    eleventyConfig.addShortcode("youtube", (youtubeId, width, aspectRatio, centered) => {
+        let ratioValues = aspectRatio.split("/");
+        let styles = [];
+
+        let height = width / parseInt(ratioValues[0], 10) * parseInt(ratioValues[1], 10);
+
+        if (centered) {
+            styles.push("margin: 0 auto");
+        }
+
+        return `<div class="aspect-ratio" style="--aspect-ratio: ${aspectRatio}"><iframe class="youtube-player video video--youtube" style="width:${width}px;height:${height}px;${styles.join(';')}" src="https://www.youtube.com/embed/${youtubeId}/" width="100%" height="100%" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>`;
+    });
+
     eleventyConfig.addPassthroughCopy('assets/');
     eleventyConfig.addPassthroughCopy('_headers');
     eleventyConfig.addPassthroughCopy('favicon.png');

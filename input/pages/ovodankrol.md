@@ -27,9 +27,7 @@ menuOrder: 200
 ---
 Az óvoda munkatársai bensőséges, családias légkörű óvoda megteremtésén fáradoznak, ami kedveltté teszi a szülők és gyerekek körében. Lehetőségeink figyelembevételével vállaljuk mozgásban akadályozott és látássérült gyermekek fogadását.
 
-<div style="text-align: center;">
-  <iframe style="max-width: 100%;" width="720" height="405" src="https://www.youtube.com/embed/1_kh_JK5Y6M" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+{% youtube "1_kh_JK5Y6M", 720, "16/9", "true" %}
 
 ### Hagyományőrzés és kézművesség
 
