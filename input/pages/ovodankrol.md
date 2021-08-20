@@ -9,18 +9,15 @@ staff:
   - groupName: Süni csoport
     staff_2: Ferenci Brigitta
     staff_1: Ajtai Lászlóné
-  - groupName: Pillangó csoport
-    staff_2: Zámbó Béláné
-    staff_1: Cséfalvay Márta
-  - groupName: Mókus csoport
-    staff_1: Molnár Márta
-    staff_2: Pióker Ildikó
   - groupName: Maci csoport
-    staff_1: Lampert Lászlóné
-    staff_2: Kandi Tünde
+    staff_1: Kiszely Orsolya
+    staff_2: Cséfalvay Márta
+  - groupName: Mókus csoport
+    staff_1: Pióker Ildikó
+    staff_2: Molnár Márta
   - groupName: Cica csoport
-    staff_1: Tamás Judit
-    staff_2: Bodnarik Julianna
+    staff_1: Bodnarik Julianna
+    staff_2: Tamás Judit
 permalink: ovodankrol/
 date: Last Modified
 menuOrder: 200
