@@ -12,7 +12,7 @@ documents:
   - documentName: Különös közzétételi lista
     url: https://drive.google.com/file/d/1Sx7wgVPczqz-C9zu7x8wjOo6S0noV7V9/view?usp=sharing
   - documentName: Pedagógiai program
-    url: https://drive.google.com/file/d/1J07vsmuYGD0JAGPxoRInih8TSaA4d4gL/view?usp=sharing
+    url: https://drive.google.com/file/d/17s-KC0okfuMPWvLMocMZoOUPdZnne5J5/view?usp=sharing
   - documentName: Szervezeti működési szabályzat
     url: https://drive.google.com/file/d/1gOeOgQ0_YpL5BsGlmY6tnJhpe6EGiuqt/view?usp=sharing
   - documentName: Törökvész úti Kézműves Óvoda felvételi körzete
