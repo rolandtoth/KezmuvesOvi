@@ -10,7 +10,7 @@ documents:
   - documentName: Intézményi tanfelügyeleti értékelés
     url: https://drive.google.com/file/d/1wJjKkaYs6LA40tCNCftkSQZqfo-vdZ5h/view?usp=sharing
   - documentName: Különös közzétételi lista
-    url: https://drive.google.com/file/d/1Sx7wgVPczqz-C9zu7x8wjOo6S0noV7V9/view?usp=sharing
+    url: https://drive.google.com/file/d/1uABx9yFufxWecYz8HfRhjx_x27PGfCVA/view?usp=sharing
   - documentName: Pedagógiai program
     url: https://drive.google.com/file/d/17s-KC0okfuMPWvLMocMZoOUPdZnne5J5/view?usp=sharing
   - documentName: Szervezeti működési szabályzat
