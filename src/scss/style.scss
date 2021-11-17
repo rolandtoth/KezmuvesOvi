@@ -242,7 +242,7 @@ header {
 
         &.active {
             a {
-                color: lighten($linkcolor, 20%);
+                background: opacity(black, 0.2);
             }
         }
     }
@@ -261,7 +261,7 @@ header {
         }
 
         &:hover {
-            color: lighten($linkcolor, 20%);
+            background: opacity(black, 0.2);
         }
     }
 }
