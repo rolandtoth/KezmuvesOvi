@@ -2,6 +2,7 @@
 tags: menu_DISABLED
 layout: layouts/@default.njk
 title: Alapítvány
+menuTitle: Alapítvány a Törökvész úti Óvoda Kismestereiért
 permalink: alapitvany/
 date: Last Modified
 menuOrder: 320
