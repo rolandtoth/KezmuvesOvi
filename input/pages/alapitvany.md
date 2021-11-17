@@ -40,6 +40,8 @@ Az alapítvány **alapadatai**:
 - Statisztikai számjel: 19311360-8891-569-13
 - Bankszámlaszám: _feltöltés alatt_
 
+### Az alapítvány képviselője
+
 Az alapítvány **képviselője**: Ajtai Lászlóné
 
 Elérhetősége: alapitvany@kezmuvesovi.hu
@@ -50,4 +52,4 @@ Az alapítvány hatályos adatai lekérdezhetők itt:
 
 [https://birosag.hu/civil-szervezetek-nevjegyzeke](https://birosag.hu/civil-szervezetek-nevjegyzeke)
 
-Az alapítvány óvodánk működését segíti, ezt jelentős részben az Önök támogatása teszi lehetővé!
+**Az alapítvány óvodánk működését segíti, ezt jelentős részben az Önök támogatása teszi lehetővé!**
