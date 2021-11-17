@@ -172,7 +172,6 @@ header {
     @media ($desktop) {
         position: sticky;
         top: 0;
-        background: white;
         z-index: 33;
     }
 
@@ -220,7 +219,7 @@ header {
                         display: block;
                         background-image: url(colorizeSvg(
                             '#{$svg_home}',
-                            #10478b
+                            white
                         ));
                         background-repeat: no-repeat;
                         background-size: cover;
@@ -231,7 +230,7 @@ header {
                 a:hover::before {
                     background-image: url(colorizeSvg(
                         '#{$svg_home}',
-                        $linkcolor
+                        lighten($linkcolor, 20%)
                     ));
                 }
             }
