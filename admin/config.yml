@@ -83,6 +83,21 @@ collections:
           - { label: Tartalom, name: body, widget: markdown }
           - { label: Permalink, name: permalink, widget: string }
           - { label: Menü sorrend, name: menuOrder, widget: number }
+	  - label: "Alapítvány"
+        name: "alapitvany"
+        file: "input/pages/alapitvany.md"
+        fields:
+          - { label: "Tags", name: "tags", widget: "hidden", default: "menu" }
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "layouts/@page.njk",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Tartalom, name: body, widget: markdown }
+          - { label: Permalink, name: permalink, widget: string }
+          - { label: Menü sorrend, name: menuOrder, widget: number }
       - label: "Kapcsolat"
         name: "kapcsolat"
         file: "input/pages/kapcsolat.md"
