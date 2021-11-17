@@ -83,7 +83,7 @@ collections:
           - { label: Tartalom, name: body, widget: markdown }
           - { label: Permalink, name: permalink, widget: string }
           - { label: Menü sorrend, name: menuOrder, widget: number }
-	  - label: "Alapítvány"
+      - label: "Alapítvány"
         name: "alapitvany"
         file: "input/pages/alapitvany.md"
         fields:
