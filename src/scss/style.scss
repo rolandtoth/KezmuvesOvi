@@ -148,8 +148,12 @@ body {
     margin-bottom: 1rem;
 
     @media ($desktop) {
-        padding: 4.5rem 0 3rem;
+        padding: 3rem 0;
         margin-bottom: 2rem;
+        
+        body.home & {
+            padding-top: 4.5rem;
+        }
     }
 }
 
