@@ -32,8 +32,6 @@ Az alapítvány **tevékenységei** különösen:
 
 ### Az alapítvány alapadatai
 
-Az alapítvány **alapadatai**:
-
 - Székhely: 2089 Telki, Sármány utca 30/b
 - Adószám: 19311360-1-13
 - Nyilvántartási szám: 13-01-0004217
