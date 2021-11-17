@@ -1,5 +1,5 @@
 ---
-tags: menu_DISABLED
+tags: menu
 layout: layouts/@default.njk
 title: Alapítvány a Törökvész úti Óvoda Kismestereiért
 menuTitle: Alapítvány
