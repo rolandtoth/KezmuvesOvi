@@ -242,7 +242,7 @@ header {
 
         &.active {
             a {
-                background: opacity(black, 0.2);
+                background: rgba(black, 0.2);
             }
         }
     }
@@ -261,7 +261,7 @@ header {
         }
 
         &:hover {
-            background: opacity(black, 0.2);
+            background: rgba(black, 0.2);
         }
     }
 }
