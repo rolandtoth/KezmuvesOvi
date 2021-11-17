@@ -36,7 +36,7 @@ Az alapítvány **tevékenységei** különösen:
 - Adószám: 19311360-1-13
 - Nyilvántartási szám: 13-01-0004217
 - Statisztikai számjel: 19311360-8891-569-13
-- Bankszámlaszám: _feltöltés alatt_
+- Bankszámlaszám: 11702067-21457421
 
 ### Az alapítvány képviselője
 
