@@ -238,7 +238,7 @@ header {
 
         &.active {
             a {
-                color: $linkcolor; //         font-weight: 600;
+                color: lighten($linkcolor, 20%);
             }
         }
     }
