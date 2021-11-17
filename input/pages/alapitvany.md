@@ -6,7 +6,7 @@ permalink: alapitvany/
 date: Last Modified
 menuOrder: 320
 ---
-<div class="text-left">
+
 Az óvoda szakmai munkájának segítése, támogatása érdekében 2021 őszétől működik az **Alapítvány a Törökvész úti Óvoda Kismestereiért** elnevezésű nonprofit szervezet. A kuratórium tagjai az óvoda munkavállalói, valamint az ide járó gyerekek szülei közül kerültek ki.
 
 Az alapítvány **célja** az óvoda "gyermekeinek magas szinten megvalósuló nevelése érdekében az intézmény tárgyi feltételeinek bővítése, a pedagógusok részére szakmai továbbképzések támogatása, a kézműves és hagyományápoló tevékenységhez eszközbeszerzés, játékvásárlás segítése, valamint a kulturális és sportfoglalkozásokon, műhelymunkákon, kirándulásokon való részvételhez forrás biztosítása." (részlet az Alapító Okiratból)
@@ -43,4 +43,3 @@ Az alapítvány hatályos adatai lekérdezhetők itt:
 [https://birosag.hu/civil-szervezetek-nevjegyzeke](https://birosag.hu/civil-szervezetek-nevjegyzeke)
 
 Az alapítvány óvodánk működését segíti, ezt jelentős részben az Önök támogatása teszi lehetővé!
-</div>
