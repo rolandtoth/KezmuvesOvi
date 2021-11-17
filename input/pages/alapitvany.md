@@ -6,6 +6,7 @@ permalink: alapitvany/
 date: Last Modified
 menuOrder: 320
 ---
+<div class="text-left">
 Az óvoda szakmai munkájának segítése, támogatása érdekében 2021 őszétől működik az **Alapítvány a Törökvész úti Óvoda Kismestereiért** elnevezésű nonprofit szervezet. A kuratórium tagjai az óvoda munkavállalói, valamint az ide járó gyerekek szülei közül kerültek ki.
 
 Az alapítvány **célja** az óvoda "gyermekeinek magas szinten megvalósuló nevelése érdekében az intézmény tárgyi feltételeinek bővítése, a pedagógusok részére szakmai továbbképzések támogatása, a kézműves és hagyományápoló tevékenységhez eszközbeszerzés, játékvásárlás segítése, valamint a kulturális és sportfoglalkozásokon, műhelymunkákon, kirándulásokon való részvételhez forrás biztosítása." (részlet az Alapító Okiratból)
@@ -24,7 +25,7 @@ Az alapítvány **tevékenységei** különösen:
 - Tehetséggondozás, felzárkóztatás segítése.
 - Az óvoda működését segítő egyéb tevékenységek.
 
-Az alapítvány alapadatai:
+Az alapítvány **alapadatai**:
 
 - Székhely: 2089 Telki, Sármány utca 30/b
 - Adószám:19311360-1-13
@@ -32,7 +33,7 @@ Az alapítvány alapadatai:
 - Statisztikai számjel: 19311360-8891-569-13
 - Bankszámlaszám: _feltöltés alatt_
 
-Az alapítvány képviselője: Ajtai Lászlóné
+Az alapítvány **képviselője**: Ajtai Lászlóné
 Elérhetősége: alapitvany@kezmuvesovi.hu
 
 Az alapítvány munkája iránt érdeklődők a képviselőhöz fordulhatnak. 
@@ -42,3 +43,4 @@ Az alapítvány hatályos adatai lekérdezhetők itt:
 [https://birosag.hu/civil-szervezetek-nevjegyzeke](https://birosag.hu/civil-szervezetek-nevjegyzeke)
 
 Az alapítvány óvodánk működését segíti, ezt jelentős részben az Önök támogatása teszi lehetővé!
+</div>
