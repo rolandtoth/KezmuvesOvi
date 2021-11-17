@@ -261,7 +261,8 @@ header {
         }
 
         &:hover {
-            background: rgba(black, 0.2);
+            text-decoration: underline;
+            text-decoration-color: rgba(white, 0.5);
         }
     }
 }
