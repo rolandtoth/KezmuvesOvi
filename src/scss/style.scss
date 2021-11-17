@@ -235,7 +235,7 @@ header {
                 a:hover::before {
                     background-image: url(colorizeSvg(
                         '#{$svg_home}',
-                        lighten($linkcolor, 20%)
+                        white
                     ));
                 }
             }
