@@ -159,8 +159,8 @@ body {
 
 .title,
 header {
-    background-image: url('#{$assets}/images/bluedyeing.png');
-    background-color: #10478b;
+    background-image: url('#{$assets}/images/bluedyeing.png'),
+        radial-gradient(#175bab, #10478b);
     background-position: center top;
     background-attachment: fixed;
 }
