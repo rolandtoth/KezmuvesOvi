@@ -211,6 +211,7 @@ header {
                     text-indent: -9999px;
                     padding-right: 1.5rem;
                     padding-left: 0.4rem;
+                    background-color: transparent !important;
 
                     &::before {
                         $size: 1.16rem;
