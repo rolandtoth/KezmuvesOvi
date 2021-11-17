@@ -1,5 +1,5 @@
 ---
-tags: menu
+tags: menuDISABLED
 layout: layouts/@default.njk
 title: Alapítvány a Törökvész úti Óvoda Kismestereiért
 menuTitle: Alapítvány
@@ -41,6 +41,7 @@ Az alapítvány **alapadatai**:
 - Bankszámlaszám: _feltöltés alatt_
 
 Az alapítvány **képviselője**: Ajtai Lászlóné
+
 Elérhetősége: alapitvany@kezmuvesovi.hu
 
 Az alapítvány munkája iránt érdeklődők a képviselőhöz fordulhatnak. 
