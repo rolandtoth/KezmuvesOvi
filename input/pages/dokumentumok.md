@@ -14,7 +14,7 @@ documents:
   - documentName: Pedagógiai program
     url: https://drive.google.com/file/d/17s-KC0okfuMPWvLMocMZoOUPdZnne5J5/view?usp=sharing
   - documentName: Szervezeti működési szabályzat
-    url: https://drive.google.com/file/d/1gOeOgQ0_YpL5BsGlmY6tnJhpe6EGiuqt/view?usp=sharing
+    url: https://drive.google.com/file/d/18Dnh0RyPyer9_dtscZwWyj4DnqRST2LE/view?usp=sharing
   - documentName: Törökvész úti Kézműves Óvoda felvételi körzete
     url: https://docs.google.com/document/d/1XqTvUTgEwp8Sns7_dAScFkc7L8rUpjnIjR2CjWFiLVs/edit?usp=sharing
   - documentName: Étkezés kedvezmény
