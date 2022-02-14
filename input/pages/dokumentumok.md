@@ -5,8 +5,9 @@ title: Dokumentumok
 documents:
   - documentName: Házirend
     url: https://drive.google.com/file/d/1GOqx-WnCDZERN6yHwxaqFSVlvMYIoOpC/view?usp=sharing
-  - documentName: Házirendet kiegészítő működési és egészségügyi eljárások (Függelék)
-    url: https://drive.google.com/file/d/17iVfAGBSPJuY3v0aMFhwSdBcVRyGKgqY/view?usp=sharing
+  - documentName: Intézményi protokoll a 2021/2022. nevelési évben a járványügyi
+      készenlét idején alkalmazandó eljárásrendről
+    url: https://drive.google.com/file/d/1wSFinZTReFuhCjEhx3W0_NlnQzGwb7xc/view?usp=sharing
   - documentName: Intézményi tanfelügyeleti értékelés
     url: https://drive.google.com/file/d/1wJjKkaYs6LA40tCNCftkSQZqfo-vdZ5h/view?usp=sharing
   - documentName: Különös közzétételi lista
