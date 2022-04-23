@@ -27,7 +27,7 @@ documents:
   - documentName: Hirdetmény melléklete az integráltan nevelhető sajátos nevelési
       igényű gyermekek óvodai felvételéről
     url: https://drive.google.com/file/d/1bBWXvZieN51JOkFRicuR4yZaO2oM4rHi/view?usp=sharing
-  - documentName: Étkezés kedvezmény
+  - documentName: Étkezési kedvezmény
     url: https://docs.google.com/document/d/1z88SPMaF2HPqe2LJ1jnxUG-o7HySGThVaTGTfujnuvw/edit?usp=sharing
   - documentName: Budapest Főváros II. Kerületi Önkormányzat tájékoztató az óvodai
       felvételekről
