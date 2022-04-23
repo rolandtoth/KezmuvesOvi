@@ -16,15 +16,17 @@ documents:
     url: https://drive.google.com/file/d/17s-KC0okfuMPWvLMocMZoOUPdZnne5J5/view?usp=sharing
   - documentName: Szervezeti működési szabályzat
     url: https://drive.google.com/file/d/18Dnh0RyPyer9_dtscZwWyj4DnqRST2LE/view?usp=sharing
-  - documentName: Törökvész úti Kézműves Óvoda felvételi körzete
-    url: https://docs.google.com/document/d/1XqTvUTgEwp8Sns7_dAScFkc7L8rUpjnIjR2CjWFiLVs/edit?usp=sharing
+  - documentName: Szándéknyilatkozat óvodai felvételre
+    url: https://drive.google.com/file/d/10nkYBM6KeYDQzMCgopnzVGhFXy0jJWHJ/view
+  - documentName: Óvodai felvételi körzetek
+    url: https://drive.google.com/file/d/18T4vOnOgzC7ARln7G0-o5JZFWKYzU9Mm/view?usp=sharing
+  - documentName: II. kerületi óvodák elérhetősége
+    url: https://drive.google.com/file/d/140tuw0gN7PRZHiZewWN174yHKuIZpfve/view?usp=sharing
   - documentName: Étkezés kedvezmény
     url: https://docs.google.com/document/d/1z88SPMaF2HPqe2LJ1jnxUG-o7HySGThVaTGTfujnuvw/edit?usp=sharing
   - documentName: Az integráltan nevelhető sajátos nevelési igényű gyermekek óvodai
       felvételéről
     url: https://docs.google.com/document/d/1RRhe76RO-3YA5eK3wbc6M8FpTdgOiRLDAJgHAjeohzs/edit?usp=sharing
-  - documentName: Szándéknyilatkozat óvodai felvételre
-    url: https://drive.google.com/file/d/10nkYBM6KeYDQzMCgopnzVGhFXy0jJWHJ/view
   - documentName: Tájékoztató a 2021/2022. gondozási és nevelési évre történő jelentkezésről
     url: https://drive.google.com/file/d/1RibxalraWvcAWRI-KYBM98SmlZdz_kZU/view?usp=sharing
 permalink: dokumentumok/
