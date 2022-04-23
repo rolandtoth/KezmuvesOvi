@@ -24,7 +24,7 @@ documents:
       felvételéről
     url: https://docs.google.com/document/d/1RRhe76RO-3YA5eK3wbc6M8FpTdgOiRLDAJgHAjeohzs/edit?usp=sharing
   - documentName: Szándéknyilatkozat óvodai felvételre
-    url: https://drive.google.com/file/d/1gPWkqbIyYhm5G1SfCkqot0hM8NGtxyy4/view?usp=sharing
+    url: https://drive.google.com/file/d/10nkYBM6KeYDQzMCgopnzVGhFXy0jJWHJ/view
   - documentName: Tájékoztató a 2021/2022. gondozási és nevelési évre történő jelentkezésről
     url: https://drive.google.com/file/d/1RibxalraWvcAWRI-KYBM98SmlZdz_kZU/view?usp=sharing
 permalink: dokumentumok/
