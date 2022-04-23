@@ -22,11 +22,13 @@ documents:
     url: https://drive.google.com/file/d/18T4vOnOgzC7ARln7G0-o5JZFWKYzU9Mm/view?usp=sharing
   - documentName: II. kerületi óvodák elérhetősége
     url: https://drive.google.com/file/d/140tuw0gN7PRZHiZewWN174yHKuIZpfve/view?usp=sharing
+  - documentName: Hirdetmény az óvodai felvételekről
+    url: https://drive.google.com/file/d/18xQFM-A7jhciUqUqhIearFvLMSf9Ez0L/view?usp=sharing
+  - documentName: Hirdetmény melléklete az integráltan nevelhető sajátos nevelési
+      igényű gyermekek óvodai felvételéről
+    url: https://drive.google.com/file/d/1bBWXvZieN51JOkFRicuR4yZaO2oM4rHi/view?usp=sharing
   - documentName: Étkezés kedvezmény
     url: https://docs.google.com/document/d/1z88SPMaF2HPqe2LJ1jnxUG-o7HySGThVaTGTfujnuvw/edit?usp=sharing
-  - documentName: Az integráltan nevelhető sajátos nevelési igényű gyermekek óvodai
-      felvételéről
-    url: https://docs.google.com/document/d/1RRhe76RO-3YA5eK3wbc6M8FpTdgOiRLDAJgHAjeohzs/edit?usp=sharing
   - documentName: Tájékoztató a 2021/2022. gondozási és nevelési évre történő jelentkezésről
     url: https://drive.google.com/file/d/1RibxalraWvcAWRI-KYBM98SmlZdz_kZU/view?usp=sharing
 permalink: dokumentumok/
