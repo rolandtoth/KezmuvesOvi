@@ -1,7 +1,7 @@
 // variables
 $base: '/';
 $assets: '#{$base}assets';
-$version: '?v=20190331';
+$version: '?v=20220423';
 $bgcolor: #f3f6fa;
 $basecolor: #0b294e;
 $linkcolor: #2076df;
@@ -769,7 +769,7 @@ h1 {
     font-weight: 400;
 
     @media ($desktop) {
-        font-size: 2.7rem;
+        font-size: 3.33rem;
     }
 }
 
