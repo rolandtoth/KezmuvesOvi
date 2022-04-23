@@ -4,6 +4,6 @@ $assets: "" !default;
     font-family: 'Yanone Kaffeesatz';
     font-style: normal;
     font-weight: 400;
-    // font-display: swap;
+    font-display: swap;
     src: url('#{$assets}/fonts/yanone-kaffeesatz/yanone-kaffeesatz-400.woff') format('woff');
 }
