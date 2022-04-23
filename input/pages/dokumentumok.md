@@ -29,8 +29,9 @@ documents:
     url: https://drive.google.com/file/d/1bBWXvZieN51JOkFRicuR4yZaO2oM4rHi/view?usp=sharing
   - documentName: Étkezés kedvezmény
     url: https://docs.google.com/document/d/1z88SPMaF2HPqe2LJ1jnxUG-o7HySGThVaTGTfujnuvw/edit?usp=sharing
-  - documentName: Tájékoztató a 2021/2022. gondozási és nevelési évre történő jelentkezésről
-    url: https://drive.google.com/file/d/1RibxalraWvcAWRI-KYBM98SmlZdz_kZU/view?usp=sharing
+  - documentName: Budapest Főváros II. Kerületi Önkormányzat tájékoztató az óvodai
+      felvételekről
+    url: https://drive.google.com/file/d/1C4L0oi6rumDsqy0_HLD9ru47vS46_RUb/view?usp=sharing
 permalink: dokumentumok/
 date: Last Modified
 menuOrder: 500
