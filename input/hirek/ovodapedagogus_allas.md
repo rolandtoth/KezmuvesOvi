@@ -13,4 +13,4 @@ Amit nyújtunk:
 * lelkes csapat
 * jó hangulat
 
-![](/assets/allashirdetes-20220429.jpg)
+![](/assets/images/allashirdetes-20220429.jpg)
