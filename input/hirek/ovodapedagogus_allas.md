@@ -3,7 +3,9 @@ title: Óvodapedagógus állás
 type: vacancy
 date: 2022-04-29
 ---
-A Törökvész úti Kézműves Óvoda óvodapedagógus állást hirdet: Várjuk csapatunkba gyermekszerető, agilis, óvodapedagógus végzettséggel rendelkező leendő kollégánkat!
+A Törökvész úti Kézműves Óvoda óvodapedagógus állást hirdet:
+
+**Várjuk csapatunkba gyermekszerető, agilis, óvodapedagógus végzettséggel rendelkező leendő kollégánkat!**
 
 Gyakornokokat is szívesen látunk!
 
