@@ -139,6 +139,7 @@ collections:
           - { label: "Nyári zárás", value: "summer-closure" }
           - { label: "Beiratkozási időpontok", value: "registration-dates" }
           - { label: "Felvételi tájékoztató", value: "enrollment-info" }
+          - { label: "Álláshirdetés", value: "vacancy" }
           - {
               label: "Nevelés nélküli nap változás",
               value: "day-without-education-change",
