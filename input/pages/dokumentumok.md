@@ -11,9 +11,6 @@ documents:
   - url: https://drive.google.com/file/d/1x7QBb3EBKg_iFkBJasfPx3wWZXerrGFj/view?usp=sharing
     documentName: "2. számú függelék: A 2020/2021. nevelési évben a járványügyi
       készenlét idején alkalmazandó eljárásrendről"
-  - documentName: Intézményi protokoll a 2021/2022. nevelési évben a járványügyi
-      készenlét idején alkalmazandó eljárásrendről
-    url: https://drive.google.com/file/d/1wSFinZTReFuhCjEhx3W0_NlnQzGwb7xc/view?usp=sharing
   - documentName: Intézményi tanfelügyeleti értékelés
     url: https://drive.google.com/file/d/1wJjKkaYs6LA40tCNCftkSQZqfo-vdZ5h/view?usp=sharing
   - documentName: Különös közzétételi lista
