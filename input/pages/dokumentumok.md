@@ -4,7 +4,13 @@ layout: layouts/@documents.njk
 title: Dokumentumok
 documents:
   - documentName: Házirend
-    url: https://drive.google.com/file/d/1GOqx-WnCDZERN6yHwxaqFSVlvMYIoOpC/view?usp=sharing
+    url: https://drive.google.com/file/d/1T5zCll1EgYm0KADnWbcAP8akVy6B3Aqz/view?usp=sharing
+  - url: https://drive.google.com/file/d/1x7QBb3EBKg_iFkBJasfPx3wWZXerrGFj/view?usp=sharing
+    documentName: "1. számú függelék: Házirendet kiegészítő működési és egészségügyi
+      eljárások pandémiás járványhelyzetben"
+  - url: https://drive.google.com/file/d/1x7QBb3EBKg_iFkBJasfPx3wWZXerrGFj/view?usp=sharing
+    documentName: "2. számú függelék: A 2020/2021. nevelési évben a járványügyi
+      készenlét idején alkalmazandó eljárásrendről"
   - documentName: Intézményi protokoll a 2021/2022. nevelési évben a járványügyi
       készenlét idején alkalmazandó eljárásrendről
     url: https://drive.google.com/file/d/1wSFinZTReFuhCjEhx3W0_NlnQzGwb7xc/view?usp=sharing
