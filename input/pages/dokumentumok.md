@@ -4,7 +4,7 @@ layout: layouts/@documents.njk
 title: Dokumentumok
 documents:
   - documentName: Házirend
-    url: https://drive.google.com/file/d/1h1j34PgC3OmkiVHuUtezan1g1rhfvYuR/view?usp=sharing
+    url: https://drive.google.com/file/d/1rgWbltYUF9OTrN2kr30MOz_EiD-w4y4O/view?usp=sharing
   - url: https://drive.google.com/file/d/1x7QBb3EBKg_iFkBJasfPx3wWZXerrGFj/view?usp=sharing
     documentName: "1. számú függelék: Házirendet kiegészítő működési és egészségügyi
       eljárások pandémiás járványhelyzetben"
