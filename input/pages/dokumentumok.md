@@ -18,7 +18,7 @@ documents:
   - documentName: Pedagógiai program
     url: https://drive.google.com/file/d/1koj3EhXitFSv5F2Q1xjAi4nc2OTvXdUk/view?usp=sharing
   - documentName: Szervezeti működési szabályzat
-    url: https://drive.google.com/file/d/14IlKXu3yeeuKYTM72nVU-QrsSHnDTI2R/view?usp=sharing
+    url: https://drive.google.com/file/d/1hmvtLvE88SC3UGMAaDRKbTKeBXKSFnP3/view?usp=sharing
   - documentName: Szándéknyilatkozat óvodai felvételre
     url: https://drive.google.com/file/d/10nkYBM6KeYDQzMCgopnzVGhFXy0jJWHJ/view
   - documentName: Óvodai felvételi körzetek
