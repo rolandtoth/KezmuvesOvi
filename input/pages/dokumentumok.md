@@ -37,6 +37,9 @@ documents:
     url: https://drive.google.com/file/d/1gjv_cUslj959gSiG-zyfA0JkxXuFQHNd/view?usp=share_link
   - url: https://drive.google.com/file/d/1nXB5fa1ZBcAJ0sAYqACoD7lqt6-GBuGZ/view?usp=share_link
     documentName: Tájékoztató a bölcsődei jelentkezésekről és a felvételi eljárásról
+  - documentName: Kérelem kötelező óvodai nevelésben való részvétel alóli
+      felmentésre vonatkozóan
+    url: https://docs.google.com/document/d/1s-PLons11NWgZXqZ9tKiJ0sDp9N9EXgT/edit?usp=share_link&ouid=116175482746977777439&rtpof=true&sd=true
 permalink: dokumentumok/
 date: Last Modified
 menuOrder: 500
