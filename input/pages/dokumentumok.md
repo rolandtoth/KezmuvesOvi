@@ -20,13 +20,13 @@ documents:
   - documentName: Szervezeti működési szabályzat
     url: https://drive.google.com/file/d/1hmvtLvE88SC3UGMAaDRKbTKeBXKSFnP3/view?usp=sharing
   - documentName: Szándéknyilatkozat óvodai felvételre
-    url: https://drive.google.com/file/d/10nkYBM6KeYDQzMCgopnzVGhFXy0jJWHJ/view
+    url: https://docs.google.com/document/d/14GG5NgtKd9cSohDSkmlwv9CNtpBTw54s/edit?usp=share_link&ouid=116175482746977777439&rtpof=true&sd=true
   - documentName: Óvodai felvételi körzetek
-    url: https://drive.google.com/file/d/18T4vOnOgzC7ARln7G0-o5JZFWKYzU9Mm/view?usp=sharing
+    url: https://drive.google.com/file/d/1N3XS1cFXPZ8_yICoVMMSqD9jwtriqfcG/view?usp=share_link
   - documentName: II. kerületi óvodák elérhetősége
-    url: https://drive.google.com/file/d/140tuw0gN7PRZHiZewWN174yHKuIZpfve/view?usp=sharing
+    url: https://drive.google.com/file/d/1N1lyFz5aA6rXQgXt4k78nA1Z7PWbB8vk/view?usp=share_link
   - documentName: Hirdetmény az óvodai felvételekről
-    url: https://drive.google.com/file/d/18xQFM-A7jhciUqUqhIearFvLMSf9Ez0L/view?usp=sharing
+    url: https://drive.google.com/file/d/1qhzkm3gaI3ZBYYHDaVfksDNfqLxNrPSi/view?usp=share_link
   - documentName: Hirdetmény melléklete az integráltan nevelhető sajátos nevelési
       igényű gyermekek óvodai felvételéről
     url: https://drive.google.com/file/d/1bBWXvZieN51JOkFRicuR4yZaO2oM4rHi/view?usp=sharing
@@ -34,7 +34,9 @@ documents:
     url: https://docs.google.com/document/d/1z88SPMaF2HPqe2LJ1jnxUG-o7HySGThVaTGTfujnuvw/edit?usp=sharing
   - documentName: Budapest Főváros II. Kerületi Önkormányzat tájékoztató az óvodai
       felvételekről
-    url: https://drive.google.com/file/d/1C4L0oi6rumDsqy0_HLD9ru47vS46_RUb/view?usp=sharing
+    url: https://drive.google.com/file/d/1gjv_cUslj959gSiG-zyfA0JkxXuFQHNd/view?usp=share_link
+  - url: https://drive.google.com/file/d/1nXB5fa1ZBcAJ0sAYqACoD7lqt6-GBuGZ/view?usp=share_link
+    documentName: Tájékoztató a bölcsődei jelentkezésekről és a felvételi eljárásról
 permalink: dokumentumok/
 date: Last Modified
 menuOrder: 500
