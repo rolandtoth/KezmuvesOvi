@@ -11,7 +11,7 @@ A 2022/2023. nevelési év Nevelés nélküli munkanapok tervezett időpontjai:
   <li>{{ "2022-12-23" | dateDisplay("dateAndDay") }}</li>
   <li>{{ "2023-02-20" | dateDisplay("dateAndDay") }}</li>
   <li>{{ "2023-04-06" | dateDisplay("dateAndDay") }}</li>
-  <li>{{ "2023-06-14" | dateDisplay("dateAndDay") }} (*változott!*)</li>
+  <li>{{ "2023-06-14" | dateDisplay("dateAndDay") }} **változott!**</li>
 </ul>
 
 *Az időpontok változhatnak.*
