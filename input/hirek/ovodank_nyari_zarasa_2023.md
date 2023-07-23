@@ -1,7 +1,7 @@
 ---
 title: Óvodánk nyári zárása 2023
 type: summer-closure
-date: 2023-02-06
+date: 2023-07-23
 ---
 ### Kedves Szülők!
 
