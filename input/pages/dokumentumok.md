@@ -12,7 +12,7 @@ documents:
     documentName: "2. számú függelék: A 2020/2021. nevelési évben a járványügyi
       készenlét idején alkalmazandó eljárásrendről"
   - documentName: Intézményi tanfelügyeleti értékelés
-    url: https://drive.google.com/file/d/1wJjKkaYs6LA40tCNCftkSQZqfo-vdZ5h/view?usp=sharing
+    url: https://drive.google.com/file/d/1Wr6a9fHkwZJpF98j00sN6X-YL_y1EtLk/view?usp=sharing
   - documentName: Különös közzétételi lista
     url: https://drive.google.com/file/d/1Mly4I-8E2VU6g-bb88lhNzAUuDRKg9k5/view?usp=sharing
   - documentName: Pedagógiai program
