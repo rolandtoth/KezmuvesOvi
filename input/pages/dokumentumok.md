@@ -42,6 +42,8 @@ documents:
     url: https://docs.google.com/document/d/1s-PLons11NWgZXqZ9tKiJ0sDp9N9EXgT/edit?usp=share_link&ouid=116175482746977777439&rtpof=true&sd=true
   - documentName: iMenza beiratkozás
     url: https://drive.google.com/file/d/1H_1bsybT0xULK_7SWz1M4_wQhvd4i8T2/view?usp=share_link
+  - documentName: Munkaterv 2023-24
+    url: https://drive.google.com/file/d/1BGBmc0mIEbwUPl9NdFlUjPHsqomA9X8D/view?usp=share_link
 permalink: dokumentumok/
 date: Last Modified
 menuOrder: 500
