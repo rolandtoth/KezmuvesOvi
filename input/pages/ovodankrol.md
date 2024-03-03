@@ -4,20 +4,20 @@ layout: layouts/@ovodankrol.njk
 title: Óvodánkról
 staff:
   - groupName: Katica csoport
-    staff_1: Jónás-Szép Edina
-    staff_2: Takács Viola
+    staff_1: Szerekesné Simon Anett
+    staff_2: Kovács Fanni
   - groupName: Süni csoport
-    staff_2: Ferenci Brigitta
-    staff_1: Ajtai Lászlóné
+    staff_2: Kovács Lilla Mária
+    staff_1: Hámoriné Csapó Nóra
   - groupName: Maci csoport
-    staff_1: Kiszely Orsolya
-    staff_2: Cséfalvay Márta
+    staff_1: Ajtai Lászlóné
+    staff_2: Ferenci Brigitta
   - groupName: Mókus csoport
     staff_1: Pióker Ildikó
-    staff_2: Molnár Márta
+    staff_2: Nagyné Nyikos Edit
   - groupName: Cica csoport
-    staff_1: Bodnarik Julianna
-    staff_2: Tamás Judit
+    staff_1: Horváthné Matthiasich Krisztina
+    staff_2: Bodnarik Julianna
 permalink: ovodankrol/
 date: Last Modified
 menuOrder: 200
