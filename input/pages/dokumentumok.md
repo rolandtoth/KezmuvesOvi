@@ -44,6 +44,8 @@ documents:
     url: https://drive.google.com/file/d/1H_1bsybT0xULK_7SWz1M4_wQhvd4i8T2/view?usp=share_link
   - documentName: Munkaterv 2023-24
     url: https://drive.google.com/file/d/1BGBmc0mIEbwUPl9NdFlUjPHsqomA9X8D/view?usp=share_link
+  - documentName: Panaszkezelési szabályzat
+    url: https://drive.google.com/file/d/1b_BXEHbFoKAM2l185ZIcgL-gjbjavU0E/view?usp=share_link
 permalink: dokumentumok/
 date: Last Modified
 menuOrder: 500
