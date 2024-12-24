@@ -1,8 +1,7 @@
 /*
 A date formatter filter for Nunjucks
 */
-module.exports = function (date, part) {
-
+export default function (date, part) {
   if (!(date instanceof Date)) {
     date = (date === "now") ? new Date() : new Date(date)
   }

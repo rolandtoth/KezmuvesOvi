@@ -1,6 +1,6 @@
 ---
 tags: menu
-layout: layouts/@page.njk
+layout: "layouts/@page.njk"
 title: Kapcsolat
 permalink: kapcsolat/
 date: Last Modified

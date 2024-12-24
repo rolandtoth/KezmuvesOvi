@@ -1,6 +1,6 @@
 ---
 tags: menu
-layout: layouts/@default.njk
+layout: "layouts/@default.njk"
 title: Alapítvány a Törökvész úti Óvoda Kismestereiért
 menuTitle: Alapítvány
 permalink: alapitvany/
@@ -44,7 +44,7 @@ Az alapítvány **képviselője**: Ajtai Lászlóné
 
 Elérhetősége: alapitvany@kezmuvesovi.hu
 
-Az alapítvány munkája iránt érdeklődők a képviselőhöz fordulhatnak. 
+Az alapítvány munkája iránt érdeklődők a képviselőhöz fordulhatnak.
 
 Az alapítvány hatályos adatai lekérdezhetők itt:
 

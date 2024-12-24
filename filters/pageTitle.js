@@ -1,14 +1,15 @@
-const cfg = require("../input/data/cfg.json");
+import cfg from "../input/_data/cfg.json" assert { type: "json" };
 
-module.exports = function (title) {
+export default function (title) {
+    const { siteName, slogan } = cfg;
     let pageTitle;
 
     if (title) {
-        pageTitle = title + " - " + cfg.siteName;
-    } else if (cfg.slogan) {
-        pageTitle = cfg.siteName + " - " + cfg.slogan;
+        pageTitle = title + " - " + siteName;
+    } else if (slogan) {
+        pageTitle = siteName + " - " + slogan;
     } else {
-        pageTitle = cfg.siteName;
+        pageTitle = siteName;
     }
 
     return pageTitle;

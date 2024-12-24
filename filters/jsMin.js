@@ -1,7 +1,8 @@
-const UglifyJS = require("uglify-js");
+import { minify } from "uglify-js";
 
-module.exports = function (code) {
-    let minified = UglifyJS.minify(code);
+export default function (code) {
+    let minified = minify(code);
+
     if (minified.error) {
         console.log("UglifyJS error: ", minified.error);
         return code;

@@ -1,8 +1,8 @@
-module.exports = function (path, collection) {
-  var resultPage;
+export default function (path, collection) {
+  let resultPage;
 
   for (var i = 0; i < collection.length; i++) {
-    var p = collection[i],
+    let p = collection[i],
       filename = p.template.fileSlug.filename;
 
     if (filename.indexOf(path) !== -1) {

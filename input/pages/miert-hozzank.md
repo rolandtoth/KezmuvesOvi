@@ -1,6 +1,6 @@
 ---
 tags: menu
-layout: layouts/@page.njk
+layout: "layouts/@page.njk"
 title: Miért hozzánk?
 excerpt: Amiért érdemes hozzánk járni!
 permalink: miert-hozzank/

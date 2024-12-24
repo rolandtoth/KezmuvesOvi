@@ -1,8 +1,8 @@
-module.exports = function (path, collection, sibling = "next") {
-  var index, siblingPage;
+export default function (path, collection, sibling = "next") {
+  let index, siblingPage;
 
-  for (var i = 0; i < collection.length; i++) {
-    var p = collection[i];
+  for (let i = 0; i < collection.length; i++) {
+    let p = collection[i];
     if (path.indexOf(p.template.fileSlug.inputPath) !== -1) {
       index = i;
       break;

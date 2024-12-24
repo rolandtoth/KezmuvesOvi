@@ -1,1 +1,1 @@
-module.exports = (url) => `${url}?v=${(+new Date())}`;
+export default (url) => `${url}?v=${(+new Date())}`;

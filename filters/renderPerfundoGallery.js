@@ -1,11 +1,11 @@
-const cfg = require("../input/data/cfg.json");
+import cfg from "../input/_data/cfg.json" assert { type: "json" };
 
-module.exports = function (imageList) {
-
-    var markup = "",
+export default function (imageList) {
+    const { gallery } = cfg;
+    let markup = "",
         imgPrefix = "kep",
-        thumbSuffix = `=w${cfg.gallery.thumb.width}-h${cfg.gallery.thumb.height}-c`,
-        largeSuffix = `=w${cfg.gallery.large.width}-h${cfg.gallery.large.height}`,
+        thumbSuffix = `=w${gallery.thumb.width}-h${gallery.thumb.height}-c`,
+        largeSuffix = `=w${gallery.large.width}-h${gallery.large.height}`,
         texts = {
             close: "Bezárás",
             prev: "Előző",
@@ -13,10 +13,8 @@ module.exports = function (imageList) {
         };
 
     if (imageList && imageList.length) {
-
         imageList.forEach((url, index) => {
-
-            var thumb = url + thumbSuffix,
+            let thumb = url + thumbSuffix,
                 largeImage = url + largeSuffix;
 
             markup += `<div class="perfundo">

@@ -1,6 +1,6 @@
 ---
 tags: menu
-layout: layouts/@documents.njk
+layout: "layouts/@documents.njk"
 title: Dokumentumok
 documents:
   - documentName: Házirend

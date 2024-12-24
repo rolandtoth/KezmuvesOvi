@@ -1,7 +1,7 @@
 // variables
 $base: '/';
 $assets: '#{$base}assets';
-$version: '?v=20220423';
+$version: '?v=20241223';
 $bgcolor: #f3f6fa;
 $basecolor: #0b294e;
 $linkcolor: #2076df;
@@ -150,7 +150,7 @@ body {
     @media ($desktop) {
         padding: 3rem 0;
         margin-bottom: 2rem;
-        
+
         body.home & {
             padding-top: 4.5rem;
         }

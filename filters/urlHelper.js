@@ -1,8 +1,9 @@
-const cfg = require("../input/data/cfg.json");
+import cfg from "../input/_data/cfg.json" assert { type: "json" };
 
-module.exports = function(path, type = false) {
+export default function(path, type = false) {
+    const { urls } = cfg;
     if (type) {
-        path = cfg.urls.images + "/" + path;
+        path = urls.images + "/" + path;
     }
 
     return path | url | buildTimestamp;

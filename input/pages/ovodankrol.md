@@ -1,6 +1,6 @@
 ---
 tags: menu
-layout: layouts/@ovodankrol.njk
+layout: "layouts/@ovodankrol.njk"
 title: Óvodánkról
 staff:
   - groupName: Katica csoport

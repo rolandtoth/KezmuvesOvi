@@ -1,10 +1,10 @@
-const cfg = require("../input/data/cfg.json");
+import cfg from "../input/_data/cfg.json" assert { type: "json" };
 
-module.exports = function (path, encode = false) {
-
+export default function (path, encode = false) {
+    const { domain } = cfg;
     if (encode) {
         path = encodeURIComponent(path);
     }
 
-    return `${cfg.domain}${path}`;
+    return `${domain}${path}`;
 };

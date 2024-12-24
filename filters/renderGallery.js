@@ -1,21 +1,23 @@
-const cfg = require("../input/data/cfg.json");
-const glob = require("glob");
+import cfg from "../input/_data/cfg.json" assert { type: "json" };
+import { sync } from "glob";
 
-module.exports = function (dirname) {
-    var thumbs = glob.sync(`assets/images/gallery/${dirname}/*-thumb.*`),
-        pathPrefix = cfg.pathPrefix || "/",
+export default function (dirname) {
+    let { pathPrefix, transparentPlaceholder, gallery } = cfg;
+    let thumbs = sync(`assets/images/gallery/${dirname}/*-thumb.*`),
         markup = "";
+
+    pathPrefix = pathPrefix || "/";
 
     if (thumbs) {
         thumbs.forEach(thumb => {
-            var _thumb = pathPrefix + thumb;
+            let _thumb = pathPrefix + thumb;
             let largeImage = _thumb.replace("-thumb.", ".");
             markup += `<a href="${largeImage}" target="_blank"><img src="${
-                cfg.transparentPlaceholder
+                transparentPlaceholder
             }" data-src="${_thumb}" width="${
-                cfg.gallery.thumb.width
+                gallery.thumb.width
             }" height="${
-                cfg.gallery.thumb.height
+                gallery.thumb.height
             }" alt="" class="lazyload"/></a>`;
         });
     }

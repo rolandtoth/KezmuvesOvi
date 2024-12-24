@@ -1,8 +1,8 @@
 /*
   A timestamp for Nunjucks
 */
-module.exports = function(date) {
-  var month = [
+export default function(date) {
+  const month = [
     "January",
     "February",
     "March",
@@ -16,7 +16,8 @@ module.exports = function(date) {
     "November",
     "December"
   ];
-  var ordinal = {
+
+  const ordinal = {
     1 : "st",
     2 : "nd",
     3 : "rd",
@@ -25,6 +26,8 @@ module.exports = function(date) {
     23 : "rd",
     31 : "st"
   };
-  var d = new Date();
+
+  const d = new Date();
+
   return `${month[d.getMonth()]} ${d.getDate()}${(ordinal[d.getDate()] || "th")} ${d.getUTCFullYear()}, at ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
 }

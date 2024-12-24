@@ -1,6 +1,6 @@
 /*
  * Remove index.html from an url
  */
-module.exports = function (url) {
+export default function (url) {
   return url.replace('index.html', '');
 };
