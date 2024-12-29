@@ -101,7 +101,7 @@ team:
         image:
       - name: Simon Magdolna
         role: dajka
-        image:
+        image: simon-magdolna.webp
   - name: Egyéb munkatársak
     members:
       - name: Fehérné Dorogi Csilla

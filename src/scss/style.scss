@@ -242,10 +242,7 @@ header {
 
                 &.active a::before,
                 a:hover::before {
-                    background-image: url(colorizeSvg(
-                        '#{$svg_home}',
-                        white
-                    ));
+                    background-image: url(colorizeSvg('#{$svg_home}', white));
                 }
             }
         }
@@ -1177,7 +1174,11 @@ body.kapcsolat {
         letter-spacing: 3px;
         line-height: var(--avatar-size);
         user-select: none;
-        background-image: repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0.084), transparent 50%);
+        background-image: repeating-linear-gradient(
+            -45deg,
+            rgba(255, 255, 255, 0.092),
+            transparent 50%
+        );
 
         img {
             display: block;
