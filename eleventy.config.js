@@ -1,6 +1,7 @@
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import htmlnano from "htmlnano";
 import buildTimestampFilter from "./filters/buildTimestamp.js";
+import cacheVersionFilter from "./filters/cacheVersion.js";
 import callFunctionFilter from "./filters/callFunction.js";
 import colorByStringFilter from "./filters/colorByString.js";
 import cssMinFilter from "./filters/cssMin.js";
@@ -32,6 +33,7 @@ export default async function(eleventyConfig) {
     const { pathPrefix } = cfg;
 
     eleventyConfig.addFilter("buildTimestamp", buildTimestampFilter);
+    eleventyConfig.addFilter("cacheVersion", cacheVersionFilter);
     eleventyConfig.addFilter("callFunction", callFunctionFilter);
     eleventyConfig.addFilter("colorByString", colorByStringFilter);
     eleventyConfig.addFilter("cssMin", cssMinFilter);

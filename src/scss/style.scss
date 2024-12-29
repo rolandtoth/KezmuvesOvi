@@ -1,20 +1,20 @@
 // variables
 $base: '/';
 $assets: '#{$base}assets';
-$version: '?v=20241223';
-$bgcolor: #f3f6fa;
-$basecolor: #0b294e;
-$linkcolor: #2076df;
-$babyblue: rgb(192, 197, 202);
-$darkcolor: #0f396b;
-$buttoncolor: #dee6f0;
-$bordercolor: #dadada;
-$colorize1: #a8c078;
-$colorize2: #e7cb30;
-$colorize3: #f09030;
-$colorize4: #dd4b7c;
-$colorize5: #9060a8;
-$colorize6: #1f9cd6;
+$version: '?v=20241229';
+$bgcolor: hsl(210, 41%, 97%);
+$basecolor: hsl(213.1, 75.3%, 17.5%);
+$linkcolor: hsl(213, 74.9%, 50%);
+$babyblue: hsl(210, 8.6%, 77.3%);
+$darkcolor: hsl(212.6, 75.4%, 23.9%);
+$buttoncolor: hsl(213.3, 37.5%, 90.6%);
+$bordercolor: hsl(0, 0%, 85.5%);
+$colorize1: hsl(80, 36.4%, 61.2%);
+$colorize2: hsl(50.8, 79.2%, 54.7%);
+$colorize3: hsl(30, 86.5%, 56.5%);
+$colorize4: hsl(339.9, 68.2%, 58%);
+$colorize5: hsl(280, 29.3%, 51.8%);
+$colorize6: hsl(199, 74.7%, 48%);
 
 // breakpoints
 $_mobile: 480;
@@ -45,6 +45,11 @@ $perfundo-image-padding: 1rem;
 @import 'svg-icons';
 @import 'perfundo';
 @import 'spinner';
+
+:root {
+    --color-babyBlue: hsl(210, 8.6%, 77.3%);
+    scrollbar-width: thin;
+}
 
 // override defaults
 * {
@@ -891,44 +896,6 @@ ul.documents {
     }
 }
 
-@media ($tablet) {
-    ::-webkit-scrollbar {
-        width: 21px;
-        height: 21px;
-
-        &-track {
-            background: transparent;
-        }
-
-        &-thumb {
-            background: rgba(85, 120, 170, 0.6);
-            border: 8px solid transparent;
-            background-clip: padding-box;
-
-            &:hover {
-                background: rgba(85, 120, 170, 1);
-                background-clip: padding-box;
-            }
-
-            &:vertical {
-                border-top-width: 70px;
-
-                // &:hover {
-                //border-left-width: 6px;
-                //border-right-width: 6px;
-                // }
-            }
-
-            // &:horizontal {
-            // &:hover {
-            //border-top-width: 6px;
-            //border-bottom-width: 6px;
-            // }
-            // }
-        }
-    }
-}
-
 section {
     margin: 1rem auto;
 
@@ -1155,17 +1122,18 @@ body.kapcsolat {
     }
 }
 
-.workGroups {
+.work-groups {
     text-align: left;
+    margin-bottom: 1rem !important;
 }
 
 .team {
-    --avatar-size: 8rem;
+    --avatar-size: 7.5rem;
 
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 
     > div {
         display: flex;
@@ -1194,21 +1162,26 @@ body.kapcsolat {
         }
     }
 
-    img, .avatar {
+    .avatar {
+        display: block;
         width: var(--avatar-size);
         height: var(--avatar-size);
         margin: -3.25rem auto 0;
-        border: 7px solid white;
-        box-shadow: 1px 1px 3px 1px rgba(170, 180, 193, 0.25);
+        border: 0.5rem solid white;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12);
         border-radius: 100%;
-    }
-
-    .avatar {
+        overflow: hidden;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.36rem;
         color: white;
         letter-spacing: 3px;
         line-height: var(--avatar-size);
+        user-select: none;
+        background-image: repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0.084), transparent 50%);
+
+        img {
+            display: block;
+        }
     }
 
     p {

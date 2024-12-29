@@ -62,15 +62,18 @@ team:
       - name: Pióker Ildikó
         role: óvodapedagógus
         image:
+      - name: Záhorszki-Gyurcsek Mária
+        role: logopédus
+        image:
+      - name: Mészáros Judit
+        role: óvodapszichológus
+        image:
       - name: Szabó Erika
         role: gyógypedagógus
         image:
       - name: Szekeresné Simon Anett
         role: óvodapedagógus
         image: szekeresne-simon-anett.webp
-      - name: Záhorszki-Gyurcsek Mária
-        role: logopédus
-        image:
   - name: Assisztensek
     members:
       - name: Lévai-Erős Eszter
