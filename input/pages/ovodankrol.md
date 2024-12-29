@@ -2,25 +2,115 @@
 tags: menu
 layout: "layouts/@ovodankrol.njk"
 title: Óvodánkról
-staff:
-  - groupName: Katica csoport
-    staff_1: Kovács Fanni Zsófia
-    staff_2: Szekeresné Simon Anett
-  - groupName: Süni csoport
-    staff_2: Kalteneckerné Drevenka Andrea
-    staff_1: Csapó Nóra
-  - groupName: Maci csoport
-    staff_1: Ferenci Brigitta
-    staff_2: Kovács Lilla Mária
-  - groupName: Mókus csoport
-    staff_1: Pióker Ildikó
-    staff_2: Czapné Szikora Tímea
-  - groupName: Cica csoport
-    staff_1: Bodnarik Julianna
-    staff_2: Nagyné Nyikos Edit
 permalink: ovodankrol/
 date: Last Modified
 menuOrder: 200
+workGroups:
+  - name: Katica csoport
+    member_1: Kovács Fanni Zsófia
+    member_2: Szekeresné Simon Anett
+  - name: Süni csoport
+    member_1: Kalteneckerné Drevenka Andrea
+    member_2: Csapó Nóra
+  - name: Maci csoport
+    member_1: Ferenci Brigitta
+    member_2: Kovács Lilla Mária
+  - name: Mókus csoport
+    member_1: Pióker Ildikó
+    member_2: Czapné Szikora Tímea
+  - name: Cica csoport
+    member_1: Bodnarik Julianna
+    member_2: Nagyné Nyikos Edit
+team:
+  - name: Vezetőség
+    members:
+      - name: Mázikné Markó Ágnes
+        role: igazgató
+        image: mazikne-marko-agnes.webp
+      - name: Ferenci Brigitta
+        role: igazgatóhelyettes, óvodapedagógus
+        image: ferenci-brigitta.webp
+      - name: Schäffer Katalin
+        role: óvodatitkár
+        image:
+      - name: Kovács Julianna
+        role: gazdasági ügyintéző
+        image:
+  - name: Óvodapedagógusok
+    members:
+      - name: Ajtai Lászlóné
+        role: óvodapedagógus
+        image:
+      - name: Szekeresné Simon Anett
+        role: óvodapedagógus
+        image: szekeresne-simon-anett.webp
+      - name: Kovács Fanni Zsófia
+        role: óvodapedagógus
+        image:
+      - name: Pióker Ildikó
+        role: óvodapedagógus
+        image:
+      - name: Nagyné Nyikos Edit
+        role: óvodapedagógus
+        image:
+      - name: Kalteneckerné Drevenka Andrea
+        role: óvodapedagógus
+        image:
+      - name: Czapné Szikora Tímea
+        role: óvodapedagógus
+        image: czapne-szikora-timea.webp
+      - name: Kovács Lilla Mária
+        role: óvodapedagógus
+        image:
+      - name: Csapó Nóra
+        role: óvodapedagógus
+        image:
+      - name: Szabó Erika
+        role: gyógypedagógus
+        image:
+      - name: Záhorszki-Gyurcsek Mária
+        role: logopédus
+        image:
+  - name: Assisztensek
+    members:
+      - name: Pallai Krisztina
+        role: pedagógiai asszisztens
+        image:
+      - name: Lévai-Erős Eszter
+        role: gyógypedagógiai asszisztens
+        image:
+      - name: Pasztercsákné  Demcsik Zsuzsanna
+        role: pedagógiai asszisztens
+        image:
+  - name: Dajkák
+    members:
+      - name: Simon Magdolna
+        role: dajka
+        image:
+      - name: Csontos Irma
+        role: dajka
+        image:
+      - name: Simon Attila Péterné
+        role: dajka
+        image:
+      - name: Nagyné Lép Katalin
+        role: dajka
+        image:
+      - name: Kerekes Boglárka Bíborka
+        role: dajka
+        image:
+  - name: Egyéb munkatársak
+    members:
+      - name: Szabó Margit
+        role: konyhai dolgozó
+        image:
+      - name: Fehérné Dorogi Csilla
+        role: takarító munkatárs
+        image:
+      - name: Tamás Ferenc
+        role: karbantartó munkatárs
+        image:
+
 ---
 Az óvoda munkatársai bensőséges, családias légkörű óvoda megteremtésén fáradoznak, ami kedveltté teszi a szülők és gyerekek körében. Lehetőségeink figyelembevételével vállaljuk mozgásban akadályozott és látássérült gyermekek fogadását.
 
@@ -42,5 +132,3 @@ Sajátos arculatunkat az óvoda külsőségekben is követi; csoportszobáink es
 * Programunk színvonalas megvalósítása
 * Nyitott óvoda, fogékony és nyitott pedagógusok
 * Sikeres pedagógiai munka → sikeres pedagógusok → sikeres óvoda
-
-### Csoportbeosztás

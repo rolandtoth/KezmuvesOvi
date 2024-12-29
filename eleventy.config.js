@@ -1,13 +1,14 @@
-import cfg from './input/_data/cfg.json' assert { type: 'json' };
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import htmlnano from "htmlnano";
 import buildTimestampFilter from "./filters/buildTimestamp.js";
 import callFunctionFilter from "./filters/callFunction.js";
+import colorByStringFilter from "./filters/colorByString.js";
 import cssMinFilter from "./filters/cssMin.js";
 import dateDisplayFilter from "./filters/dateDisplay.js";
 import getPageByPathFilter from "./filters/getPageByPath.js";
 import getSiblingPageFilter from "./filters/getSiblingPage.js";
 import httpUrlFilter from "./filters/httpUrl.js";
+import initialsFilter from "./filters/initials.js";
 import jsMinFilter from "./filters/jsMin.js";
 import modulusFilter from "./filters/modulus.js";
 import pageTitleFilter from "./filters/pageTitle.js";
@@ -21,6 +22,10 @@ import splitFilter from "./filters/split.js";
 import squashFilter from "./filters/squash.js";
 import timestampFilter from "./filters/timestamp.js";
 import urlHelperFilter from "./filters/urlHelper.js";
+import { createRequire } from "module";
+
+const require = createRequire(import.meta.url);
+const cfg = require("./input/_data/cfg.json");
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -28,11 +33,13 @@ export default async function(eleventyConfig) {
 
     eleventyConfig.addFilter("buildTimestamp", buildTimestampFilter);
     eleventyConfig.addFilter("callFunction", callFunctionFilter);
+    eleventyConfig.addFilter("colorByString", colorByStringFilter);
     eleventyConfig.addFilter("cssMin", cssMinFilter);
     eleventyConfig.addFilter("dateDisplay", dateDisplayFilter);
     eleventyConfig.addFilter("getPageByPath", getPageByPathFilter);
     eleventyConfig.addFilter("getSiblingPage", getSiblingPageFilter);
     eleventyConfig.addFilter("httpUrl", httpUrlFilter);
+    eleventyConfig.addFilter("initials", initialsFilter);
     eleventyConfig.addFilter("jsMin", jsMinFilter);
     eleventyConfig.addFilter("modulus", modulusFilter);
     eleventyConfig.addFilter("pageTitle", pageTitleFilter);
@@ -72,8 +79,8 @@ export default async function(eleventyConfig) {
         type: "atom",
         outputPath: "/feed.xml",
         collection: {
-            name: "news", // iterate over `collections.posts`
-            limit: 0,      // 0 means no limit
+            name: "news",
+            limit: 9999,
         },
         metadata: {
             language: "hu",

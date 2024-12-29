@@ -5,21 +5,45 @@
 {% endblock %}
 
 {% block bottomContent %}
-    <table class="staff">
-    {% for item in staff %}
+
+    <h3>Munkatársaink</h3>
+
+    <section class="team">
+    {% for item in team %}
+        <div>
+        {% for member in item.members %}
+            <div class="member">
+                {% if member.image %}
+                    <img src="/assets/images/team/{{ member.image }}" alt="{{ member.name }}">
+                {% else %}
+                    <span class="avatar" style="background-color: {{ member.name | colorByString }}">{{ member.name | initials }}</span>
+                {% endif %}
+
+                <h4>{{ member.name }}</h4>
+                <p>{{ member.role }}</p>
+            </div>
+        {% endfor %}
+        </div>
+    {% endfor %}
+    </section>
+
+    <h3>Csoportbeosztás</h3>
+
+    <table class="workGroups">
+    {% for item in workGroups %}
         {% set index = loop.index %}
         <tr>
             <td>
                 <strong>{{ index }}</strong>
             </td>
             <td>
-                <strong>{{ item.groupName }}</strong>
+                <strong>{{ item.name }}</strong>
             </td>
             <td>
-                {{ item.staff_1 }}
+                {{ item.member_1 }}
             <td>
             <td>
-                {{ item.staff_2 }}
+                {{ item.member_2 }}
             <td>
         </tr>
     {% endfor %}

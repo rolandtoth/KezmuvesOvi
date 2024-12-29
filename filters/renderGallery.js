@@ -1,5 +1,8 @@
-import cfg from "../input/_data/cfg.json" assert { type: "json" };
 import { sync } from "glob";
+import { createRequire } from "module";
+
+const require = createRequire(import.meta.url);
+const cfg = require("../input/_data/cfg.json");
 
 export default function (dirname) {
     let { pathPrefix, transparentPlaceholder, gallery } = cfg;
