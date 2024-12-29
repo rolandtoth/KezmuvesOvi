@@ -41,71 +41,71 @@ team:
       - name: Ajtai Lászlóné
         role: óvodapedagógus
         image:
-      - name: Szekeresné Simon Anett
-        role: óvodapedagógus
-        image: szekeresne-simon-anett.webp
-      - name: Kovács Fanni Zsófia
-        role: óvodapedagógus
-        image:
-      - name: Pióker Ildikó
-        role: óvodapedagógus
-        image:
-      - name: Nagyné Nyikos Edit
-        role: óvodapedagógus
-        image:
-      - name: Kalteneckerné Drevenka Andrea
+      - name: Csapó Nóra
         role: óvodapedagógus
         image:
       - name: Czapné Szikora Tímea
         role: óvodapedagógus
         image: czapne-szikora-timea.webp
+      - name: Kalteneckerné Drevenka Andrea
+        role: óvodapedagógus
+        image:
+      - name: Kovács Fanni Zsófia
+        role: óvodapedagógus
+        image:
       - name: Kovács Lilla Mária
         role: óvodapedagógus
         image:
-      - name: Csapó Nóra
+      - name: Nagyné Nyikos Edit
+        role: óvodapedagógus
+        image:
+      - name: Pióker Ildikó
         role: óvodapedagógus
         image:
       - name: Szabó Erika
         role: gyógypedagógus
         image:
+      - name: Szekeresné Simon Anett
+        role: óvodapedagógus
+        image: szekeresne-simon-anett.webp
       - name: Záhorszki-Gyurcsek Mária
         role: logopédus
         image:
   - name: Assisztensek
     members:
-      - name: Pallai Krisztina
-        role: pedagógiai asszisztens
-        image:
       - name: Lévai-Erős Eszter
         role: gyógypedagógiai asszisztens
+        image:
+      - name: Pallai Krisztina
+        role: pedagógiai asszisztens
         image:
       - name: Pasztercsákné  Demcsik Zsuzsanna
         role: pedagógiai asszisztens
         image:
   - name: Dajkák
     members:
-      - name: Simon Magdolna
-        role: dajka
-        image:
       - name: Csontos Irma
         role: dajka
-        image:
-      - name: Simon Attila Péterné
+        image: csontos-irma.webp
+      - name: Kerekes Boglárka Bíborka
         role: dajka
         image:
       - name: Nagyné Lép Katalin
         role: dajka
         image:
-      - name: Kerekes Boglárka Bíborka
+      - name: Simon Attila Péterné
+        role: dajka
+        image:
+      - name: Simon Magdolna
         role: dajka
         image:
   - name: Egyéb munkatársak
     members:
-      - name: Szabó Margit
-        role: konyhai dolgozó
-        image:
       - name: Fehérné Dorogi Csilla
         role: takarító munkatárs
+        image:
+      - name: Szabó Margit
+        role: konyhai dolgozó
         image:
       - name: Tamás Ferenc
         role: karbantartó munkatárs
