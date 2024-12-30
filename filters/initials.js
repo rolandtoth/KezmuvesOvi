@@ -1,7 +1,7 @@
 const MULTI_LETTERS = ['cs', 'dz', 'dzs', 'gy', 'ly', 'ny', 'sz', 'ty', 'zs'];
 
 export default function initials(name) {
-    return name.split(' ')?.map(getInitialPart)?.join('') || '';
+    return name.split(/[-|\s]/)?.map(getInitialPart)?.join('') || '';
 }
 
 function getInitialPart(part) {
