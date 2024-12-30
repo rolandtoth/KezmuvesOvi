@@ -61,7 +61,7 @@ team:
         image:
       - name: Pióker Ildikó
         role: óvodapedagógus
-        image:
+        image: pioker-ildiko.webp
       - name: Záhorszki-Gyurcsek Mária
         role: logopédus
         image:
