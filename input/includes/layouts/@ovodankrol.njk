@@ -15,7 +15,7 @@
                 {% if member.image %}
                     <img class="avatar" src="/assets/images/team/{{ member.image | cacheVersion }}" alt="{{ member.name }}" width="153" height="153">
                 {% else %}
-                    <span class="avatar" style="background-color: {{ member.name | colorByString }}">{{ member.name | initials }}</span>
+                    <span class="avatar" style="background-color: {{ (member.name + member.role) | colorByString }}">{{ member.name | initials }}</span>
                 {% endif %}
 
                 <h4>{{ member.name }}</h4>

@@ -19,7 +19,7 @@ workGroups:
     member_1: Pióker Ildikó
     member_2: Czapné Szikora Tímea
   - name: Cica csoport
-    member_1: Bodnarik Julianna
+    member_1: Ajtai Lászlóné
     member_2: Nagyné Nyikos Edit
 team:
   - name: Vezetőség
@@ -62,18 +62,20 @@ team:
       - name: Pióker Ildikó
         role: óvodapedagógus
         image: pioker-ildiko.webp
-      - name: Záhorszki-Gyurcsek Mária
-        role: logopédus
-        image:
+      - name: Szekeresné Simon Anett
+        role: óvodapedagógus
+        image: szekeresne-simon-anett.webp
+  - name: Segítő munkatársak
+    members:
       - name: Mészáros Judit
         role: óvodapszichológus
         image:
       - name: Szabó Erika
         role: gyógypedagógus
         image:
-      - name: Szekeresné Simon Anett
-        role: óvodapedagógus
-        image: szekeresne-simon-anett.webp
+      - name: Záhorszki-Gyurcsek Mária
+        role: logopédus
+        image:
   - name: Assisztensek
     members:
       - name: Lévai-Erős Eszter

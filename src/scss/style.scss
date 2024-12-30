@@ -1125,12 +1125,16 @@ body.kapcsolat {
 }
 
 .team {
-    --avatar-size: 7.5rem;
-
+    --avatar-size: 7.25rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
+
+    @media ($desktop) {
+        width: calc(100vw - 6rem);
+        margin-left: calc(-50vw + 50% + 3rem);
+    }
 
     > div {
         display: flex;
@@ -1138,6 +1142,9 @@ body.kapcsolat {
         column-gap: 1.5rem;
         row-gap: 2.5rem;
         justify-content: center;
+        max-width: 1600px;
+        margin: 0 auto;
+        width: 100%;
     }
 
     .member {
@@ -1169,7 +1176,7 @@ body.kapcsolat {
         border-radius: 100%;
         overflow: hidden;
         text-align: center;
-        font-size: 1.28rem;
+        font-size: 1.125rem;
         color: white;
         letter-spacing: 3px;
         line-height: var(--avatar-size);
@@ -1186,7 +1193,7 @@ body.kapcsolat {
     }
 
     p {
-        font-size: 0.92rem;
+        font-size: 0.9rem;
         margin-top: -0.5rem;
         line-height: 1.33;
     }
