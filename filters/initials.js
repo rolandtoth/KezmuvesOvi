@@ -1,15 +1,18 @@
+const MULTI_LETTERS = ['cs', 'dz', 'dzs', 'gy', 'ly', 'ny', 'sz', 'ty', 'zs'];
+
 export default function initials(name) {
-  if (!name) {
-    return '';
-  }
+    return name.split(' ')?.map(getInitialPart)?.join('') || '';
+}
 
-  if (name.includes(' ')) {
-    return name
-      .split(' ')
-      ?.map((x) => x[0])
-      ?.join('')
-      ?.toUpperCase();
-  }
+function getInitialPart(part) {
+    let initial = part[0]?.toUpperCase();
 
-  return name[0]?.toUpperCase();
+    for (const x of MULTI_LETTERS.sort((a, b) => b.length - a.length)) {
+        if (part.toLowerCase().startsWith(x.toLowerCase())) {
+            initial = x;
+            break;
+        }
+    }
+
+    return initial ? initial.charAt(0).toUpperCase() + initial.slice(1) : '';
 }
