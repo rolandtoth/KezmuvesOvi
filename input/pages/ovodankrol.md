@@ -43,7 +43,7 @@ team:
         image:
       - name: Csapó Nóra
         role: óvodapedagógus
-        image:
+        image: csapo-nora.webp
       - name: Czapné Szikora Tímea
         role: óvodapedagógus
         image: czapne-szikora-timea.webp
