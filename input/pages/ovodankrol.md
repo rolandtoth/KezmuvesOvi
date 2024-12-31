@@ -95,9 +95,9 @@ team:
       - name: Kerekes Boglárka Bíborka
         role: dajka
         image:
-      - name: Nagyné Lép Katalin
+      - name: Lép Katalin
         role: dajka
-        image:
+        image: lep-katalin.webp
       - name: Simon Attila Péterné
         role: dajka
         image:
