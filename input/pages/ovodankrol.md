@@ -83,7 +83,7 @@ team:
         image:
       - name: Pallai Krisztina
         role: pedagógiai asszisztens
-        image:
+        image: pallai-krisztina.webp
       - name: Pasztercsákné  Demcsik Zsuzsanna
         role: pedagógiai asszisztens
         image:
