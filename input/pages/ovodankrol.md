@@ -32,7 +32,7 @@ team:
         image: ferenci-brigitta.webp
       - name: Schäffer Katalin
         role: óvodatitkár
-        image:
+        image: schaffer-katalin.webp
       - name: Kovács Julianna
         role: gazdasági ügyintéző
         image:
