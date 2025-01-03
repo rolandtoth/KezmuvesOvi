@@ -20,7 +20,7 @@ documents:
   - documentName: Szervezeti működési szabályzat
     url: https://drive.google.com/file/d/1hmvtLvE88SC3UGMAaDRKbTKeBXKSFnP3/view?usp=sharing
   - documentName: Szándéknyilatkozat óvodai felvételre
-    url: https://docs.google.com/document/d/171NpVIougGYI7W9DQC1JRf1DDY1_XfUM/edit?usp=share_link&ouid=116175482746977777439&rtpof=true&sd=true
+    url: https://drive.google.com/file/d/171NpVIougGYI7W9DQC1JRf1DDY1_XfUM/view?usp=share_link
   - documentName: Óvodai felvételi körzetek
     url: https://drive.google.com/file/d/1N3XS1cFXPZ8_yICoVMMSqD9jwtriqfcG/view?usp=share_link
   - documentName: II. kerületi óvodák elérhetősége
