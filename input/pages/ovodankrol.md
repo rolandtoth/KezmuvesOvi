@@ -40,7 +40,7 @@ team:
     members:
       - name: Ajtai Lászlóné
         role: óvodapedagógus
-        image:
+        image: ajtai-laszlone.webp
       - name: Csapó Nóra
         role: óvodapedagógus
         image: csapo-nora.webp
