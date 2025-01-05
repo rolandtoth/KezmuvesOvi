@@ -49,7 +49,7 @@ team:
         image: czapne-szikora-timea.webp
       - name: Kalteneckerné Drevenka Andrea
         role: óvodapedagógus
-        image:
+        image: kalteneckerne-drevenka-andrea.webp
       - name: Kovács Fanni Zsófia
         role: óvodapedagógus
         image:
