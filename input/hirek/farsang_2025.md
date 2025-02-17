@@ -1,7 +1,7 @@
 ---
 title: Farsang 2025
 type: news
-date: 2025-02-17
+date: 2025-02-14
 ---
 Kedves Szülők!
 
