@@ -8,7 +8,7 @@ Nyílt napok időpontjai:
 
 <ul>
   <li>{{ "2025-04-10" | dateDisplay("dateAndDay") }} 9 - 12 óráig, és</li>
-  <li>{{ "2025-04-19" | dateDisplay("dateAndDay") }} 9 - 12 óráig</li>
+  <li>{{ "2025-04-30" | dateDisplay("dateAndDay") }} 9 - 12 óráig</li>
 </ul>
 
 Igény esetén vezetővel előre egyeztetett időpontban.
