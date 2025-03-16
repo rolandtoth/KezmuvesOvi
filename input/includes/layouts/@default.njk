@@ -39,7 +39,7 @@
                             {% endif %}
                         </ul>
                     <h1>{{ title }}</h1>
-                    {% if tags === "news" or tags === "gallery" %}
+                    {% if tags == "news" or tags == "gallery" %}
                         <small class="date">Közzétéve: {{ date | dateDisplay }}</small>
                     {% endif %}
                     {% endblock %}
@@ -52,7 +52,7 @@
                 {% block topContent %}{% endblock %}
                 {% block main %}
                     {{ content | safe }}
-                    {% if tags === "gallery" %}
+                    {% if tags == "gallery" %}
                         {% include "_gallery.njk" %}
                     {% endif %}
                 {% endblock %}
