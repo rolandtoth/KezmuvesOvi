@@ -1,6 +1,6 @@
 ---
 title: Szemlőhegyi barlang kirándulás 2025
-active: false
+active: true
 src: https://photos.app.goo.gl/3wNJ9Gy5w8P676Mz7
 excerpt: Nagycsoportosaink a Szemlőhegyi barlangba látogattak, ahol a barlangi
   élővilágról, a cseppkövek keletkezéséről és a barlangászok munkájáról
