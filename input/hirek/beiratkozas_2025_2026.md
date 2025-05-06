@@ -1,7 +1,7 @@
 ---
 title: Beiratkozás 2025/2026
 excerpt: ""
-type: enrollment-info
+type: registration-dates
 date: 2025-05-06
 ---
 B﻿eiratkozás időpontjai a 2025/2026-os nevelési évre:
