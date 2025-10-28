@@ -42,8 +42,8 @@ documents:
     url: https://drive.google.com/file/d/12wRU8lk29no68yjPW65UgFGziNqrqLjP/view?usp=share_link
   - documentName: iMenza beiratkozás
     url: https://drive.google.com/file/d/1H_1bsybT0xULK_7SWz1M4_wQhvd4i8T2/view?usp=share_link
-  - documentName: Munkaterv 2024-25
-    url: https://drive.google.com/file/d/147kLFtBGyYyClwSbz5n0Jlzo8H8aQmVu/view?usp=share_link
+  - documentName: Munkaterv 2025-2026
+    url: https://drive.google.com/file/d/1sXpO_oLhYB7XN-m4Z5ysnl1OpVGPHs7t/view?usp=share_link
   - documentName: Panaszkezelési szabályzat
     url: https://drive.google.com/file/d/1b_BXEHbFoKAM2l185ZIcgL-gjbjavU0E/view?usp=share_link
 permalink: dokumentumok/
