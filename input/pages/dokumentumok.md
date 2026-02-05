@@ -16,9 +16,9 @@ documents:
   - documentName: Különös közzétételi lista
     url: https://drive.google.com/file/d/1s872kMpXY1BbykqCSIGew3zzzzE0GxPH/view?usp=sharing
   - documentName: Pedagógiai program
-    url: https://drive.google.com/file/d/1koj3EhXitFSv5F2Q1xjAi4nc2OTvXdUk/view?usp=sharing
+    url: https://drive.google.com/file/d/1TcOyDV4FhvZ8T-Sh85WIQI_xP2dDpM1C/view?usp=sharing
   - documentName: Szervezeti működési szabályzat
-    url: https://drive.google.com/file/d/1hmvtLvE88SC3UGMAaDRKbTKeBXKSFnP3/view?usp=sharing
+    url: https://drive.google.com/file/d/1N2sOCgEpIYCc_I1MgrMWPjW_JiPcBrYw/view?usp=sharing
   - documentName: Szándéknyilatkozat óvodai felvételre
     url: https://drive.google.com/file/d/171NpVIougGYI7W9DQC1JRf1DDY1_XfUM/view?usp=share_link
   - documentName: Óvodai felvételi körzetek
