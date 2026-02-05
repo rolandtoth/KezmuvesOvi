@@ -7,20 +7,20 @@ date: Last Modified
 menuOrder: 200
 workGroups:
   - name: Katica csoport
-    member_1: Kovács Fanni Zsófia
-    member_2: Szekeresné Simon Anett
+    member_1: Komka Zsuzsanna
+    member_2: Kovács Fanni Zsófia
   - name: Süni csoport
-    member_1: Kalteneckerné Drevenka Andrea
-    member_2: Csapó Nóra
+    member_1: Csapó Nóra
+    member_2: Kertész Zsófia Nóra
   - name: Maci csoport
     member_1: Ferenci Brigitta
-    member_2: Kovács Lilla Mária
+    member_2: Hemző Rózsa
   - name: Mókus csoport
     member_1: Pióker Ildikó
-    member_2: Czapné Szikora Tímea
+    member_2: Nagyné Nyikos Edit
   - name: Cica csoport
     member_1: Ajtai Lászlóné
-    member_2: Nagyné Nyikos Edit
+    member_2: Szekeresné Simon Anett
 team:
   - name: Vezetőség
     members:
@@ -44,16 +44,7 @@ team:
       - name: Csapó Nóra
         role: óvodapedagógus
         image: csapo-nora.webp
-      - name: Czapné Szikora Tímea
-        role: óvodapedagógus
-        image: czapne-szikora-timea.webp
-      - name: Kalteneckerné Drevenka Andrea
-        role: óvodapedagógus
-        image: kalteneckerne-drevenka-andrea.webp
       - name: Kovács Fanni Zsófia
-        role: óvodapedagógus
-        image:
-      - name: Kovács Lilla Mária
         role: óvodapedagógus
         image:
       - name: Nagyné Nyikos Edit
@@ -65,6 +56,15 @@ team:
       - name: Szekeresné Simon Anett
         role: óvodapedagógus
         image: szekeresne-simon-anett.webp
+      - name: Komka Zsuzsanna
+        role: óvodapedagógus
+        image:
+      - name: Hemző Rózsa
+        role: óvodapedagógus
+        image:
+      - name: Kertész Zsófia Nóra
+        role: óvodapedagógus
+        image:
   - name: Segítő munkatársak
     members:
       - name: Mészáros Judit
@@ -78,23 +78,20 @@ team:
         image:
   - name: Assisztensek
     members:
-      - name: Lévai-Erős Eszter
-        role: gyógypedagógiai asszisztens
-        image:
       - name: Pallai Krisztina
         role: pedagógiai asszisztens
         image: pallai-krisztina.webp
       - name: Pasztercsákné  Demcsik Zsuzsanna
         role: pedagógiai asszisztens
         image:
+      - name: Varga Illésné
+        role: logopédus
+        image:
   - name: Dajkák
     members:
       - name: Csontos Irma
         role: dajka
         image: csontos-irma.webp
-      - name: Kerekes Boglárka Bíborka
-        role: dajka
-        image:
       - name: Lép Katalin
         role: dajka
         image: lep-katalin.webp
@@ -104,13 +101,16 @@ team:
       - name: Simon Magdolna
         role: dajka
         image: simon-magdolna.webp
+      - name: Magnucz Kitti
+        role: dajka
+        image:
   - name: Egyéb munkatársak
     members:
-      - name: Fehérné Dorogi Csilla
-        role: takarító munkatárs
+      - name: Koczka Hajnalka
+        role: segítő munkatárs
         image:
-      - name: Szabó Margit
-        role: konyhai dolgozó
+      - name: Bereczki Lászlóné
+        role: segítő munkatárs
         image:
       - name: Tamás Ferenc
         role: karbantartó munkatárs
