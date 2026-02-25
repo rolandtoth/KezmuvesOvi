@@ -85,7 +85,7 @@ team:
         role: pedagógiai asszisztens
         image:
       - name: Varga Illésné
-        role: logopédus
+        role: pedagógiai asszisztens
         image:
   - name: Dajkák
     members:
