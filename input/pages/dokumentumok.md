@@ -30,8 +30,6 @@ documents:
   - documentName: Hirdetmény az integráltan nevelhető sajátos nevelési igényű
       gyermekek óvodai felvételéről
     url: https://drive.google.com/file/d/16DmehqJp7xcm2RFOFjWr1fZvjw8ChhjM/view?usp=sharing
-  - documentName: Étkezési kedvezmény
-    url: https://docs.google.com/document/d/1z88SPMaF2HPqe2LJ1jnxUG-o7HySGThVaTGTfujnuvw/edit?usp=sharing
   - documentName: Budapest Főváros II. Kerületi Önkormányzat tájékoztató az óvodai
       felvételekről
     url: https://drive.google.com/file/d/1hzloJ3hsLD5kSiA9JRslmKr01JmbLPk6/view?usp=sharing
@@ -40,12 +38,18 @@ documents:
   - documentName: Kérelem kötelező óvodai nevelésben való részvétel alóli
       felmentésre vonatkozóan
     url: https://drive.google.com/file/d/12wRU8lk29no68yjPW65UgFGziNqrqLjP/view?usp=share_link
-  - documentName: iMenza beiratkozás
-    url: https://drive.google.com/file/d/1H_1bsybT0xULK_7SWz1M4_wQhvd4i8T2/view?usp=share_link
   - documentName: Munkaterv 2025-2026
     url: https://drive.google.com/file/d/1sXpO_oLhYB7XN-m4Z5ysnl1OpVGPHs7t/view?usp=share_link
   - documentName: Panaszkezelési szabályzat
     url: https://drive.google.com/file/d/1b_BXEHbFoKAM2l185ZIcgL-gjbjavU0E/view?usp=share_link
+  - documentName: iMenza beiratkozás
+    url: https://drive.google.com/file/d/1HES1alkLSpdup8LGc0yjf9shWSlJl2ug/view?usp=sharing
+  - documentName: iMenza hozzájáruló nyilatkozat
+    url: https://docs.google.com/document/d/1uJ7tOFV-AZrBEp15iWOPkxQawiCQTwTA
+  - documentName: Étkezési kedvezmény
+    url: https://drive.google.com/file/d/1_-7GTUe9kwUDnYkkGfqa_tgVv2SPQbte/view?usp=sharing
+  - documentName: Hungast diéta szülői hozzájáruló nyilatkozat
+    url: https://drive.google.com/file/d/1awnRXuBJ-jSRzvMt_cMqob5sj46OnE_I/view?usp=sharing
 permalink: dokumentumok/
 date: Last Modified
 menuOrder: 500
