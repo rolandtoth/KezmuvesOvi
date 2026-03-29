@@ -45,7 +45,7 @@ documents:
   - documentName: iMenza beiratkozás
     url: https://drive.google.com/file/d/1HES1alkLSpdup8LGc0yjf9shWSlJl2ug/view?usp=sharing
   - documentName: iMenza hozzájáruló nyilatkozat
-    url: https://docs.google.com/document/d/1uJ7tOFV-AZrBEp15iWOPkxQawiCQTwTA
+    url: https://drive.google.com/file/d/1Q5j7Acwo9cxeAGd9VKGqMJhnpMz2epGM/view?usp=sharing
   - documentName: Étkezési kedvezmény
     url: https://drive.google.com/file/d/1_-7GTUe9kwUDnYkkGfqa_tgVv2SPQbte/view?usp=sharing
   - documentName: Hungast diéta szülői hozzájáruló nyilatkozat
