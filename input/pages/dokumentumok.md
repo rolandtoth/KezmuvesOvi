@@ -20,24 +20,24 @@ documents:
   - documentName: Szervezeti működési szabályzat
     url: https://drive.google.com/file/d/10Mjzo8iG61G49YfsZi2kf64w5RcyDlo-/view?usp=sharing
   - documentName: Szándéknyilatkozat óvodai felvételre
-    url: https://drive.google.com/file/d/171NpVIougGYI7W9DQC1JRf1DDY1_XfUM/view?usp=share_link
+    url: https://drive.google.com/file/d/1OKRP7vhxO0g9H8zM76-t7CLgwuG6rSXR/view?usp=sharing
   - documentName: Óvodai felvételi körzetek
-    url: https://drive.google.com/file/d/1lBf9_O_fhpKdCPrJZsHtJj9VUgBE-EMD/view?usp=sharing
+    url: https://drive.google.com/file/d/139t7pCHyRxRVFRYwIy_RgSKDVXX4C58T/view?usp=sharing
   - documentName: II. kerületi óvodák elérhetősége
     url: https://drive.google.com/file/d/1Zlxd02qx12aPWxFfKwYCxwQUnxPJoBb9/view?usp=sharing
   - documentName: Hirdetmény az óvodai felvételekről
-    url: https://drive.google.com/file/d/1NNdB_zXB4kRwqY6B7uq0AjGVZAKV8NPT/view?usp=sharing
+    url: https://drive.google.com/file/d/1hecDXOQXR5qEDQ7po4rkzo6HnF2g86vh/view?usp=sharing
   - documentName: Hirdetmény az integráltan nevelhető sajátos nevelési igényű
       gyermekek óvodai felvételéről
-    url: https://drive.google.com/file/d/16DmehqJp7xcm2RFOFjWr1fZvjw8ChhjM/view?usp=sharing
+    url: https://drive.google.com/file/d/1JECUmMHf8WWrldAy9hbsdf3q9pVtkdvV/view?usp=sharing
   - documentName: Budapest Főváros II. Kerületi Önkormányzat tájékoztató az óvodai
       felvételekről
-    url: https://drive.google.com/file/d/1hzloJ3hsLD5kSiA9JRslmKr01JmbLPk6/view?usp=sharing
+    url: https://drive.google.com/file/d/1F2WyarGPox1SyM3_ILTi2T99S0W5cuio/view?usp=sharing
   - url: https://drive.google.com/file/d/1nXB5fa1ZBcAJ0sAYqACoD7lqt6-GBuGZ/view?usp=share_link
     documentName: Tájékoztató a bölcsődei jelentkezésekről és a felvételi eljárásról
   - documentName: Kérelem kötelező óvodai nevelésben való részvétel alóli
       felmentésre vonatkozóan
-    url: https://drive.google.com/file/d/12wRU8lk29no68yjPW65UgFGziNqrqLjP/view?usp=share_link
+    url: https://drive.google.com/file/d/1aw6GNjCNT5WUl61JaSew1DS5NF9CkoXi/view?usp=sharing
   - documentName: Munkaterv 2025-2026
     url: https://drive.google.com/file/d/1sXpO_oLhYB7XN-m4Z5ysnl1OpVGPHs7t/view?usp=share_link
   - documentName: Panaszkezelési szabályzat
