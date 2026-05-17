@@ -2,7 +2,7 @@
 title: Nyári zárás 2026
 excerpt: Óvodánk idei évi nyári zárva tartásának dátumai
 type: summer-closure
-date: 2026-02-02
+date: 2026-02-15
 ---
 ### Kedves Szülők!
 
