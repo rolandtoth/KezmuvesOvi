@@ -14,7 +14,7 @@ documents:
   - documentName: Intézményi tanfelügyeleti értékelés
     url: https://drive.google.com/file/d/1Wr6a9fHkwZJpF98j00sN6X-YL_y1EtLk/view?usp=sharing
   - documentName: Különös közzétételi lista
-    url: https://drive.google.com/file/d/1s872kMpXY1BbykqCSIGew3zzzzE0GxPH/view?usp=sharing
+    url: https://kir.oktatas.hu/kirint.show/1034228#kozzeteteli
   - documentName: Pedagógiai program
     url: https://drive.google.com/file/d/1TcOyDV4FhvZ8T-Sh85WIQI_xP2dDpM1C/view?usp=sharing
   - documentName: Szervezeti működési szabályzat
